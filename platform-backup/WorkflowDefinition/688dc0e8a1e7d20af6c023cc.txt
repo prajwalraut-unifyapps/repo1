@@ -1,0 +1,54 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120424456,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"688dc0e8a1e7d20af6c023cc",
+	"lastModifiedBy":34,
+	"lcName":"longtagname_117541183811530",
+	"modifiedTime":1754309003454,
+	"name":"longTagName_117541183811530",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":628,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VfuT7-1",
+			"id":"n_tKh4C",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":["longTagName1_This_is_a_very_long_label_that_should_test_the_UI_behavior_when_text_overflows_the_container_or_breaks_the_layout_in_any_way_possible_so_that_we_can_handle_it_gracefully_in_the_interface_design117541183811530"],
+	"version":2
+}
