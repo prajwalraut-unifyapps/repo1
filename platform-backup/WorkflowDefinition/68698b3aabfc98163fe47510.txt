@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751747386295,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_VRpN4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_25fvd",
+			"type":"next"
+		}
+	],
+	"id":"68698b3aabfc98163fe47510",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonokta_11751744174820",
+	"modifiedTime":1751747400455,
+	"name":"TestButtonOkta_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VRpN4-1",
+			"id":"_VRpN4",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VRpN4-1",
+			"id":"_25fvd",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
