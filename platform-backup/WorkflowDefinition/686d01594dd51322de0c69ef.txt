@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751974233801,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_DQI3r",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Xc6Eg",
+			"type":"next"
+		}
+	],
+	"id":"686d01594dd51322de0c69ef",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle classroom_11751966969264",
+	"modifiedTime":1751974269515,
+	"name":"TestButtonGoogle Classroom_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DQI3r-1",
+			"id":"_DQI3r",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DQI3r-1",
+			"id":"_Xc6Eg",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
