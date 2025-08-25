@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751972824196,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_s5dfm",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_iW6yl",
+			"type":"next"
+		}
+	],
+	"id":"686cfbd81c9c8204156a1fd2",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonavaza_11751966969264",
+	"modifiedTime":1751972844628,
+	"name":"TestButtonAvaza_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_s5dfm-1",
+			"id":"_s5dfm",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_s5dfm-1",
+			"id":"_iW6yl",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
