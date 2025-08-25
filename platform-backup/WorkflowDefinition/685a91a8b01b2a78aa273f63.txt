@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750765992448,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"685a91a8b01b2a78aa273f63",
+	"lastModifiedBy":34,
+	"lcName":"automation_sap concurdelete11750764212677",
+	"modifiedTime":1750766060457,
+	"name":"Automation_SAP ConcurDelete11750764212677",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hmqzR-1",
+			"id":"n_CbnSA",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
