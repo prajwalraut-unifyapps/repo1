@@ -1,0 +1,129 @@
+{
+	"appsUsed":[],
+	"createdTime":1752129213548,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"n_5U3uh",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_39AnI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_39AnI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Dgyjy",
+			"type":"next"
+		}
+	],
+	"id":"686f5ebd44c5902f31eedfa4",
+	"lastModifiedBy":34,
+	"lcName":"edc",
+	"modifiedTime":1752131581856,
+	"name":"edc",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":628,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DXfp1-1",
+			"id":"n_5U3uh",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"mdm_by_unifyapps",
+				"resourceVersion":430,
+				"resourceName":"mdm_by_unifyapps_fetch_staging_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DXfp1-1",
+			"id":"n_39AnI",
+			"index":0,
+			"inputs":{
+				"size":4,
+				"modelId":"686f5d7d3e5f236c89b16e76",
+				"unifiedEntityId":"test_entity_50"
+			},
+			"skip":false,
+			"subTitle":"UDM by UnifyApps",
+			"title":"Fetch Staging Records",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.records.items.stageRecordId",
+					"root.records.items.sourceId",
+					"root.records.items.recordEventType",
+					"root.records.items.properties"
+				]
+			},
+			"context":{
+				"appName":"mdm_by_unifyapps",
+				"resourceVersion":427,
+				"resourceName":"mdm_by_unifyapps_apply_data_matching_rules",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DXfp1-1",
+			"id":"n_Dgyjy",
+			"index":0,
+			"inputs":{
+				"modelId":"686f5d7d3e5f236c89b16e76",
+				"records":{
+					"source":"{{ n_39AnI.outputs.records }}",
+					"ua:type":"mappedArray",
+					"items":{
+						"stageRecordId":"{{ n_39AnI.outputs.records[0].stageRecordId }}",
+						"sourceId":"{{ n_39AnI.outputs.records[0].sourceId }}",
+						"recordEventType":"{{ n_39AnI.outputs.records[0].recordEventType }}",
+						"properties":"{{ n_39AnI.outputs.records[0].properties }}"
+					}
+				},
+				"unifiedEntityId":"test_entity_50"
+			},
+			"skip":false,
+			"subTitle":"UDM by UnifyApps",
+			"title":"Apply Data Matching Rules",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
