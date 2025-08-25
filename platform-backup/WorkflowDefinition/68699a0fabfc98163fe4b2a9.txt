@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751751183356,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_4plAG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Shl15",
+			"type":"next"
+		}
+	],
+	"id":"68699a0fabfc98163fe4b2a9",
+	"lastModifiedBy":34,
+	"lcName":"delete_connector_workflow_117517441748060",
+	"modifiedTime":1751751197862,
+	"name":"delete_connector_workflow_117517441748060",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4plAG-1",
+			"id":"_4plAG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4plAG-1",
+			"id":"_Shl15",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
