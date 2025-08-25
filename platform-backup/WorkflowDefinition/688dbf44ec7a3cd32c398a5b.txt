@@ -1,0 +1,122 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120004234,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_WCYxs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_olJtA",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_olJtA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_pZk6c",
+			"type":"next"
+		}
+	],
+	"id":"688dbf44ec7a3cd32c398a5b",
+	"lastModifiedBy":34,
+	"lcName":"callable schedule recurring validation- 11754118364304",
+	"modifiedTime":1754309012165,
+	"name":"callable schedule recurring validation- 11754118364304",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":628,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cxxCl-1",
+			"id":"n_WCYxs",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":689,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cxxCl-1",
+			"id":"n_olJtA",
+			"index":2,
+			"inputs":{
+				"automation_id":"688dbf3aa1e7d20af6c0114b",
+				"start_time":"2025-08-02T07:33:27.481Z",
+				"unit":"DAYS",
+				"runtimeConnections":{
+					
+				},
+				"schedule_type":"RECURRING",
+				"cancel_existing":false,
+				"interval":1,
+				"schedule_name":"Schedule name - 11754118364304",
+				"version":"-1",
+				"parameters":{
+					"Input_String":"Input -11754118364304"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":670,
+				"resourceName":"callables_cancel_scheduled_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cxxCl-1",
+			"id":"n_pZk6c",
+			"index":3,
+			"inputs":{
+				"schedule_name":"Schedule name - 11754118364304"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Cancel scheduled callable",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
