@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1752040159306,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Ud8zw",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_m5E9r",
+			"type":"next"
+		}
+	],
+	"id":"686e02df63c48565a5dd7a1f",
+	"lastModifiedBy":34,
+	"lcName":"create variables - add field button should be able to add field and should be able to add field after clear all fields through clear all and delete_117520292666500",
+	"modifiedTime":1752040201008,
+	"name":"Create variables - Add field button should be able to add field and should be able to add field after clear all fields through clear all and delete_117520292666500",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ud8zw-1",
+			"id":"_Ud8zw",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ud8zw-1",
+			"id":"_m5E9r",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
