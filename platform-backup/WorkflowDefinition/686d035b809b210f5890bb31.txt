@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751974747104,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_0PrRG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_oqGWe",
+			"type":"next"
+		}
+	],
+	"id":"686d035b809b210f5890bb31",
+	"lastModifiedBy":34,
+	"lcName":"testbuttoninstamojo_11751966969264",
+	"modifiedTime":1751974781011,
+	"name":"TestButtonInstamojo_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_0PrRG-1",
+			"id":"_0PrRG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_0PrRG-1",
+			"id":"_oqGWe",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
