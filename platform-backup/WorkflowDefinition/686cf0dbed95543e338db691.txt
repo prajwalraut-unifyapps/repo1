@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751970011714,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_uaxSI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_zumhd",
+			"type":"next"
+		}
+	],
+	"id":"686cf0dbed95543e338db691",
+	"lastModifiedBy":34,
+	"lcName":"cutandpastenode_117519669676020",
+	"modifiedTime":1751970045411,
+	"name":"cutAndPasteNode_117519669676020",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_uaxSI-1",
+			"id":"_uaxSI",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_uaxSI-1",
+			"id":"_zumhd",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
