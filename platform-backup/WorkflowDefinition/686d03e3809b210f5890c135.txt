@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751974883096,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_oIH3R",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_b0GtJ",
+			"type":"next"
+		}
+	],
+	"id":"686d03e3809b210f5890c135",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonkafka_11751966969264",
+	"modifiedTime":1751974922201,
+	"name":"TestButtonKafka_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oIH3R-1",
+			"id":"_oIH3R",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oIH3R-1",
+			"id":"_b0GtJ",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
