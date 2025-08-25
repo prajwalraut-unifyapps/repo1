@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1751996448214,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686d58200f89ca2df5e5638d",
+	"lastModifiedBy":34,
+	"lcName":"automation_hdfc custom integrationsdelete11751992709381",
+	"modifiedTime":1751996494411,
+	"name":"Automation_HDFC Custom IntegrationsDelete11751992709381",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_pdhJB-1",
+			"id":"n_PdA1d",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
