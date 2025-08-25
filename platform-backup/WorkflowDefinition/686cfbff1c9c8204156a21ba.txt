@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751972863912,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Ah5qW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_zPzzh",
+			"type":"next"
+		}
+	],
+	"id":"686cfbff1c9c8204156a21ba",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonazure bot_11751966969264",
+	"modifiedTime":1751972890811,
+	"name":"TestButtonAzure Bot_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ah5qW-1",
+			"id":"_Ah5qW",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ah5qW-1",
+			"id":"_zPzzh",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
