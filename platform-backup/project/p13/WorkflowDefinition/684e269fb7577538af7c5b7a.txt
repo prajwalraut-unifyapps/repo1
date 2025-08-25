@@ -1,0 +1,52 @@
+{
+	"appsUsed":[],
+	"createdTime":1749952159542,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"684e269fb7577538af7c5b7a",
+	"lastModifiedBy":34,
+	"lcName":"rbac-ui-plviewulcplvrle117499514736340",
+	"modifiedTime":1750517598558,
+	"name":"rbac-ui-PLViewULcPLvRLe117499514736340",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":626,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_eIzcA-1",
+			"id":"n_zkVZk",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"projectId":13,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
