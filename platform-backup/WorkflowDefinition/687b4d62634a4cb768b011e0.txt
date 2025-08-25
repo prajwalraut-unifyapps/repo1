@@ -1,0 +1,100 @@
+{
+	"appsUsed":[],
+	"createdTime":1752911202192,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_1Uh77",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_NBM8s",
+			"type":"next"
+		}
+	],
+	"id":"687b4d62634a4cb768b011e0",
+	"lastModifiedBy":34,
+	"lcName":"create variables use saved snippet and check linking is happening correctly if any field is changed in the saved snippet, due to linking it also changes in the payload_117529111945870",
+	"modifiedTime":1752911230844,
+	"name":"Create variables use saved snippet and check linking is happening correctly If any field is changed in the saved snippet, due to linking it also changes in the payload_117529111945870",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":628,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_El4ZI-1",
+			"id":"n_1Uh77",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":637,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_El4ZI-1",
+			"id":"n_NBM8s",
+			"index":2,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					
+				},
+				"schema":{
+					"$comment":"snippetCreate variables use saved snippet and check linking is happening correctly If any field is changed in the saved snippet, due to linking it also changes in the payload_117529111945870",
+					"$ref":"#/definitions/entity|e_code_snippet|e_687b4d6cd8902ca2f20d2054"
+				}
+			},
+			"inputs":{
+				
+			},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{
+					"$comment":"snippetCreate variables use saved snippet and check linking is happening correctly If any field is changed in the saved snippet, due to linking it also changes in the payload_117529111945870",
+					"$ref":"#/definitions/entity|e_code_snippet|e_687b4d6cd8902ca2f20d2054"
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":["entity|e_code_snippet|e_687b4d6cd8902ca2f20d2054"],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
