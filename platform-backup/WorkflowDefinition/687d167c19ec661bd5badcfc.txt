@@ -1,0 +1,250 @@
+{
+	"appsUsed":[],
+	"createdTime":1753028220623,
+	"deleted":true,
+	"deploymentState":{
+		"deployedAt":1753028220979,
+		"deployedBy":34,
+		"deployedDefinitionId":"687d167c19ec661bd5badcfd",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"JjJ7q",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"tD5Vv",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"tD5Vv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"HZl8R",
+			"type":"next"
+		}
+	],
+	"id":"687d167c19ec661bd5badcfc",
+	"lastModifiedBy":34,
+	"lcName":"backend_automation1753028220505",
+	"modifiedTime":1753028221521,
+	"name":"Backend_Automation1753028220505",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":24,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"JjJ7q-1",
+			"id":"JjJ7q",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"obj":{
+							"type":"object",
+							"properties":{
+								
+							},
+							"additionalProperties":false,
+							"title":"obj"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						
+					]
+				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"",
+							"filter":{
+								"operator":"EQUAL",
+								"value":""
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"arrayOfStrings":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"arrayOfStrings"
+						},
+						"arrayOfIntegers":{
+							"type":"array",
+							"items":{
+								"type":"integer"
+							},
+							"title":"arrayOfIntegers"
+						},
+						"arrayOfBooleans":{
+							"type":"array",
+							"items":{
+								"type":"boolean"
+							},
+							"title":"arrayOfBooleans"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						
+					]
+				}
+			},
+			"skip":false,
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"code_by_unifyapps_javascript",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"JjJ7q-1",
+			"id":"tD5Vv",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"obj":{
+							"type":"object",
+							"properties":{
+								
+							},
+							"additionalProperties":false,
+							"title":"obj"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						
+					]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"arrayStrings":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"arrayStrings"
+						},
+						"arrayBooleans":{
+							"type":"array",
+							"items":{
+								"type":"boolean"
+							},
+							"title":"arrayBooleans"
+						},
+						"arrayIntegers":{
+							"type":"array",
+							"items":{
+								"type":"integer"
+							},
+							"title":"arrayIntegers"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						
+					]
+				},
+				"code":"const finalObj = {\n  strings: arrayStrings,\n  booleans: arrayBooleans,\n  integers: arrayIntegers\n}\nobj = {obj: finalObj}",
+				"parameters":{
+					"name":"{{ JjJ7q.outputs.name }}",
+					"firstName":"{{ JjJ7q.outputs.firstName }}",
+					"arrayOfStrings":{
+						"source":"{{ JjJ7q.outputs.arrayOfStrings }}",
+						"ua:type":"mappedArray",
+						"items":"{{ JjJ7q.outputs.arrayOfStrings[0] }}"
+					},
+					"arrayOfIntegers":{
+						"source":"{{ JjJ7q.outputs.arrayOfIntegers }}",
+						"ua:type":"mappedArray",
+						"items":"{{ JjJ7q.outputs.arrayOfIntegers[0] }}"
+					},
+					"arrayOfBooleans":{
+						"source":"{{ JjJ7q.outputs.arrayOfBooleans }}",
+						"ua:type":"mappedArray",
+						"items":"{{ JjJ7q.outputs.arrayOfBooleans[0] }}"
+					},
+					"arrayStrings":{
+						"source":"{{ JjJ7q.outputs.arrayOfStrings }}",
+						"ua:type":"mappedArray",
+						"items":"{{ JjJ7q.outputs.arrayOfStrings[0] }}"
+					},
+					"arrayBooleans":{
+						"source":"{{ JjJ7q.outputs.arrayOfBooleans }}",
+						"ua:type":"mappedArray",
+						"items":"{{ JjJ7q.outputs.arrayOfBooleans[0] }}"
+					},
+					"arrayIntegers":{
+						"source":"{{ JjJ7q.outputs.arrayOfIntegers }}",
+						"ua:type":"mappedArray",
+						"items":"{{ JjJ7q.outputs.arrayOfIntegers[0] }}"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code By UnifyApps",
+			"title":"Execute javascript",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":21,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"JjJ7q-1",
+			"id":"HZl8R",
+			"index":0,
+			"inputs":{
+				"result":{
+					"obj":"{{ tD5Vv.outputs.result.obj }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Return data to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
