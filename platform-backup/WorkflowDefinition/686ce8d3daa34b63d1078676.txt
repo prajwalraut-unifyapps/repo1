@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751967955314,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_JGHVU",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_X7WN4",
+			"type":"next"
+		}
+	],
+	"id":"686ce8d3daa34b63d1078676",
+	"lastModifiedBy":34,
+	"lcName":"slack_connection_test_workflow_117519669692640",
+	"modifiedTime":1751968064814,
+	"name":"slack_connection_test_workflow_117519669692640",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_JGHVU-1",
+			"id":"_JGHVU",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_JGHVU-1",
+			"id":"_X7WN4",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
