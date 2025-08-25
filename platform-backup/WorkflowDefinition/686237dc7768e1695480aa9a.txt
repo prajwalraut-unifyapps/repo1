@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751267292086,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_tph6G",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_h3PRX",
+			"type":"next"
+		}
+	],
+	"id":"686237dc7768e1695480aa9a",
+	"lastModifiedBy":34,
+	"lcName":"zendesk get ticket details by id - 117512662969180",
+	"modifiedTime":1751267354476,
+	"name":"Zendesk Get ticket details by ID - 117512662969180",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tph6G-1",
+			"id":"_tph6G",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tph6G-1",
+			"id":"_h3PRX",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
