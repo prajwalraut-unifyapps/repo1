@@ -1,0 +1,106 @@
+{
+	"appsUsed":[],
+	"createdTime":1752837047376,
+	"deleted":true,
+	"deploymentState":{
+		"deployedAt":1752837047838,
+		"deployedBy":34,
+		"deployedDefinitionId":"687a2bb70bf3c1e6c4da5b2f",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":9
+	},
+	"edges":[
+		{
+			"fromNodeId":"OUIcm",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"vf0UV",
+			"type":"next"
+		}
+	],
+	"id":"68677e1d03fd0a5ed5cbdae5",
+	"lastModifiedBy":34,
+	"lcName":"fetch environment details",
+	"modifiedTime":1752843689059,
+	"name":"Fetch Environment Details",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":38,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"f1MA7-1",
+			"id":"OUIcm",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"customerId":{
+							"type":"string",
+							"title":"Customer Id"
+						},
+						"authorization":{
+							"type":"string",
+							"title":"Authorization"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"customerId",
+						"authorization"
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":39,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"f1MA7-1",
+			"id":"vf0UV",
+			"index":0,
+			"inputs":{
+				"result":{
+					"customerId":"{{ __RUN__.outputs.customerId }}",
+					"authorization":"{{ __ENV__.outputs.current_environment_admin_token }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":10
+}
