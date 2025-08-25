@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751975109314,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_78JRP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ShXis",
+			"type":"next"
+		}
+	],
+	"id":"686d04c5809b210f5890c9e7",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmagento_11751966969264",
+	"modifiedTime":1751975146496,
+	"name":"TestButtonMagento_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_78JRP-1",
+			"id":"_78JRP",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_78JRP-1",
+			"id":"_ShXis",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
