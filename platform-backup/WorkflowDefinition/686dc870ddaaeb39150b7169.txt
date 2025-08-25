@@ -1,0 +1,92 @@
+{
+	"appsUsed":["slack"],
+	"createdTime":1752025200202,
+	"deleted":true,
+	"deploymentState":{
+		"deployedAt":1752025217837,
+		"deployedBy":34,
+		"deployedDefinitionId":"686dc881ddaaeb39150b7195",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_f7Ua8",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_pCTph",
+			"type":"next"
+		}
+	],
+	"id":"686dc870ddaaeb39150b7169",
+	"lastModifiedBy":34,
+	"lcName":"storagebyunifyapps_update record by id_trigger_117520142660780",
+	"modifiedTime":1754309597529,
+	"name":"StorageByUnifyapps_Update record by ID_trigger_117520142660780",
+	"nodes":[
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":20575,
+				"resourceName":"storage_by_unifyapps_on_update_record"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HXp5a-1",
+			"id":"n_f7Ua8",
+			"index":0,
+			"inputs":{
+				"object_type":"a28caf"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Updated record",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27449,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HXp5a-1",
+			"id":"n_pCTph",
+			"index":0,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"C07AKEPN1U3",
+				"text":"{{ n_f7Ua8.outputs.id }}{{ n_f7Ua8.outputs.properties }}",
+				"mrkdwn":true
+			},
+			"skip":false,
+			"subTitle":"Slack",
+			"title":"Post message",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
