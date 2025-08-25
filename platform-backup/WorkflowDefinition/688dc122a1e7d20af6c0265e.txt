@@ -1,0 +1,54 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120482854,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"688dc122a1e7d20af6c0265e",
+	"lastModifiedBy":34,
+	"lcName":"workflow_without_tags_117541183811530",
+	"modifiedTime":1754120493566,
+	"name":"Workflow_without_tags_117541183811530",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":628,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_F3S8k-1",
+			"id":"n_zJAKH",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":["Edit_tag_117541183811530"],
+	"version":3
+}
