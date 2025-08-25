@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1751998662603,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686d60c60f89ca2df5e59fc6",
+	"lastModifiedBy":34,
+	"lcName":"automation_razorpaydelete11751992709381",
+	"modifiedTime":1751998715204,
+	"name":"Automation_RazorpayDelete11751992709381",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Rw1zX-1",
+			"id":"n_6kaab",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
