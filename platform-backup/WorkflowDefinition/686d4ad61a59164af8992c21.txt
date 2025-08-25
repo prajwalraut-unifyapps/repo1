@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1751993046399,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686d4ad61a59164af8992c21",
+	"lastModifiedBy":34,
+	"lcName":"automation_airtabledelete11751992709381",
+	"modifiedTime":1751993104804,
+	"name":"Automation_AirtableDelete11751992709381",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_wdnLG-1",
+			"id":"n_FwhWg",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
