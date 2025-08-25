@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751745371454,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Pdu8i",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_EYTD4",
+			"type":"next"
+		}
+	],
+	"id":"6869835b06ed9a32ab94ed8e",
+	"lastModifiedBy":34,
+	"lcName":"soap_callableapi_jsonsnippet_117517441748200",
+	"modifiedTime":1751745389465,
+	"name":"SOAP_CallableAPI_JSONSnippet_117517441748200",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Pdu8i-1",
+			"id":"_Pdu8i",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Pdu8i-1",
+			"id":"_EYTD4",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
