@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750766527837,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_kFMCD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_SUSnz",
+			"type":"next"
+		}
+	],
+	"id":"685a93bf15df9c19f236b1ff",
+	"lastModifiedBy":34,
+	"lcName":"chartmogul-create a transactionverifytimeisnotautoupdating117507642131630",
+	"modifiedTime":1750766582154,
+	"name":"ChartMogul-Create a transactionverifyTimeIsNotAutoUpdating117507642131630",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kFMCD-1",
+			"id":"_kFMCD",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kFMCD-1",
+			"id":"_SUSnz",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
