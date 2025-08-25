@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751971030204,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_0vBep",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_UoGpe",
+			"type":"next"
+		}
+	],
+	"id":"686cf4d619d40f1b179855f4",
+	"lastModifiedBy":34,
+	"lcName":"hook-form11751966969264",
+	"modifiedTime":1751971089019,
+	"name":"Hook-Form11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_0vBep-1",
+			"id":"_0vBep",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_0vBep-1",
+			"id":"_UoGpe",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
