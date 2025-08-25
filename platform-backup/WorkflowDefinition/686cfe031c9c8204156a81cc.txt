@@ -1,0 +1,62 @@
+{
+	"appsUsed":[],
+	"createdTime":1751973379004,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686cfe031c9c8204156a81cc",
+	"lastModifiedBy":34,
+	"lcName":"callable api1 -xml -11751966955868",
+	"modifiedTime":1751973427296,
+	"name":"Callable API1 -XML -11751966955868",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":691,
+				"resourceName":"callables_from_api"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7j4R8-1",
+			"id":"n_2tkca",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				},
+				"endpointType":"REST",
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/xml",
+						"textBody":{
+							"type":"string"
+						}
+					}
+				],
+				"streamingResponse":false
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via API",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
