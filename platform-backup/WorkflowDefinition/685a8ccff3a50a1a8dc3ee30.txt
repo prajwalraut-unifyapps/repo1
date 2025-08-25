@@ -1,0 +1,44 @@
+{
+	"appsUsed":[],
+	"createdTime":1750764751256,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"685a8ccff3a50a1a8dc3ee30",
+	"lastModifiedBy":34,
+	"lcName":"filter -- last modified by, negative scenario - 11750764213163",
+	"modifiedTime":1750764819852,
+	"name":"Filter -- Last Modified By, Negative scenario - 11750764213163",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_jV56F-1",
+			"id":"n_EtzSL",
+			"index":0,
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
