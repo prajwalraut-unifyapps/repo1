@@ -1,0 +1,66 @@
+{
+	"appsUsed":["gmail"],
+	"createdTime":1751974852404,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_bYbAA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_LxnMq",
+			"type":"next"
+		}
+	],
+	"id":"686d03c4809b210f5890c019",
+	"lastModifiedBy":34,
+	"lcName":"filter -- apps used - 11751966949458",
+	"modifiedTime":1751974916896,
+	"name":"Filter -- Apps used - 11751966949458",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HTxaO-1",
+			"id":"n_bYbAA",
+			"index":0,
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"gmail",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HTxaO-1",
+			"id":"n_LxnMq",
+			"index":0,
+			"skip":false,
+			"subTitle":"Gmail",
+			"title":"Select an action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
