@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750765653245,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_iNO61",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_y7dVN",
+			"type":"next"
+		}
+	],
+	"id":"685a905515df9c19f2369e27",
+	"lastModifiedBy":34,
+	"lcName":"servicenow get comment by sys id - 117507642131630",
+	"modifiedTime":1750765695437,
+	"name":"ServiceNow Get comment by Sys ID - 117507642131630",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_iNO61-1",
+			"id":"_iNO61",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_iNO61-1",
+			"id":"_y7dVN",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
