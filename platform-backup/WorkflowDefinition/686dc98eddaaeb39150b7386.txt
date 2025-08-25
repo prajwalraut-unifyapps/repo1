@@ -1,0 +1,47 @@
+{
+	"appsUsed":[],
+	"createdTime":1752025486989,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686dc98eddaaeb39150b7386",
+	"lastModifiedBy":34,
+	"lcName":"callable incomplete app&event - 11752014266078",
+	"modifiedTime":1752025505504,
+	"name":"callable incomplete App&Event - 11752014266078",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HQKpf-1",
+			"id":"n_M2glq",
+			"index":0,
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
