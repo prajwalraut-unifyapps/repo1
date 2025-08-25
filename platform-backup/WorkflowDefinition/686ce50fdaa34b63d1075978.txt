@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751966991897,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_I3lsF",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Gtqeu",
+			"type":"next"
+		}
+	],
+	"id":"686ce50fdaa34b63d1075978",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonnic portal_11751966967602",
+	"modifiedTime":1751967056804,
+	"name":"TestButtonNIC Portal_11751966967602",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_I3lsF-1",
+			"id":"_I3lsF",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_I3lsF-1",
+			"id":"_Gtqeu",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
