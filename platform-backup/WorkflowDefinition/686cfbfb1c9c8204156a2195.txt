@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751972859405,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_1MdrP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_bOe0Q",
+			"type":"next"
+		}
+	],
+	"id":"686cfbfb1c9c8204156a2195",
+	"lastModifiedBy":34,
+	"lcName":"create list using map from step button to add fields is working correctly and input menu item is coming up and clicking on unlink the fields are still present_117519669676020",
+	"modifiedTime":1754309883352,
+	"name":"Create list Using Map from step button to add fields is working correctly and Input menu item is coming up and clicking on Unlink the fields are still present_117519669676020",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1MdrP-1",
+			"id":"_1MdrP",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1MdrP-1",
+			"id":"_bOe0Q",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
