@@ -1,21 +1,15 @@
 {
-	"appsUsed":["fleetio","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180701762,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_wO752",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_dc4hl",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad30ddfc16116cc3e369c9",
 	"lastModifiedBy":34,
 	"lcName":"automation_fleetiodelete11756179137107",
-	"modifiedTime":1756180709679,
+	"modifiedTime":1756180714831,
 	"name":"Automation_FleetioDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_foWaE-1",
 			"id":"n_wO752",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"fleetio",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_foWaE-1",
-			"id":"n_dc4hl",
-			"index":2,
-			"skip":false,
-			"subTitle":"Fleetio",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
