@@ -1,21 +1,15 @@
 {
-	"appsUsed":["float","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180707978,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_xvT7a",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_nDEVY",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad30e3fc16116cc3e369d9",
 	"lastModifiedBy":34,
 	"lcName":"automation_floatdelete11756179137107",
-	"modifiedTime":1756180715526,
+	"modifiedTime":1756180720621,
 	"name":"Automation_FloatDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_LU4IU-1",
 			"id":"n_xvT7a",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"float",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_LU4IU-1",
-			"id":"n_nDEVY",
-			"index":2,
-			"skip":false,
-			"subTitle":"Float",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
