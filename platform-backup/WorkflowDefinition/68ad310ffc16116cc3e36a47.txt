@@ -1,21 +1,15 @@
 {
-	"appsUsed":["front","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180751378,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_Y7oU4",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_WPrNw",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad310ffc16116cc3e36a47",
 	"lastModifiedBy":34,
 	"lcName":"automation_frontdelete11756179137107",
-	"modifiedTime":1756180759291,
+	"modifiedTime":1756180764322,
 	"name":"Automation_FrontDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_jF9Kg-1",
 			"id":"n_Y7oU4",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"front",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_jF9Kg-1",
-			"id":"n_WPrNw",
-			"index":2,
-			"skip":false,
-			"subTitle":"Front",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
