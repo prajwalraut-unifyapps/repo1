@@ -1,50 +1,89 @@
 {
-	"appsUsed":[],
+	"appsUsed":["slack"],
 	"createdTime":1756179340546,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_suTCE",
+			"fromNodeId":"n_ZlpE3",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_6VUpN",
+			"toNodeId":"n_aMVIA",
 			"type":"next"
 		}
 	],
 	"id":"68ad2b8cfc16116cc3e35ea5",
 	"lastModifiedBy":34,
 	"lcName":"webhookheaderstring_117561791371070",
-	"modifiedTime":1756179340546,
+	"modifiedTime":1756179351583,
 	"name":"webhookHeaderString_117561791371070",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_suTCE-1",
-			"id":"_suTCE",
-			"index":0,
+			"id":"n_ZlpE3",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"headers":{
+						"type":"object",
+						"properties":{
+							"header_string":{
+								"type":"string",
+								"title":"header_string"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27598,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_suTCE-1",
-			"id":"_6VUpN",
-			"index":0,
+			"id":"n_aMVIA",
+			"index":2,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"text":"{{ n_ZlpE3.outputs }}",
+				"mrkdwn":true
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Slack",
+			"title":"Post message",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +94,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
