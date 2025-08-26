@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["jasper_ai","shopify"],
 	"createdTime":1756181080159,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_QOZk8",
+			"fromNodeId":"n_j4GsP",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_3I1YK",
+			"toNodeId":"n_nciM2",
 			"type":"next"
 		}
 	],
 	"id":"68ad3258fc16116cc3e36d86",
 	"lastModifiedBy":34,
 	"lcName":"automation_jasper aidelete11756179137107",
-	"modifiedTime":1756181080159,
+	"modifiedTime":1756181088327,
 	"name":"Automation_Jasper AiDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_QOZk8-1",
-			"id":"_QOZk8",
-			"index":0,
+			"id":"n_j4GsP",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"jasper_ai",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_QOZk8-1",
-			"id":"_3I1YK",
-			"index":0,
+			"id":"n_nciM2",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Jasper Ai",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
