@@ -1,21 +1,15 @@
 {
-	"appsUsed":["openai","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181425871,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_zoY7a",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_jfZ92",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad33b1fc16116cc3e37189",
 	"lastModifiedBy":34,
 	"lcName":"automation_openaidelete11756179137107",
-	"modifiedTime":1756181434500,
+	"modifiedTime":1756181439474,
 	"name":"Automation_OpenAIDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_WEFsr-1",
 			"id":"n_zoY7a",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"openai",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_WEFsr-1",
-			"id":"n_jfZ92",
-			"index":2,
-			"skip":false,
-			"subTitle":"OpenAI",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
