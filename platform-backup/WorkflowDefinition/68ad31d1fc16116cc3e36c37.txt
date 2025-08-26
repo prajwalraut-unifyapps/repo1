@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["google_workspace","shopify"],
 	"createdTime":1756180945232,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_4YEkm",
+			"fromNodeId":"n_CywPb",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_V2754",
+			"toNodeId":"n_o5CHH",
 			"type":"next"
 		}
 	],
 	"id":"68ad31d1fc16116cc3e36c37",
 	"lastModifiedBy":34,
 	"lcName":"automation_google workspacedelete11756179137107",
-	"modifiedTime":1756180945232,
+	"modifiedTime":1756180954004,
 	"name":"Automation_Google WorkspaceDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_4YEkm-1",
-			"id":"_4YEkm",
-			"index":0,
+			"id":"n_CywPb",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"google_workspace",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_4YEkm-1",
-			"id":"_V2754",
-			"index":0,
+			"id":"n_o5CHH",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Google Workspace",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
