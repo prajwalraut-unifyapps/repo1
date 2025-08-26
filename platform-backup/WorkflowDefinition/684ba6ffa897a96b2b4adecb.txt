@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749788415879,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_GkWUM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_T6Bm3",
+			"type":"next"
+		}
+	],
+	"id":"684ba6ffa897a96b2b4adecb",
+	"lastModifiedBy":34,
+	"lcName":"condition box|string input - does not contain 11749787708786",
+	"modifiedTime":1754311359082,
+	"name":"Condition Box|String Input - Does not contain 11749787708786",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GkWUM-1",
+			"id":"_GkWUM",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GkWUM-1",
+			"id":"_T6Bm3",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
