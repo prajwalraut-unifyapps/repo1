@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756179581682,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756179594888,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2c8afc16116cc3e361c4",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2c7dfc16116cc3e36197",
 	"lastModifiedBy":34,
 	"lcName":"callabletestheaders_117561791371070",
-	"modifiedTime":1756179592439,
+	"modifiedTime":1756179606001,
 	"name":"callableTestHeaders_117561791371070",
 	"nodes":[
 		{
@@ -32,20 +40,7 @@
 			"index":1,
 			"inputs":{
 				"request":{
-					"contentType":"application/json",
-					"headers":{
-						"type":"object",
-						"properties":{
-							"input_key":{
-								"type":"string",
-								"title":"Input Key"
-							}
-						},
-						"additionalProperties":false,
-						"required":[
-							
-						]
-					}
+					"contentType":"application/json"
 				},
 				"endpointType":"REST",
 				"response":[
@@ -120,5 +115,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
