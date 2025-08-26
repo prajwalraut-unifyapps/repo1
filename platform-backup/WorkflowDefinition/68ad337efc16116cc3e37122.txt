@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["motion","shopify"],
 	"createdTime":1756181374627,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_7fcpH",
+			"fromNodeId":"n_LgQL9",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_BGPkY",
+			"toNodeId":"n_1GQaM",
 			"type":"next"
 		}
 	],
 	"id":"68ad337efc16116cc3e37122",
 	"lastModifiedBy":34,
 	"lcName":"automation_motiondelete11756179137107",
-	"modifiedTime":1756181374627,
+	"modifiedTime":1756181383083,
 	"name":"Automation_MotionDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_7fcpH-1",
-			"id":"_7fcpH",
-			"index":0,
+			"id":"n_LgQL9",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"motion",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_7fcpH-1",
-			"id":"_BGPkY",
-			"index":0,
+			"id":"n_1GQaM",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Motion",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
