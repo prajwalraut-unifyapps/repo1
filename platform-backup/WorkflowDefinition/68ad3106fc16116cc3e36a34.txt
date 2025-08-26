@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756180742708,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_j66IP",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_yxQnS",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3106fc16116cc3e36a34",
 	"lastModifiedBy":34,
 	"lcName":"automation_freshdeskdelete11756179137107",
-	"modifiedTime":1756180742708,
+	"modifiedTime":1756180755439,
 	"name":"Automation_FreshdeskDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_j66IP-1",
-			"id":"_j66IP",
-			"index":0,
+			"id":"n_xjA64",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_j66IP-1",
-			"id":"_yxQnS",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
