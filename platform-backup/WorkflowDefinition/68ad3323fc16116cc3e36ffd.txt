@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["microsoft_graph_api","shopify"],
 	"createdTime":1756181283672,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_MgLJA",
+			"fromNodeId":"n_EQxqI",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_QLuvc",
+			"toNodeId":"n_NljuE",
 			"type":"next"
 		}
 	],
 	"id":"68ad3323fc16116cc3e36ffd",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft graph apidelete11756179137107",
-	"modifiedTime":1756181283672,
+	"modifiedTime":1756181291652,
 	"name":"Automation_Microsoft Graph APIDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_MgLJA-1",
-			"id":"_MgLJA",
-			"index":0,
+			"id":"n_EQxqI",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"microsoft_graph_api",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_MgLJA-1",
-			"id":"_QLuvc",
-			"index":0,
+			"id":"n_NljuE",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Microsoft Graph API",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
