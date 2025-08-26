@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749879130060,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_KPYrI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_RFmss",
+			"type":"next"
+		}
+	],
+	"id":"684d095adcc37634b991f546",
+	"lastModifiedBy":34,
+	"lcName":"variable by unifyapps create a variable type integer 11749878929053",
+	"modifiedTime":1754310955422,
+	"name":"Variable By unifyapps Create a variable type Integer 11749878929053",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KPYrI-1",
+			"id":"_KPYrI",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KPYrI-1",
+			"id":"_RFmss",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
