@@ -36,7 +36,7 @@
 	"id":"68ad32e5fc16116cc3e36f31",
 	"lastModifiedBy":34,
 	"lcName":"mapdatacallableworkflow_117561791373240",
-	"modifiedTime":1756181275320,
+	"modifiedTime":1756181285592,
 	"name":"MapdataCallableWorkflow_117561791373240",
 	"nodes":[
 		{
@@ -46,7 +46,7 @@
 				"resourceName":"callables_from_api"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_VJbtc-1",
 			"id":"n_Cygsw",
@@ -139,7 +139,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_VJbtc-1",
 			"id":"n_UDx6k",
@@ -229,7 +229,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_VJbtc-1",
 			"id":"n_qpFXn",
@@ -284,7 +284,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_VJbtc-1",
 			"id":"n_d10IX",
@@ -365,7 +365,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_VJbtc-1",
 			"id":"n_bouqT",
@@ -390,11 +390,15 @@
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
 		"enableVariableLogging":true,
+		"nodeLogLevel":"INFO",
 		"route":{
+			"headerValueTierMap":{
+				
+			},
 			"tierName":"global"
 		}
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
