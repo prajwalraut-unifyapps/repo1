@@ -4,47 +4,42 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_M7bxm",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_4l9WL",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3472fc16116cc3e37366",
 	"lastModifiedBy":34,
 	"lcName":"webhook setup incomplete - 11756179137107",
-	"modifiedTime":1756181618826,
+	"modifiedTime":1756181625280,
 	"name":"Webhook setup Incomplete - 11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_M7bxm-1",
-			"id":"_M7bxm",
-			"index":0,
+			"id":"n_jGhKa",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_M7bxm-1",
-			"id":"_4l9WL",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +50,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
