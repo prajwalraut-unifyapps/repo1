@@ -15,7 +15,7 @@
 	"id":"68ad2dbafc16116cc3e363af",
 	"lastModifiedBy":34,
 	"lcName":"setanddeletevariableresultschema_117561791371070",
-	"modifiedTime":1756179917942,
+	"modifiedTime":1756179918622,
 	"name":"setAndDeleteVariableResultSchema_117561791371070",
 	"nodes":[
 		{
@@ -49,27 +49,7 @@
 				},
 				"endpointType":"REST",
 				"response":[
-					{
-						"status":200,
-						"contentType":"application/json",
-						"textBody":{
-							"type":"string"
-						},
-						"name":"success",
-						"body":{
-							"type":"object",
-							"properties":{
-								"output":{
-									"type":"string",
-									"title":"output"
-								}
-							},
-							"additionalProperties":false,
-							"required":[
-								"output"
-							]
-						}
-					}
+					
 				],
 				"streamingResponse":false
 			},
@@ -120,5 +100,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
