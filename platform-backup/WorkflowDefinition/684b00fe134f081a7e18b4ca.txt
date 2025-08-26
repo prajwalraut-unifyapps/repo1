@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749745918647,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_AkXl3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_96n5o",
+			"type":"next"
+		}
+	],
+	"id":"684b00fe134f081a7e18b4ca",
+	"lastModifiedBy":34,
+	"lcName":"condition box|string input - does not equal 11749744267712",
+	"modifiedTime":1754311781384,
+	"name":"Condition Box|String Input - Does not equal 11749744267712",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_AkXl3-1",
+			"id":"_AkXl3",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_AkXl3-1",
+			"id":"_96n5o",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
