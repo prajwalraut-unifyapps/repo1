@@ -1,50 +1,92 @@
 {
-	"appsUsed":[],
+	"appsUsed":["slack"],
 	"createdTime":1756179350761,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_LTfxI",
+			"fromNodeId":"n_ToYpe",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_tyzZ8",
+			"toNodeId":"n_avhcc",
 			"type":"next"
 		}
 	],
 	"id":"68ad2b96fc16116cc3e35ec8",
 	"lastModifiedBy":34,
 	"lcName":"webhookheaderlistofstring_117561791371070",
-	"modifiedTime":1756179350761,
+	"modifiedTime":1756179361829,
 	"name":"webhookHeaderListOfString_117561791371070",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_LTfxI-1",
-			"id":"_LTfxI",
-			"index":0,
+			"id":"n_ToYpe",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"headers":{
+						"type":"object",
+						"properties":{
+							"header_string":{
+								"type":"array",
+								"items":{
+									"type":"string"
+								},
+								"title":"header_string"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27598,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_LTfxI-1",
-			"id":"_tyzZ8",
-			"index":0,
+			"id":"n_avhcc",
+			"index":2,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"text":"{{ n_ToYpe.outputs }}",
+				"mrkdwn":true
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Slack",
+			"title":"Post message",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +97,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
