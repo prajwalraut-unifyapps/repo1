@@ -1,50 +1,60 @@
 {
-	"appsUsed":[],
+	"appsUsed":["airtable"],
 	"createdTime":1756181974193,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_01ZBg",
+			"fromNodeId":"n_PDIME",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_SwmXa",
+			"toNodeId":"n_9TmUd",
 			"type":"next"
 		}
 	],
 	"id":"68ad35d6fc16116cc3e37719",
 	"lastModifiedBy":34,
 	"lcName":"replace_apps_117561791373240",
-	"modifiedTime":1756181974193,
+	"modifiedTime":1756181984909,
 	"name":"Replace_apps_117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_01ZBg-1",
-			"id":"_01ZBg",
-			"index":0,
+			"id":"n_PDIME",
+			"index":1,
 			"skip":false,
+			"subTitle":"Callable",
 			"title":"Select a trigger event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"airtable",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_01ZBg-1",
-			"id":"_SwmXa",
-			"index":0,
+			"id":"n_9TmUd",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Airtable",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
