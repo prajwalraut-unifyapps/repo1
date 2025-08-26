@@ -1,21 +1,15 @@
 {
-	"appsUsed":["guru","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180976269,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_yCQJH",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_bhEYb",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad31f0fc16116cc3e36c8c",
 	"lastModifiedBy":34,
 	"lcName":"automation_gurudelete11756179137107",
-	"modifiedTime":1756180984501,
+	"modifiedTime":1756180989433,
 	"name":"Automation_GuruDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_29QrT-1",
 			"id":"n_yCQJH",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"guru",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_29QrT-1",
-			"id":"n_bhEYb",
-			"index":2,
-			"skip":false,
-			"subTitle":"Guru",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
