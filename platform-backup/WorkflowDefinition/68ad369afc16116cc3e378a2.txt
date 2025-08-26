@@ -5,46 +5,78 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_sposM",
+			"fromNodeId":"n_8dtVU",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_g3FbH",
+			"toNodeId":"n_w2MmU",
 			"type":"next"
 		}
 	],
 	"id":"68ad369afc16116cc3e378a2",
 	"lastModifiedBy":34,
 	"lcName":"notificationsbyunifyapps_applicationid_117561791373240",
-	"modifiedTime":1756182170287,
+	"modifiedTime":1756182182315,
 	"name":"NotificationsByUnifyApps_applicationID_117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_sposM-1",
-			"id":"_sposM",
-			"index":0,
+			"id":"n_8dtVU",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"notification_by_unifyapps",
+				"resourceVersion":602,
+				"resourceName":"notification_by_unifyapps_send_notification",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_sposM-1",
-			"id":"_g3FbH",
-			"index":0,
+			"id":"n_w2MmU",
+			"index":2,
+			"inputs":{
+				"cta":{
+					"type":"url",
+					"width":{
+						"custom":"400px"
+					}
+				},
+				"applicationId":"createnewapplication117561791373240",
+				"notificationPreviewTime":5,
+				"content":{
+					"templateId":"failed_export_notification_template"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Notification by UnifyApps",
+			"title":"Send notification",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +87,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
