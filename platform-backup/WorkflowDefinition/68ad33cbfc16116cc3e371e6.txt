@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1756181451596,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_gWwhY",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_RfqHz",
+			"type":"next"
+		}
+	],
+	"id":"68ad33cbfc16116cc3e371e6",
+	"lastModifiedBy":34,
+	"lcName":"automation_oracle dbdelete11756179137107",
+	"modifiedTime":1756181451596,
+	"name":"Automation_Oracle DBDelete11756179137107",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gWwhY-1",
+			"id":"_gWwhY",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gWwhY-1",
+			"id":"_RfqHz",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":0
+}
