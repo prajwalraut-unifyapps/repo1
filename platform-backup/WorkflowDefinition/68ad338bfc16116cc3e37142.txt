@@ -1,21 +1,15 @@
 {
-	"appsUsed":["netsuite","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181387970,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_AADIp",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_yRdSZ",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad338bfc16116cc3e37142",
 	"lastModifiedBy":34,
 	"lcName":"automation_netsuitedelete11756179137107",
-	"modifiedTime":1756181395959,
+	"modifiedTime":1756181401290,
 	"name":"Automation_NetsuiteDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_QZGWn-1",
 			"id":"n_AADIp",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"netsuite",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_QZGWn-1",
-			"id":"n_yRdSZ",
-			"index":2,
-			"skip":false,
-			"subTitle":"Netsuite",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
