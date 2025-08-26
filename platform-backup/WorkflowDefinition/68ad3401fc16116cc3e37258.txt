@@ -4,33 +4,12 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_pu0W0",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_V5pHM",
-			"type":"next"
-		},
-		{
-			"fromNodeId":"n_V5pHM",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_DtvLH",
-			"type":"loop"
-		},
-		{
-			"fromNodeId":"n_DtvLH",
-			"name":"loopback",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_V5pHM",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3401fc16116cc3e37258",
 	"lastModifiedBy":34,
 	"lcName":"automation_pdf by unifyappsdelete11756179137107",
-	"modifiedTime":1756181512853,
+	"modifiedTime":1756181518145,
 	"name":"Automation_PDF by UnifyAppsDelete11756179137107",
 	"nodes":[
 		{
@@ -38,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_dZdrf-1",
 			"id":"n_pu0W0",
@@ -50,33 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"pdf_by_unifyapps",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_dZdrf-1",
-			"id":"n_V5pHM",
-			"index":2,
-			"skip":false,
-			"subTitle":"PDF by UnifyApps",
-			"title":"Select an action",
-			"type":"LOOP"
-		},
-		{
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"n_V5pHM@_dZdrf-1@l",
-			"id":"n_DtvLH",
-			"index":3,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -91,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
