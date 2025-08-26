@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756180960200,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_xQnyx",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_PliCW",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad31e0fc16116cc3e36c61",
 	"lastModifiedBy":34,
 	"lcName":"automation_greenhousedelete11756179137107",
-	"modifiedTime":1756180960200,
+	"modifiedTime":1756180973124,
 	"name":"Automation_GreenhouseDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_xQnyx-1",
-			"id":"_xQnyx",
-			"index":0,
+			"id":"n_TQCTf",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_xQnyx-1",
-			"id":"_PliCW",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
