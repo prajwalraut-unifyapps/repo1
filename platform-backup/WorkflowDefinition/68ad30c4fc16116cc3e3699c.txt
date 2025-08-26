@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["figma","shopify"],
 	"createdTime":1756180676410,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Zrh2a",
+			"fromNodeId":"n_b7jwF",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_daD7l",
+			"toNodeId":"n_DxPba",
 			"type":"next"
 		}
 	],
 	"id":"68ad30c4fc16116cc3e3699c",
 	"lastModifiedBy":34,
 	"lcName":"automation_figmadelete11756179137107",
-	"modifiedTime":1756180676410,
+	"modifiedTime":1756180684964,
 	"name":"Automation_FigmaDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Zrh2a-1",
-			"id":"_Zrh2a",
-			"index":0,
+			"id":"n_b7jwF",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"figma",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Zrh2a-1",
-			"id":"_daD7l",
-			"index":0,
+			"id":"n_DxPba",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Figma",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
