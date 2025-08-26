@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756180925079,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_p05KM",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_U9fLa",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad31bdfc16116cc3e36c00",
 	"lastModifiedBy":34,
 	"lcName":"automation_google sheetsdelete11756179137107",
-	"modifiedTime":1756180925079,
+	"modifiedTime":1756180938470,
 	"name":"Automation_Google SheetsDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_p05KM-1",
-			"id":"_p05KM",
-			"index":0,
+			"id":"n_ncK2e",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_p05KM-1",
-			"id":"_U9fLa",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
