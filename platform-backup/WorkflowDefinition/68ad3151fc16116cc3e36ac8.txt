@@ -2,6 +2,14 @@
 	"appsUsed":["slack"],
 	"createdTime":1756180817101,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756180848239,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad3170fc16116cc3e36b18",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -22,7 +30,7 @@
 	"id":"68ad3151fc16116cc3e36ac8",
 	"lastModifiedBy":34,
 	"lcName":"logging_loglevel_check_11756179137324",
-	"modifiedTime":1756180845612,
+	"modifiedTime":1756180894300,
 	"name":"logging_logLevel_check_11756179137324",
 	"nodes":[
 		{
@@ -32,7 +40,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Cn9St-1",
 			"id":"n_WVxW0",
@@ -87,7 +95,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Cn9St-1",
 			"id":"n_XM7ib",
@@ -180,7 +188,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Cn9St-1",
 			"id":"n_JvSfH",
@@ -202,11 +210,15 @@
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
 		"enableVariableLogging":true,
+		"nodeLogLevel":"TRACE",
 		"route":{
+			"headerValueTierMap":{
+				
+			},
 			"tierName":"global"
 		}
 	},
 	"standard":false,
 	"tags":[],
-	"version":2
+	"version":4
 }
