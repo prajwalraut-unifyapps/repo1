@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749761246937,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_QsiyZ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_DzO96",
+			"type":"next"
+		}
+	],
+	"id":"684b3cde7aefd45f1ab9dc20",
+	"lastModifiedBy":34,
+	"lcName":"condition box|string input - is not present 11749757074412",
+	"modifiedTime":1754311492562,
+	"name":"Condition Box|String Input - Is not present 11749757074412",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_QsiyZ-1",
+			"id":"_QsiyZ",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_QsiyZ-1",
+			"id":"_DzO96",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
