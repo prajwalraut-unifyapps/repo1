@@ -17,12 +17,19 @@
 			"skip":false,
 			"toNodeId":"n_S0uKE",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_S0uKE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_roYiq",
+			"type":"next"
 		}
 	],
 	"id":"68ad36dbfc16116cc3e37933",
 	"lastModifiedBy":34,
 	"lcName":"cancelbuttonclosesversiondialog_117561791371070",
-	"modifiedTime":1756182253074,
+	"modifiedTime":1756182256683,
 	"name":"cancelButtonClosesVersionDialog_117561791371070",
 	"nodes":[
 		{
@@ -152,6 +159,21 @@
 			"subTitle":"Variable by UnifyApps",
 			"title":"Create variables",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_7oGdm-1",
+			"id":"n_roYiq",
+			"index":4,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
@@ -166,5 +188,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":2
+	"version":3
 }
