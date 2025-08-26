@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["keenio","shopify"],
 	"createdTime":1756181130744,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_ovyvX",
+			"fromNodeId":"n_OH2JJ",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_lX5gW",
+			"toNodeId":"n_kR5dT",
 			"type":"next"
 		}
 	],
 	"id":"68ad328afc16116cc3e36e29",
 	"lastModifiedBy":34,
 	"lcName":"automation_keen.iodelete11756179137107",
-	"modifiedTime":1756181130744,
+	"modifiedTime":1756181138489,
 	"name":"Automation_Keen.ioDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ovyvX-1",
-			"id":"_ovyvX",
-			"index":0,
+			"id":"n_OH2JJ",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"keenio",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ovyvX-1",
-			"id":"_lX5gW",
-			"index":0,
+			"id":"n_kR5dT",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Keen.io",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
