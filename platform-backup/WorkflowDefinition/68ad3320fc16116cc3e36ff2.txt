@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["microsoft_excel","shopify"],
 	"createdTime":1756181280976,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_VNcDb",
+			"fromNodeId":"n_JUEZY",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_8G9SL",
+			"toNodeId":"n_J1CSK",
 			"type":"next"
 		}
 	],
 	"id":"68ad3320fc16116cc3e36ff2",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft exceldelete11756179137107",
-	"modifiedTime":1756181280976,
+	"modifiedTime":1756181289452,
 	"name":"Automation_Microsoft ExcelDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_VNcDb-1",
-			"id":"_VNcDb",
-			"index":0,
+			"id":"n_JUEZY",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"microsoft_excel",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_VNcDb-1",
-			"id":"_8G9SL",
-			"index":0,
+			"id":"n_J1CSK",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Microsoft Excel",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
