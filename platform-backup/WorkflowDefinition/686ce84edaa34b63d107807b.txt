@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751967822312,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_x8i4h",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_faE1V",
+			"type":"next"
+		}
+	],
+	"id":"686ce84edaa34b63d107807b",
+	"lastModifiedBy":34,
+	"lcName":"create_noauth_workflow117519669734150",
+	"modifiedTime":1754310042454,
+	"name":"create_NoAuth_Workflow117519669734150",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_x8i4h-1",
+			"id":"_x8i4h",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_x8i4h-1",
+			"id":"_faE1V",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
