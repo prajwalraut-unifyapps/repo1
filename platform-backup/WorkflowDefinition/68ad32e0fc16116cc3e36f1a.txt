@@ -1,21 +1,15 @@
 {
-	"appsUsed":["mailchimp","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181216259,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_wae8q",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_eObwe",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad32e0fc16116cc3e36f1a",
 	"lastModifiedBy":34,
 	"lcName":"automation_mailchimpdelete11756179137107",
-	"modifiedTime":1756181224224,
+	"modifiedTime":1756181229206,
 	"name":"Automation_MailchimpDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_LKE9P-1",
 			"id":"n_wae8q",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"mailchimp",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_LKE9P-1",
-			"id":"n_eObwe",
-			"index":2,
-			"skip":false,
-			"subTitle":"Mailchimp",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
