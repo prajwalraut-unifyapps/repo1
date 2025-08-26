@@ -1,21 +1,15 @@
 {
-	"appsUsed":["microsoft_business_central","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181255709,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_Gy3M0",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_w05ED",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3307fc16116cc3e36f8c",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft business centraldelete11756179137107",
-	"modifiedTime":1756181264124,
+	"modifiedTime":1756181269316,
 	"name":"Automation_Microsoft Business CentralDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_2KDd3-1",
 			"id":"n_Gy3M0",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"microsoft_business_central",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_2KDd3-1",
-			"id":"n_w05ED",
-			"index":2,
-			"skip":false,
-			"subTitle":"Microsoft Business Central",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
