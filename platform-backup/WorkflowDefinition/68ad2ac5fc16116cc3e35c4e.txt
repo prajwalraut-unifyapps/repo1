@@ -15,6 +15,13 @@
 			"fromNodeId":"n_xbcYa",
 			"priority":0,
 			"skip":false,
+			"toNodeId":"n_T01mq",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_T01mq",
+			"priority":0,
+			"skip":false,
 			"toNodeId":"n_P34Pr",
 			"type":"next"
 		}
@@ -22,7 +29,7 @@
 	"id":"68ad2ac5fc16116cc3e35c4e",
 	"lastModifiedBy":34,
 	"lcName":"updatecachebyunifyapps_117561791371070",
-	"modifiedTime":1756179165448,
+	"modifiedTime":1756179171038,
 	"name":"updateCacheByUnifyapps_117561791371070",
 	"nodes":[
 		{
@@ -151,6 +158,29 @@
 		},
 		{
 			"context":{
+				"appName":"caches_by_unifyapps",
+				"resourceVersion":610,
+				"resourceName":"caches_by_unifyapps_evict_node_cache",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_MgDlr-1",
+			"id":"n_T01mq",
+			"index":3,
+			"inputs":{
+				"automation_id":"68ad2ac5fc16116cc3e35c4e",
+				"cache_key":"cool",
+				"node_id":"n_xbcYa"
+			},
+			"skip":false,
+			"subTitle":"Caches by UnifyApps",
+			"title":"Evict node cache",
+			"type":"ACTION"
+		},
+		{
+			"context":{
 				"appName":"callables",
 				"resourceVersion":663,
 				"resourceName":"callables_return_to_automation",
@@ -161,10 +191,10 @@
 			"fallbackMode":"STOP",
 			"groupId":"_MgDlr-1",
 			"id":"n_P34Pr",
-			"index":3,
+			"index":4,
 			"inputs":{
 				"result":{
-					"output_String":"{{ n_UOw5X.outputs.input_String }}"
+					"output_String":"{{ n_T01mq.outputs.success }}{{ n_UOw5X.outputs.input_String }}"
 				}
 			},
 			"skip":false,
@@ -185,5 +215,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
