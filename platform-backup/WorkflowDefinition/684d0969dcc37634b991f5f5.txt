@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749879145537,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_poVUS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_IuNTT",
+			"type":"next"
+		}
+	],
+	"id":"684d0969dcc37634b991f5f5",
+	"lastModifiedBy":34,
+	"lcName":"variable by unifyapps create a variable type boolean 11749878929053",
+	"modifiedTime":1754310955124,
+	"name":"Variable By unifyapps Create a variable type Boolean 11749878929053",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_poVUS-1",
+			"id":"_poVUS",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_poVUS-1",
+			"id":"_IuNTT",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
