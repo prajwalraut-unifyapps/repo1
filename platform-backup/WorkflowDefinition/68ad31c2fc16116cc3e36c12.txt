@@ -1,21 +1,15 @@
 {
-	"appsUsed":["gslides","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180930474,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_bhCpG",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_QneFv",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad31c2fc16116cc3e36c12",
 	"lastModifiedBy":34,
 	"lcName":"automation_google slidedelete11756179137107",
-	"modifiedTime":1756180938983,
+	"modifiedTime":1756180944015,
 	"name":"Automation_Google SlideDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_wjHsY-1",
 			"id":"n_bhCpG",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"gslides",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_wjHsY-1",
-			"id":"n_QneFv",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google Slide",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
