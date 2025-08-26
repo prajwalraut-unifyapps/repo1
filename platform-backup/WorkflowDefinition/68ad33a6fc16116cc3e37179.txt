@@ -1,21 +1,15 @@
 {
-	"appsUsed":["onelogin","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181414569,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_xQXoj",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_MK7Og",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad33a6fc16116cc3e37179",
 	"lastModifiedBy":34,
 	"lcName":"automation_onelogindelete11756179137107",
-	"modifiedTime":1756181422117,
+	"modifiedTime":1756181427325,
 	"name":"Automation_OneloginDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_UQT3m-1",
 			"id":"n_xQXoj",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"onelogin",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_UQT3m-1",
-			"id":"n_MK7Og",
-			"index":2,
-			"skip":false,
-			"subTitle":"Onelogin",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
