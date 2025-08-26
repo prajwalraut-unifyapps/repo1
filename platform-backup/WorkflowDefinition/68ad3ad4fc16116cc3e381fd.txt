@@ -1,50 +1,414 @@
 {
-	"appsUsed":[],
+	"appsUsed":["storage_by_unifyapps"],
 	"createdTime":1756183252623,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_eoWri",
+			"fromNodeId":"n_8HkOf",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_P0f3S",
+			"toNodeId":"n_2WzBY",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_2WzBY",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_q3h7H",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_q3h7H",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_kWyCM",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_kWyCM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_dGmZH",
 			"type":"next"
 		}
 	],
 	"id":"68ad3ad4fc16116cc3e381fd",
 	"lastModifiedBy":34,
 	"lcName":"storagebyunifyapps__117561791373240",
-	"modifiedTime":1756183252623,
+	"modifiedTime":1756183309657,
 	"name":"StorageByUnifyApps__117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_eoWri-1",
-			"id":"_eoWri",
-			"index":0,
+			"id":"n_8HkOf",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"body":{
+						"type":"object",
+						"properties":{
+							"content":{
+								"type":"string",
+								"title":"content"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"content"
+						]
+					}
+				},
+				"endpointType":"REST",
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/json",
+						"textBody":{
+							"type":"string"
+						},
+						"name":"OK",
+						"body":{
+							"type":"object",
+							"properties":{
+								"status":{
+									"type":"string",
+									"title":"status"
+								}
+							},
+							"additionalProperties":false,
+							"required":[
+								"status"
+							]
+						}
+					}
+				],
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"custom_http_endpoint",
+				"resourceVersion":749,
+				"resourceName":"custom_http_endpoint_execute",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_eoWri-1",
-			"id":"_P0f3S",
-			"index":0,
+			"id":"n_2WzBY",
+			"index":2,
+			"inputs":{
+				"isAsync":false,
+				"enableProxy":false,
+				"requestTimeoutInSecs":-1,
+				"httpMethod":"POST",
+				"body":{
+					"payloads":{
+						"items":{
+							"payloadId":"123",
+							"messages":{
+								"items":{
+									"role":"user",
+									"blocks":{
+										"items":{
+											"data":{
+												"text":"{{ n_8HkOf.outputs.body.content }}"
+											},
+											"blockType":"Text"
+										},
+										"ua:type":"mappedArray"
+									}
+								},
+								"ua:type":"mappedArray"
+							}
+						},
+						"ua:type":"mappedArray"
+					}
+				},
+				"sslVerify":false,
+				"path":"/api/v1/nlp/predict",
+				"responseSchema":{
+					"type":"object",
+					"properties":{
+						"results":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"payloadId":{
+										"type":"string",
+										"title":"payloadId"
+									},
+									"messages":{
+										"type":"array",
+										"items":{
+											"type":"object",
+											"properties":{
+												"role":{
+													"type":"string",
+													"title":"role"
+												},
+												"blocks":{
+													"type":"array",
+													"items":{
+														"type":"object",
+														"properties":{
+															"data":{
+																"type":"object",
+																"properties":{
+																	"vector":{
+																		"type":"array",
+																		"items":{
+																			"type":"string"
+																		},
+																		"title":"vector"
+																	},
+																	"text":{
+																		"type":"string",
+																		"title":"text"
+																	}
+																},
+																"title":"data",
+																"additionalProperties":false
+															},
+															"blockType":{
+																"type":"string",
+																"title":"blockType"
+															}
+														},
+														"additionalProperties":false
+													},
+													"title":"blocks"
+												}
+											},
+											"additionalProperties":false
+										},
+										"title":"messages"
+									},
+									"payloadTags":{
+										"type":"object",
+										"title":"payloadTags"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"results"
+						},
+						"Status":{
+							"type":"string",
+							"title":"Status"
+						}
+					},
+					"additionalProperties":false
+				},
+				"baseUrl":"https://ai-vectorizer-gte-global.int-alb.qa.unifyapps.com/",
+				"bodySchema":{
+					"type":"object",
+					"properties":{
+						"payloads":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"payloadId":{
+										"type":"string",
+										"title":"payloadId"
+									},
+									"messages":{
+										"type":"array",
+										"items":{
+											"type":"object",
+											"properties":{
+												"role":{
+													"type":"string",
+													"title":"role"
+												},
+												"blocks":{
+													"type":"array",
+													"items":{
+														"type":"object",
+														"properties":{
+															"data":{
+																"type":"object",
+																"properties":{
+																	"text":{
+																		"type":"string",
+																		"title":"text"
+																	}
+																},
+																"title":"data",
+																"additionalProperties":false
+															},
+															"blockType":{
+																"type":"string",
+																"title":"blockType"
+															}
+														},
+														"additionalProperties":false
+													},
+													"title":"blocks"
+												}
+											},
+											"additionalProperties":false
+										},
+										"title":"messages"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"payloads"
+						}
+					},
+					"additionalProperties":false
+				},
+				"responseContentType":"application/json",
+				"authType":"CUSTOM",
+				"requestContentType":"application/json",
+				"ignoreTrailingSlashes":false
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Custom HTTP Endpoint",
+			"title":"Execute REST request",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":635,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_eoWri-1",
+			"id":"n_q3h7H",
+			"index":3,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"embeddings":{
+							"type":"array",
+							"items":{
+								"type":"number"
+							},
+							"title":"embeddings"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"embeddings"
+					]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"messages":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"messages"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"messages"
+					]
+				},
+				"compile_static":false,
+				"code":"def result = null\r\nmessages.each { message ->\r\nif (message.role == \"assistant\") {\r\nmessage.blocks.each { block ->\r\nif (block.blockType == \"embeddings\") {\r\nresult = [\"embeddings\": block.data.vector]\r\nreturn result\r\n}\r\n}\r\nif (result != null) {\r\n return result\r\n  }\r\n   }\r\n    }\r\n    return result;\r\n    ",
+				"parameters":{
+					"messages":{
+						"source":"{{ n_2WzBY.outputs.result.results[0].messages }}",
+						"ua:type":"mappedArray",
+						"items":"{{ n_2WzBY.outputs.result.results[0].messages }}"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":20680,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_eoWri-1",
+			"id":"n_kWyCM",
+			"index":4,
+			"inputs":{
+				"writeThroughSessionVariables":false,
+				"object_type":"abv8tqe",
+				"record":{
+					"embeddings":{
+						"source":"{{ n_q3h7H.outputs.result.embeddings }}",
+						"ua:type":"mappedArray",
+						"items":"{{ n_q3h7H.outputs.result.embeddings }}"
+					},
+					"content":"{{ n_8HkOf.outputs.body.content }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":684,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_eoWri-1",
+			"id":"n_dGmZH",
+			"index":5,
+			"inputs":{
+				"streamingCompleted":true,
+				"responseName":"200_OK",
+				"body":{
+					"status":"OK"
+				},
+				"status":200
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +419,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
