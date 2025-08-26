@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["gslides","shopify"],
 	"createdTime":1756180930474,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_wjHsY",
+			"fromNodeId":"n_bhCpG",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_kCdlT",
+			"toNodeId":"n_QneFv",
 			"type":"next"
 		}
 	],
 	"id":"68ad31c2fc16116cc3e36c12",
 	"lastModifiedBy":34,
 	"lcName":"automation_google slidedelete11756179137107",
-	"modifiedTime":1756180930474,
+	"modifiedTime":1756180938983,
 	"name":"Automation_Google SlideDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_wjHsY-1",
-			"id":"_wjHsY",
-			"index":0,
+			"id":"n_bhCpG",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"gslides",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_wjHsY-1",
-			"id":"_kCdlT",
-			"index":0,
+			"id":"n_QneFv",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Google Slide",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
