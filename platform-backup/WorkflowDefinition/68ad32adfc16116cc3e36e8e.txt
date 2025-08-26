@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["lever","shopify"],
 	"createdTime":1756181165841,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_HMLaF",
+			"fromNodeId":"n_L193h",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_wGY5a",
+			"toNodeId":"n_wYSvy",
 			"type":"next"
 		}
 	],
 	"id":"68ad32adfc16116cc3e36e8e",
 	"lastModifiedBy":34,
 	"lcName":"automation_leverdelete11756179137107",
-	"modifiedTime":1756181165841,
+	"modifiedTime":1756181174228,
 	"name":"Automation_LeverDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_HMLaF-1",
-			"id":"_HMLaF",
-			"index":0,
+			"id":"n_L193h",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"lever",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_HMLaF-1",
-			"id":"_wGY5a",
-			"index":0,
+			"id":"n_wYSvy",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Lever",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
