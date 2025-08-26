@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["ozonetel","shopify"],
 	"createdTime":1756181488397,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_F9jIT",
+			"fromNodeId":"n_aB1pj",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_mYXGj",
+			"toNodeId":"n_Qj64e",
 			"type":"next"
 		}
 	],
 	"id":"68ad33f0fc16116cc3e37239",
 	"lastModifiedBy":34,
 	"lcName":"automation_ozoneteldelete11756179137107",
-	"modifiedTime":1756181488397,
+	"modifiedTime":1756181497642,
 	"name":"Automation_OzonetelDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_F9jIT-1",
-			"id":"_F9jIT",
-			"index":0,
+			"id":"n_aB1pj",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"ozonetel",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_F9jIT-1",
-			"id":"_mYXGj",
-			"index":0,
+			"id":"n_Qj64e",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Ozonetel",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
