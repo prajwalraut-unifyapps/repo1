@@ -1,50 +1,191 @@
 {
-	"appsUsed":[],
+	"appsUsed":["slack"],
 	"createdTime":1756180927680,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_ENQJh",
+			"fromNodeId":"n_tqoT5",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_GMvZR",
+			"toNodeId":"n_Bhokh",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Bhokh",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_tz1wK",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_tz1wK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_rFqrs",
 			"type":"next"
 		}
 	],
 	"id":"68ad31bffc16116cc3e36c0a",
 	"lastModifiedBy":34,
 	"lcName":"deletefiledinschemaworkflow_11756179137324",
-	"modifiedTime":1756180927680,
+	"modifiedTime":1756180961801,
 	"name":"DeleteFiledInSchemaWorkflow_11756179137324",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ENQJh-1",
-			"id":"_ENQJh",
-			"index":0,
+			"id":"n_tqoT5",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"output":{
+							"type":"string",
+							"title":"output"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output"
+					]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"id":{
+							"type":"integer",
+							"title":"id"
+						},
+						"name":{
+							"type":"string",
+							"title":"name"
+						},
+						"age":{
+							"type":"integer",
+							"title":"age"
+						},
+						"gender":{
+							"type":"string",
+							"title":"gender"
+						},
+						"designation":{
+							"type":"string",
+							"title":"designation"
+						},
+						"department":{
+							"type":"string",
+							"title":"department"
+						},
+						"salary":{
+							"type":"integer",
+							"title":"salary"
+						},
+						"city":{
+							"type":"string",
+							"title":"city"
+						},
+						"state":{
+							"type":"string",
+							"title":"state"
+						}
+					},
+					"additionalProperties":false
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"comments_by_unifyapps",
+				"resourceVersion":614,
+				"resourceName":"comments_by_unifyapps_add_comment",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ENQJh-1",
-			"id":"_GMvZR",
-			"index":0,
+			"id":"n_Bhokh",
+			"index":2,
+			"inputs":{
+				"synchronous":false,
+				"assetId":"7",
+				"assetClass":"Demo",
+				"userId":948,
+				"content":"Text"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Comments by UnifyApps",
+			"title":"Add Comment",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27598,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_ENQJh-1",
+			"id":"n_tz1wK",
+			"index":3,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"unify-apps",
+				"text":"Test message",
+				"mrkdwn":true
+			},
+			"skip":false,
+			"subTitle":"Slack",
+			"title":"Post message",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_ENQJh-1",
+			"id":"n_rFqrs",
+			"index":4,
+			"inputs":{
+				"result":{
+					"output":"{{ n_tz1wK.outputs.ok }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +196,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
