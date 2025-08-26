@@ -1,21 +1,15 @@
 {
-	"appsUsed":["miro","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181349620,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_pQmYQ",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_BS8K3",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3365fc16116cc3e370d6",
 	"lastModifiedBy":34,
 	"lcName":"automation_mirodelete11756179137107",
-	"modifiedTime":1756181357599,
+	"modifiedTime":1756181362863,
 	"name":"Automation_MiroDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Q3ZzZ-1",
 			"id":"n_pQmYQ",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"miro",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Q3ZzZ-1",
-			"id":"n_BS8K3",
-			"index":2,
-			"skip":false,
-			"subTitle":"Miro",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
