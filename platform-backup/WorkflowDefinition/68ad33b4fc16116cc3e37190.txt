@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["opsgenie","shopify"],
 	"createdTime":1756181428724,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_5y3ZX",
+			"fromNodeId":"n_XvYmJ",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_j3vuy",
+			"toNodeId":"n_0e4MF",
 			"type":"next"
 		}
 	],
 	"id":"68ad33b4fc16116cc3e37190",
 	"lastModifiedBy":34,
 	"lcName":"automation_opsgeniedelete11756179137107",
-	"modifiedTime":1756181428724,
+	"modifiedTime":1756181436224,
 	"name":"Automation_OpsGenieDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_5y3ZX-1",
-			"id":"_5y3ZX",
-			"index":0,
+			"id":"n_XvYmJ",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"opsgenie",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_5y3ZX-1",
-			"id":"_j3vuy",
-			"index":0,
+			"id":"n_0e4MF",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"OpsGenie",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
