@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756179226276,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756179245618,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2b2dfc16116cc3e35d5c",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2b1afc16116cc3e35d1c",
 	"lastModifiedBy":34,
 	"lcName":"restoresselectedversion_117561791371070",
-	"modifiedTime":1756179243120,
+	"modifiedTime":1756179251733,
 	"name":"restoresSelectedVersion_117561791371070",
 	"nodes":[
 		{
@@ -50,11 +58,16 @@
 						"input_String":{
 							"type":"string",
 							"title":"input_String"
+						},
+						"input_string2":{
+							"type":"string",
+							"title":"Input String 2"
 						}
 					},
 					"additionalProperties":false,
 					"required":[
-						"input_String"
+						"input_String",
+						"input_string2"
 					]
 				}
 			},
@@ -102,5 +115,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
