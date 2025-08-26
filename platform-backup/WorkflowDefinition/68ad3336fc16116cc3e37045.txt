@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["microsoft_outlook","shopify"],
 	"createdTime":1756181302303,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_EnJxe",
+			"fromNodeId":"n_93BP0",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_E1INP",
+			"toNodeId":"n_uKN43",
 			"type":"next"
 		}
 	],
 	"id":"68ad3336fc16116cc3e37045",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft outlookdelete11756179137107",
-	"modifiedTime":1756181302303,
+	"modifiedTime":1756181310653,
 	"name":"Automation_Microsoft OutlookDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_EnJxe-1",
-			"id":"_EnJxe",
-			"index":0,
+			"id":"n_93BP0",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"microsoft_outlook",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_EnJxe-1",
-			"id":"_E1INP",
-			"index":0,
+			"id":"n_uKN43",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Microsoft Outlook",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
