@@ -1,21 +1,15 @@
 {
-	"appsUsed":["google_task","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180934387,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_uaGtc",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_QcJ0H",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad31c6fc16116cc3e36c1d",
 	"lastModifiedBy":34,
 	"lcName":"automation_google taskdelete11756179137107",
-	"modifiedTime":1756180942618,
+	"modifiedTime":1756180947650,
 	"name":"Automation_Google TaskDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Dr9os-1",
 			"id":"n_uaGtc",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"google_task",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Dr9os-1",
-			"id":"n_QcJ0H",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google Task",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
