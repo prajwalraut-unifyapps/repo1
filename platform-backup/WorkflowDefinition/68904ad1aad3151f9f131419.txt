@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286801475,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Ctsz9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_4fTSg",
+			"type":"next"
+		}
+	],
+	"id":"68904ad1aad3151f9f131419",
+	"lastModifiedBy":34,
+	"lcName":"automation_oracle fusiondelete11754284269014",
+	"modifiedTime":1754372505187,
+	"name":"Automation_Oracle FusionDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ctsz9-1",
+			"id":"_Ctsz9",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ctsz9-1",
+			"id":"_4fTSg",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
