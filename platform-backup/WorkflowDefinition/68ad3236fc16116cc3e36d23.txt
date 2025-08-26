@@ -1,21 +1,15 @@
 {
-	"appsUsed":["imap","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181046839,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_xOEmk",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_FeHhY",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3236fc16116cc3e36d23",
 	"lastModifiedBy":34,
 	"lcName":"automation_imapdelete11756179137107",
-	"modifiedTime":1756181054210,
+	"modifiedTime":1756181059290,
 	"name":"Automation_IMAPDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_L5xbj-1",
 			"id":"n_xOEmk",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"imap",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_L5xbj-1",
-			"id":"n_FeHhY",
-			"index":2,
-			"skip":false,
-			"subTitle":"IMAP",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
