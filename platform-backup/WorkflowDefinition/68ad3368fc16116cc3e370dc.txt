@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756181352576,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_tW1yT",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_DqhuH",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3368fc16116cc3e370dc",
 	"lastModifiedBy":34,
 	"lcName":"automation_mistral aidelete11756179137107",
-	"modifiedTime":1756181352576,
+	"modifiedTime":1756181365989,
 	"name":"Automation_Mistral AIDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_tW1yT-1",
-			"id":"_tW1yT",
-			"index":0,
+			"id":"n_yjxCT",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_tW1yT-1",
-			"id":"_DqhuH",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
