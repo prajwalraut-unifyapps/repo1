@@ -5,46 +5,111 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Mzggy",
+			"fromNodeId":"n_gbwTL",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_H1sm9",
+			"toNodeId":"n_gYo4s",
 			"type":"next"
 		}
 	],
 	"id":"68ad2afafc16116cc3e35cc6",
 	"lastModifiedBy":34,
 	"lcName":"customhttp_exportheaderquery_117561791373240",
-	"modifiedTime":1756179194375,
+	"modifiedTime":1756179217441,
 	"name":"customHTTP_exportHeaderQuery_117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Mzggy-1",
-			"id":"_Mzggy",
-			"index":0,
+			"id":"n_gbwTL",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"queryParams":{
+						"type":"object",
+						"properties":{
+							"name":{
+								"type":"string",
+								"title":"name"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					}
+				},
+				"endpointType":"REST",
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/json",
+						"textBody":{
+							"type":"string"
+						},
+						"name":"success",
+						"body":{
+							"type":"object",
+							"properties":{
+								"output":{
+									"type":"string",
+									"title":"output"
+								}
+							},
+							"additionalProperties":false,
+							"required":[
+								"output"
+							]
+						}
+					}
+				],
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":684,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Mzggy-1",
-			"id":"_H1sm9",
-			"index":0,
+			"id":"n_gYo4s",
+			"index":2,
+			"inputs":{
+				"streamingCompleted":true,
+				"responseName":"200_success",
+				"body":{
+					"output":"{{ n_gbwTL.outputs.queryParams.name }}"
+				},
+				"status":200
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +120,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
