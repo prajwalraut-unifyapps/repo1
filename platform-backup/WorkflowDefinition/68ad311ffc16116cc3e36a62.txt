@@ -1,21 +1,15 @@
 {
-	"appsUsed":["gainsight","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180767279,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_SSwbA",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_zWmuJ",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad311ffc16116cc3e36a62",
 	"lastModifiedBy":34,
 	"lcName":"automation_gainsightdelete11756179137107",
-	"modifiedTime":1756180775712,
+	"modifiedTime":1756180781868,
 	"name":"Automation_GainsightDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_A4C4c-1",
 			"id":"n_SSwbA",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"gainsight",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_A4C4c-1",
-			"id":"n_zWmuJ",
-			"index":2,
-			"skip":false,
-			"subTitle":"Gainsight",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
