@@ -1,21 +1,15 @@
 {
-	"appsUsed":["microsoft_sharepoint","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181308985,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_hlXpy",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_5kFAW",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad333cfc16116cc3e3705a",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft sharepointdelete11756179137107",
-	"modifiedTime":1756181317240,
+	"modifiedTime":1756181322386,
 	"name":"Automation_Microsoft SharePointDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_5DveB-1",
 			"id":"n_hlXpy",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"microsoft_sharepoint",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_5DveB-1",
-			"id":"n_5kFAW",
-			"index":2,
-			"skip":false,
-			"subTitle":"Microsoft SharePoint",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
