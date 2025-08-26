@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756181507774,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_J26IE",
+			"fromNodeId":"n_i4yTf",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_gjJuJ",
+			"toNodeId":"n_Hy0tC",
 			"type":"next"
 		}
 	],
 	"id":"68ad3403fc16116cc3e3725c",
 	"lastModifiedBy":34,
 	"lcName":"automation_pii by unifyappsdelete11756179137107",
-	"modifiedTime":1756181507774,
+	"modifiedTime":1756181516148,
 	"name":"Automation_PII by UnifyAppsDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_J26IE-1",
-			"id":"_J26IE",
-			"index":0,
+			"id":"n_i4yTf",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"pii_by_unifyapps",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_J26IE-1",
-			"id":"_gjJuJ",
-			"index":0,
+			"id":"n_Hy0tC",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"PII by UnifyApps",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
