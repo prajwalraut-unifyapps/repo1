@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1735277851367,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"mzFRL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"w0W0e",
+			"type":"next"
+		}
+	],
+	"id":"676e3d1bc6957c1e6a18fea1",
+	"lastModifiedBy":-1,
+	"lcName":"gmail",
+	"modifiedTime":1755496340289,
+	"name":"gmail",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mzFRL-1",
+			"id":"mzFRL",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mzFRL-1",
+			"id":"w0W0e",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
