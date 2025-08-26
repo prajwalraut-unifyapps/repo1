@@ -1,21 +1,15 @@
 {
-	"appsUsed":["hubspot","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181026612,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_N1QMj",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_vPRzM",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3222fc16116cc3e36d01",
 	"lastModifiedBy":34,
 	"lcName":"automation_hubspotdelete11756179137107",
-	"modifiedTime":1756181034580,
+	"modifiedTime":1756181039565,
 	"name":"Automation_HubSpotDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Rl69Z-1",
 			"id":"n_N1QMj",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"hubspot",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Rl69Z-1",
-			"id":"n_vPRzM",
-			"index":2,
-			"skip":false,
-			"subTitle":"HubSpot",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
