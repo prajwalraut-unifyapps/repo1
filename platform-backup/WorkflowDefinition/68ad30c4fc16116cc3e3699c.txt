@@ -1,21 +1,15 @@
 {
-	"appsUsed":["figma","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180676410,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_b7jwF",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_DxPba",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad30c4fc16116cc3e3699c",
 	"lastModifiedBy":34,
 	"lcName":"automation_figmadelete11756179137107",
-	"modifiedTime":1756180684964,
+	"modifiedTime":1756180689945,
 	"name":"Automation_FigmaDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Zrh2a-1",
 			"id":"n_b7jwF",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"figma",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Zrh2a-1",
-			"id":"n_DxPba",
-			"index":2,
-			"skip":false,
-			"subTitle":"Figma",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
