@@ -1,0 +1,73 @@
+{
+	"appsUsed":["gmail"],
+	"createdTime":1750230014254,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_UsYhp",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_YLIia",
+			"type":"next"
+		}
+	],
+	"id":"685263feeae52104711feecc",
+	"lastModifiedBy":34,
+	"lcName":"filter -- apps used - 11750229333086",
+	"modifiedTime":1750515596931,
+	"name":"Filter -- Apps used - 11750229333086",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":607,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_z8yNr-1",
+			"id":"n_UsYhp",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"gmail",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_z8yNr-1",
+			"id":"n_YLIia",
+			"index":0,
+			"skip":false,
+			"subTitle":"Gmail",
+			"title":"Select an action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
