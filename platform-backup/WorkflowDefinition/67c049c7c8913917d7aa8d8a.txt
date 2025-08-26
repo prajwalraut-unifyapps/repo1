@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1740655047221,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"ogXvF",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"aQGi1",
+			"type":"next"
+		}
+	],
+	"id":"67c049c7c8913917d7aa8d8a",
+	"lastModifiedBy":-1,
+	"lcName":"aitable_ai",
+	"modifiedTime":1755496338046,
+	"name":"aitable_ai",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ogXvF-1",
+			"id":"ogXvF",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ogXvF-1",
+			"id":"aQGi1",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
