@@ -1,21 +1,15 @@
 {
-	"appsUsed":["pim","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181557961,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_kCjm3",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_4i0Dt",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3435fc16116cc3e372d7",
 	"lastModifiedBy":34,
 	"lcName":"automation_pimdelete11756179137107",
-	"modifiedTime":1756181566268,
+	"modifiedTime":1756181571593,
 	"name":"Automation_PimDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_hQlgp-1",
 			"id":"n_kCjm3",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"pim",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_hQlgp-1",
-			"id":"n_4i0Dt",
-			"index":2,
-			"skip":false,
-			"subTitle":"Pim",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
