@@ -3,12 +3,12 @@
 	"createdTime":1756179473956,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1756179487223,
+		"deployedAt":1756179495107,
 		"deployedBy":34,
-		"deployedDefinitionId":"68ad2c1ffc16116cc3e36078",
+		"deployedDefinitionId":"68ad2c27fc16116cc3e3608b",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":1
+		"version":2,
+		"workflowVersion":2
 	},
 	"description":"description",
 	"edges":[
@@ -23,7 +23,7 @@
 	"id":"68ad2c11fc16116cc3e36056",
 	"lastModifiedBy":34,
 	"lcName":"versionhistorytable_117561791371070",
-	"modifiedTime":1756179492725,
+	"modifiedTime":1756179500109,
 	"name":"versionHistoryTable_117561791371070",
 	"nodes":[
 		{
@@ -110,5 +110,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":2
+	"version":3
 }
