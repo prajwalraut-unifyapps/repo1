@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["microsoft_azure_database","shopify"],
 	"createdTime":1756181251248,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_tLLyD",
+			"fromNodeId":"n_gBipn",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_S3le7",
+			"toNodeId":"n_qmBJI",
 			"type":"next"
 		}
 	],
 	"id":"68ad3303fc16116cc3e36f81",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft azure sql databasedelete11756179137107",
-	"modifiedTime":1756181251248,
+	"modifiedTime":1756181260461,
 	"name":"Automation_Microsoft Azure SQL DatabaseDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_tLLyD-1",
-			"id":"_tLLyD",
-			"index":0,
+			"id":"n_gBipn",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"microsoft_azure_database",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_tLLyD-1",
-			"id":"_S3le7",
-			"index":0,
+			"id":"n_qmBJI",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Microsoft Azure SQL Database",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
