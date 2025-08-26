@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749788439059,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_KW8Cd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_NeqKp",
+			"type":"next"
+		}
+	],
+	"id":"684ba717bd68593c6f5ab379",
+	"lastModifiedBy":34,
+	"lcName":"condition box|number input - is present 11749787708786",
+	"modifiedTime":1754311358212,
+	"name":"Condition Box|Number Input - Is present 11749787708786",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KW8Cd-1",
+			"id":"_KW8Cd",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KW8Cd-1",
+			"id":"_NeqKp",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
