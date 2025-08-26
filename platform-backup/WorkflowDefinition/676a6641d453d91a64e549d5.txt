@@ -1,0 +1,85 @@
+{
+	"appsUsed":[],
+	"createdTime":1735026241284,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_xvG0P",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_dzBFP",
+			"type":"next"
+		}
+	],
+	"id":"676a6641d453d91a64e549d5",
+	"lastModifiedBy":-1,
+	"lcName":" bvg",
+	"modifiedTime":1755496340524,
+	"name":" BVG",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":126,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OYLgs-1",
+			"id":"_xvG0P",
+			"index":0,
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"audit_by_unifyapps",
+				"resourceVersion":69,
+				"resourceName":"audit_by_unifyapps_get_audit_records_for_asset",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OYLgs-1",
+			"id":"_dzBFP",
+			"index":0,
+			"inputs":{
+				"filter":{
+					"filters":[
+						{
+							"property":"age_newValue",
+							"filter":{
+								"operator":"LT",
+								"value":"50"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"assetId":"11",
+				"assetClass":"get_audit_records"
+			},
+			"skip":false,
+			"subTitle":"Audit by UnifyApps",
+			"title":"Get audit records",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":9
+}
