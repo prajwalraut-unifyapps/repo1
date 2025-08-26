@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1749746392959,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"684b02d8134f081a7e18babb",
+	"lastModifiedBy":34,
+	"lcName":"deploy button with error  11749744268683",
+	"modifiedTime":1754311729071,
+	"name":"deploy button with error  11749744268683",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SsiC4-1",
+			"id":"n_wJNIm",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
