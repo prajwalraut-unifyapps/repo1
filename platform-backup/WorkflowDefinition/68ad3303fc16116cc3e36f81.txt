@@ -1,21 +1,15 @@
 {
-	"appsUsed":["microsoft_azure_database","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181251248,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_gBipn",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_qmBJI",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3303fc16116cc3e36f81",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft azure sql databasedelete11756179137107",
-	"modifiedTime":1756181260461,
+	"modifiedTime":1756181265460,
 	"name":"Automation_Microsoft Azure SQL DatabaseDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_tLLyD-1",
 			"id":"n_gBipn",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"microsoft_azure_database",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_tLLyD-1",
-			"id":"n_qmBJI",
-			"index":2,
-			"skip":false,
-			"subTitle":"Microsoft Azure SQL Database",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
