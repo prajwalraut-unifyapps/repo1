@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["guru","shopify"],
 	"createdTime":1756180976269,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_29QrT",
+			"fromNodeId":"n_yCQJH",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_UR7XN",
+			"toNodeId":"n_bhEYb",
 			"type":"next"
 		}
 	],
 	"id":"68ad31f0fc16116cc3e36c8c",
 	"lastModifiedBy":34,
 	"lcName":"automation_gurudelete11756179137107",
-	"modifiedTime":1756180976269,
+	"modifiedTime":1756180984501,
 	"name":"Automation_GuruDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_29QrT-1",
-			"id":"_29QrT",
-			"index":0,
+			"id":"n_yCQJH",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"guru",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_29QrT-1",
-			"id":"_UR7XN",
-			"index":0,
+			"id":"n_bhEYb",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Guru",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
