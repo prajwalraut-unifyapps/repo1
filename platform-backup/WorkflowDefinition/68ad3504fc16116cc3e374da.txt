@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1756181764727,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_a8xAC",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_2SWOv",
+			"type":"next"
+		}
+	],
+	"id":"68ad3504fc16116cc3e374da",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonamazon kms_11756179137324",
+	"modifiedTime":1756181764727,
+	"name":"TestButtonAmazon KMS_11756179137324",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_a8xAC-1",
+			"id":"_a8xAC",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_a8xAC-1",
+			"id":"_2SWOv",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":0
+}
