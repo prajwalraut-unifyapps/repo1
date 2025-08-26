@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["postgres","shopify"],
 	"createdTime":1756181598914,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_dtr2p",
+			"fromNodeId":"n_qceSa",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_GetFt",
+			"toNodeId":"n_fBdiw",
 			"type":"next"
 		}
 	],
 	"id":"68ad345efc16116cc3e3732c",
 	"lastModifiedBy":34,
 	"lcName":"automation_postgresqldelete11756179137107",
-	"modifiedTime":1756181598914,
+	"modifiedTime":1756181608291,
 	"name":"Automation_PostgreSQLDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_dtr2p-1",
-			"id":"_dtr2p",
-			"index":0,
+			"id":"n_qceSa",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"postgres",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_dtr2p-1",
-			"id":"_GetFt",
-			"index":0,
+			"id":"n_fBdiw",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"PostgreSQL",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
