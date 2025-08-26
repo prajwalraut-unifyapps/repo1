@@ -5,46 +5,131 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_mTeIK",
+			"fromNodeId":"n_Iawoa",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_YekJj",
+			"toNodeId":"n_xhKuq",
 			"type":"next"
 		}
 	],
 	"id":"68ad35d3fc16116cc3e3770e",
 	"lastModifiedBy":34,
 	"lcName":"parentnode-retryerror-117561791371070",
-	"modifiedTime":1756181971499,
+	"modifiedTime":1756181986092,
 	"name":"parentnode-retryerror-117561791371070",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_mTeIK-1",
-			"id":"_mTeIK",
-			"index":0,
+			"id":"n_Iawoa",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":651,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_mTeIK-1",
-			"id":"_YekJj",
-			"index":0,
+			"id":"n_xhKuq",
+			"index":2,
+			"inputs":{
+				"automationId":"68ad35bbfc16116cc3e376d4",
+				"runtimeConnections":{
+					
+				},
+				"synchronous":true,
+				"version":"-1",
+				"parameters":{
+					
+				}
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"global":false
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false,
+					"slidingWindowType":"COUNT_BASED"
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"rateLimitConfig":{
+					"enabled":false,
+					"unit":"MINUTES",
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"backOffFactor":1.0,
+					"captureRetries":false,
+					"count":2,
+					"enabled":true,
+					"initialDelay":1000,
+					"maxDelay":2000
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +140,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
