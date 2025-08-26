@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["paypal","shopify"],
 	"createdTime":1756181535243,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_UrQtQ",
+			"fromNodeId":"n_TdWSC",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_PAQwE",
+			"toNodeId":"n_VdVRT",
 			"type":"next"
 		}
 	],
 	"id":"68ad341ffc16116cc3e372a2",
 	"lastModifiedBy":34,
 	"lcName":"automation_paypaldelete11756179137107",
-	"modifiedTime":1756181535243,
+	"modifiedTime":1756181543478,
 	"name":"Automation_PayPalDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_UrQtQ-1",
-			"id":"_UrQtQ",
-			"index":0,
+			"id":"n_TdWSC",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"paypal",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_UrQtQ-1",
-			"id":"_PAQwE",
-			"index":0,
+			"id":"n_VdVRT",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"PayPal",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
