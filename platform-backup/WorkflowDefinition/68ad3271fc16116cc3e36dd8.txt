@@ -1,21 +1,15 @@
 {
-	"appsUsed":["jobdiva","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181105181,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_ed6UF",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_yHyGk",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3271fc16116cc3e36dd8",
 	"lastModifiedBy":34,
 	"lcName":"automation_jobdivadelete11756179137107",
-	"modifiedTime":1756181113513,
+	"modifiedTime":1756181118615,
 	"name":"Automation_JobDivaDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_gZWLz-1",
 			"id":"n_ed6UF",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"jobdiva",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_gZWLz-1",
-			"id":"n_yHyGk",
-			"index":2,
-			"skip":false,
-			"subTitle":"JobDiva",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
