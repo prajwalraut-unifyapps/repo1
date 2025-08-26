@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","sqlserver"],
 	"createdTime":1756181305906,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_B5tWf",
+			"fromNodeId":"n_JllF6",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_w48Po",
+			"toNodeId":"n_YKtCs",
 			"type":"next"
 		}
 	],
 	"id":"68ad3339fc16116cc3e37050",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft sql serverdelete11756179137107",
-	"modifiedTime":1756181305906,
+	"modifiedTime":1756181314785,
 	"name":"Automation_Microsoft SQL ServerDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_B5tWf-1",
-			"id":"_B5tWf",
-			"index":0,
+			"id":"n_JllF6",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"sqlserver",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_B5tWf-1",
-			"id":"_w48Po",
-			"index":0,
+			"id":"n_YKtCs",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Microsoft SQL Server",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
