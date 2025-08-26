@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["flowise_ai","shopify"],
 	"createdTime":1756180716845,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_SsO8l",
+			"fromNodeId":"n_dVlBz",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_8Ot3t",
+			"toNodeId":"n_CNFk5",
 			"type":"next"
 		}
 	],
 	"id":"68ad30ecfc16116cc3e369eb",
 	"lastModifiedBy":34,
 	"lcName":"automation_flowise aidelete11756179137107",
-	"modifiedTime":1756180716845,
+	"modifiedTime":1756180725129,
 	"name":"Automation_Flowise AIDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_SsO8l-1",
-			"id":"_SsO8l",
-			"index":0,
+			"id":"n_dVlBz",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"flowise_ai",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_SsO8l-1",
-			"id":"_8Ot3t",
-			"index":0,
+			"id":"n_CNFk5",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Flowise AI",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
