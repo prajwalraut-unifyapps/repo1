@@ -1,21 +1,15 @@
 {
-	"appsUsed":["gcloud_storage","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180870409,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_2FnYn",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_khUgY",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3186fc16116cc3e36b4c",
 	"lastModifiedBy":34,
 	"lcName":"automation_google cloud storagedelete11756179137107",
-	"modifiedTime":1756180878845,
+	"modifiedTime":1756180883967,
 	"name":"Automation_Google Cloud StorageDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_T6GoR-1",
 			"id":"n_2FnYn",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"gcloud_storage",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_T6GoR-1",
-			"id":"n_khUgY",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google Cloud Storage",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
