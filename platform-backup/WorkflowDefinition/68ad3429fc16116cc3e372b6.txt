@@ -1,21 +1,15 @@
 {
-	"appsUsed":["peoplesoft","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181545496,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_IhRTv",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_kj8h0",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3429fc16116cc3e372b6",
 	"lastModifiedBy":34,
 	"lcName":"automation_peoplesoftdelete11756179137107",
-	"modifiedTime":1756181554461,
+	"modifiedTime":1756181559455,
 	"name":"Automation_PeopleSoftDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_OIrXp-1",
 			"id":"n_IhRTv",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"peoplesoft",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_OIrXp-1",
-			"id":"n_kj8h0",
-			"index":2,
-			"skip":false,
-			"subTitle":"PeopleSoft",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
