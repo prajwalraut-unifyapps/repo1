@@ -1,21 +1,15 @@
 {
-	"appsUsed":["hadoop","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180996348,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_wifws",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_hnmOS",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3204fc16116cc3e36cbf",
 	"lastModifiedBy":34,
 	"lcName":"automation_hadoopdelete11756179137107",
-	"modifiedTime":1756181005525,
+	"modifiedTime":1756181010582,
 	"name":"Automation_HadoopDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Okky9-1",
 			"id":"n_wifws",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"hadoop",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Okky9-1",
-			"id":"n_hnmOS",
-			"index":2,
-			"skip":false,
-			"subTitle":"Hadoop",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
