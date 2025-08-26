@@ -1,21 +1,15 @@
 {
-	"appsUsed":["infusion_soft","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181054852,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_njUKL",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_tX8AJ",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad323efc16116cc3e36d3b",
 	"lastModifiedBy":34,
 	"lcName":"automation_infusionsoftdelete11756179137107",
-	"modifiedTime":1756181062324,
+	"modifiedTime":1756181067334,
 	"name":"Automation_InfusionsoftDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_jiQkY-1",
 			"id":"n_njUKL",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"infusion_soft",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_jiQkY-1",
-			"id":"n_tX8AJ",
-			"index":2,
-			"skip":false,
-			"subTitle":"Infusionsoft",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
