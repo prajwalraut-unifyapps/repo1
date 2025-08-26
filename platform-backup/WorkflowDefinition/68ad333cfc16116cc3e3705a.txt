@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["microsoft_sharepoint","shopify"],
 	"createdTime":1756181308985,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_5DveB",
+			"fromNodeId":"n_hlXpy",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_NfCIT",
+			"toNodeId":"n_5kFAW",
 			"type":"next"
 		}
 	],
 	"id":"68ad333cfc16116cc3e3705a",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft sharepointdelete11756179137107",
-	"modifiedTime":1756181308985,
+	"modifiedTime":1756181317240,
 	"name":"Automation_Microsoft SharePointDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_5DveB-1",
-			"id":"_5DveB",
-			"index":0,
+			"id":"n_hlXpy",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"microsoft_sharepoint",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_5DveB-1",
-			"id":"_NfCIT",
-			"index":0,
+			"id":"n_5kFAW",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Microsoft SharePoint",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
