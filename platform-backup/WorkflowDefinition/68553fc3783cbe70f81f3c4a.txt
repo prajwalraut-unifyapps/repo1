@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750417347540,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68553fc3783cbe70f81f3c4a",
+	"lastModifiedBy":34,
+	"lcName":"automation_oracle fusion clouddelete11750416514555",
+	"modifiedTime":1750513946313,
+	"name":"Automation_Oracle Fusion CloudDelete11750416514555",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_s6SfE-1",
+			"id":"n_QTFFX",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
