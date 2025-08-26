@@ -1,21 +1,15 @@
 {
-	"appsUsed":["formstack","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180722465,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_C2drE",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_pKvtb",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad30f2fc16116cc3e369f9",
 	"lastModifiedBy":34,
 	"lcName":"automation_formstackdelete11756179137107",
-	"modifiedTime":1756180730698,
+	"modifiedTime":1756180735753,
 	"name":"Automation_FormstackDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_t1cIU-1",
 			"id":"n_C2drE",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"formstack",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_t1cIU-1",
-			"id":"n_pKvtb",
-			"index":2,
-			"skip":false,
-			"subTitle":"Formstack",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
