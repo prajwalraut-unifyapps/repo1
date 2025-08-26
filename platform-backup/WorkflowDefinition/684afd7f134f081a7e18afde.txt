@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749745023538,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_oMZTb",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_7Vhhq",
+			"type":"next"
+		}
+	],
+	"id":"684afd7f134f081a7e18afde",
+	"lastModifiedBy":34,
+	"lcName":"zendesk update ticket - 117497442918380",
+	"modifiedTime":1754311924303,
+	"name":"Zendesk Update ticket - 117497442918380",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oMZTb-1",
+			"id":"_oMZTb",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oMZTb-1",
+			"id":"_7Vhhq",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
