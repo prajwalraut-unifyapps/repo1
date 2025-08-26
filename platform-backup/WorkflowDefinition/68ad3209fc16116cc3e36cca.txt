@@ -1,21 +1,15 @@
 {
-	"appsUsed":["harvest","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181001179,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_abaNl",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_OJwwX",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3209fc16116cc3e36cca",
 	"lastModifiedBy":34,
 	"lcName":"automation_harvestdelete11756179137107",
-	"modifiedTime":1756181009837,
+	"modifiedTime":1756181014975,
 	"name":"Automation_HarvestDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_749lv-1",
 			"id":"n_abaNl",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"harvest",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_749lv-1",
-			"id":"n_OJwwX",
-			"index":2,
-			"skip":false,
-			"subTitle":"Harvest",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
