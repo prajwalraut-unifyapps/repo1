@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756179402935,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756179424346,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2be0fc16116cc3e35fc8",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -10,19 +18,12 @@
 			"skip":false,
 			"toNodeId":"n_Q2UYJ",
 			"type":"next"
-		},
-		{
-			"fromNodeId":"n_Q2UYJ",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_yMDXS",
-			"type":"next"
 		}
 	],
 	"id":"68ad2bcafc16116cc3e35f78",
 	"lastModifiedBy":34,
 	"lcName":"versioncomparision_deletedata_117561791371070",
-	"modifiedTime":1756179421810,
+	"modifiedTime":1756179430628,
 	"name":"versionComparision_deleteData_117561791371070",
 	"nodes":[
 		{
@@ -49,19 +50,6 @@
 					"additionalProperties":false,
 					"required":[
 						"output_String"
-					]
-				},
-				"setup":{
-					"type":"object",
-					"properties":{
-						"input_String":{
-							"type":"string",
-							"title":"input_String"
-						}
-					},
-					"additionalProperties":false,
-					"required":[
-						"input_String"
 					]
 				}
 			},
@@ -95,21 +83,6 @@
 			"subTitle":"Callable",
 			"title":"Respond to automation",
 			"type":"STOP"
-		},
-		{
-			"context":{
-				"appName":"stop"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_UlhQS-1",
-			"id":"n_yMDXS",
-			"index":3,
-			"skip":false,
-			"subTitle":"Stop",
-			"title":"Stop",
-			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
@@ -124,5 +97,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
