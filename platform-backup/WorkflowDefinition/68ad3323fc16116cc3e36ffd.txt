@@ -1,21 +1,15 @@
 {
-	"appsUsed":["microsoft_graph_api","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181283672,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_EQxqI",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_NljuE",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3323fc16116cc3e36ffd",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft graph apidelete11756179137107",
-	"modifiedTime":1756181291652,
+	"modifiedTime":1756181296681,
 	"name":"Automation_Microsoft Graph APIDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_MgLJA-1",
 			"id":"n_EQxqI",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"microsoft_graph_api",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_MgLJA-1",
-			"id":"n_NljuE",
-			"index":2,
-			"skip":false,
-			"subTitle":"Microsoft Graph API",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
