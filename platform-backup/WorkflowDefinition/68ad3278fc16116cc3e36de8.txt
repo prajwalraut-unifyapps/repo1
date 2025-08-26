@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["jotform","shopify"],
 	"createdTime":1756181112247,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_eQexk",
+			"fromNodeId":"n_CE1Gu",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_gqrks",
+			"toNodeId":"n_KISut",
 			"type":"next"
 		}
 	],
 	"id":"68ad3278fc16116cc3e36de8",
 	"lastModifiedBy":34,
 	"lcName":"automation_jotformdelete11756179137107",
-	"modifiedTime":1756181112247,
+	"modifiedTime":1756181120904,
 	"name":"Automation_JotformDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_eQexk-1",
-			"id":"_eQexk",
-			"index":0,
+			"id":"n_CE1Gu",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"jotform",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_eQexk-1",
-			"id":"_gqrks",
-			"index":0,
+			"id":"n_KISut",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Jotform",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
