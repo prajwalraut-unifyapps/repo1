@@ -1,0 +1,74 @@
+{
+	"appsUsed":["shopify","slack"],
+	"createdTime":1750314051038,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_d92T2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_GEigu",
+			"type":"next"
+		}
+	],
+	"id":"6853ac43c2f89c23458347ac",
+	"lastModifiedBy":34,
+	"lcName":"app node with incomplete connection  - 11750311057180",
+	"modifiedTime":1750514736432,
+	"name":"App node with incomplete connection  - 11750311057180",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify",
+				"resourceVersion":25797,
+				"connectionId":"6798bc9b219ec7180823c4e5",
+				"resourceName":"shopify_on_order_create"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cOpTP-1",
+			"id":"n_d92T2",
+			"index":0,
+			"inputs":{
+				
+			},
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Order created",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27369,
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cOpTP-1",
+			"id":"n_GEigu",
+			"index":0,
+			"skip":false,
+			"subTitle":"Slack",
+			"title":"Post message",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
