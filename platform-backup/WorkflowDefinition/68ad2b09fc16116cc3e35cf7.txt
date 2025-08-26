@@ -5,46 +5,186 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_zbHQq",
+			"fromNodeId":"n_OsyO1",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_3pOle",
+			"toNodeId":"n_TNI47",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_TNI47",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Bm9qv",
 			"type":"next"
 		}
 	],
 	"id":"68ad2b09fc16116cc3e35cf7",
 	"lastModifiedBy":34,
 	"lcName":"http_workflow_callexternalrest117561791373240",
-	"modifiedTime":1756179209574,
+	"modifiedTime":1756179228487,
 	"name":"http_workflow_CallExternalRest117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_zbHQq-1",
-			"id":"_zbHQq",
-			"index":0,
+			"id":"n_OsyO1",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"body":{
+						"type":"object",
+						"properties":{
+							"input":{
+								"type":"string",
+								"title":"input"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"input"
+						]
+					}
+				},
+				"endpointType":"REST",
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/json",
+						"textBody":{
+							"type":"string"
+						},
+						"name":"success",
+						"body":{
+							"type":"object",
+							"properties":{
+								"output":{
+									"type":"string",
+									"title":"output"
+								}
+							},
+							"additionalProperties":false,
+							"required":[
+								"output"
+							]
+						}
+					}
+				],
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"custom_http_endpoint",
+				"resourceVersion":749,
+				"resourceName":"custom_http_endpoint_execute",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_zbHQq-1",
-			"id":"_3pOle",
-			"index":0,
+			"id":"n_TNI47",
+			"index":2,
+			"inputs":{
+				"isAsync":false,
+				"enableProxy":false,
+				"requestTimeoutInSecs":-1,
+				"httpMethod":"POST",
+				"body":{
+					"input":"cool"
+				},
+				"sslVerify":false,
+				"path":"/api-endpoint/awe6oun/andomtn",
+				"responseSchema":{
+					"type":"object",
+					"properties":{
+						"output":{
+							"type":"string",
+							"title":"output"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output"
+					]
+				},
+				"baseUrl":"https://api-security.qa.unifyapps.com",
+				"password":"UnifyApps9v80ma",
+				"bodySchema":{
+					"type":"object",
+					"properties":{
+						"input":{
+							"type":"string",
+							"title":"input"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"input"
+					]
+				},
+				"responseContentType":"application/json",
+				"headersList":[
+					{
+						"key":"Content-Type",
+						"value":"application/json"
+					}
+				],
+				"authType":"BASIC_AUTH",
+				"requestContentType":"application/json",
+				"ignoreTrailingSlashes":false,
+				"username":"unifyapps"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Custom HTTP Endpoint",
+			"title":"Execute REST request",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":684,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_zbHQq-1",
+			"id":"n_Bm9qv",
+			"index":3,
+			"inputs":{
+				"streamingCompleted":true,
+				"responseName":"200_success",
+				"body":{
+					"output":"{{ n_TNI47.outputs.result }}"
+				},
+				"status":200
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +195,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
