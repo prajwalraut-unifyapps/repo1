@@ -3,12 +3,12 @@
 	"createdTime":1756179481842,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1756179502851,
+		"deployedAt":1756179525490,
 		"deployedBy":34,
-		"deployedDefinitionId":"68ad2c2efc16116cc3e360a4",
+		"deployedDefinitionId":"68ad2c45fc16116cc3e360e7",
 		"status":"DEPLOYED",
-		"version":2,
-		"workflowVersion":2
+		"version":4,
+		"workflowVersion":4
 	},
 	"description":"description",
 	"edges":[
@@ -23,7 +23,7 @@
 	"id":"68ad2c19fc16116cc3e3606b",
 	"lastModifiedBy":34,
 	"lcName":"restorerecentversion_117561791371070",
-	"modifiedTime":1756179512227,
+	"modifiedTime":1756179535497,
 	"name":"restoreRecentVersion_117561791371070",
 	"nodes":[
 		{
@@ -33,7 +33,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_pfovt-1",
 			"id":"n_TJGd6",
@@ -66,13 +66,18 @@
 						"input_string3":{
 							"type":"string",
 							"title":"input_string3"
+						},
+						"input_string4":{
+							"type":"string",
+							"title":"input_string4"
 						}
 					},
 					"additionalProperties":false,
 					"required":[
 						"input_String",
 						"input_string2",
-						"input_string3"
+						"input_string3",
+						"input_string4"
 					]
 				}
 			},
@@ -92,7 +97,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_pfovt-1",
 			"id":"n_LZEuw",
@@ -120,5 +125,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":3
+	"version":5
 }
