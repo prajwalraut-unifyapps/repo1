@@ -1,0 +1,87 @@
+{
+	"appsUsed":[],
+	"createdTime":1751871023659,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_f1p1e",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ojTJj",
+			"type":"next"
+		}
+	],
+	"id":"686b6e2f315e300c0f9c0143",
+	"lastModifiedBy":34,
+	"lcName":"schedularworkflow_- 11751868490871",
+	"modifiedTime":1754310113026,
+	"name":"schedularWorkflow_- 11751868490871",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":616,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GNpp5-1",
+			"id":"n_f1p1e",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":1,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":648,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GNpp5-1",
+			"id":"n_ojTJj",
+			"index":0,
+			"inputs":{
+				"automationId":"686b6e15315e300c0f9c006f",
+				"runtimeConnections":{
+					
+				},
+				"synchronous":false,
+				"version":"-1",
+				"parameters":{
+					"Input1":10,
+					"Input2":10
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
