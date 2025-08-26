@@ -1,0 +1,86 @@
+{
+	"appsUsed":[],
+	"createdTime":1749760569838,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_ExXmX",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_dlApK",
+			"type":"next"
+		}
+	],
+	"id":"684b3a394953a069fc176ecd",
+	"lastModifiedBy":34,
+	"lcName":"callable schedule one time validation- 11749757095973",
+	"modifiedTime":1754311530987,
+	"name":"callable schedule one time validation- 11749757095973",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":618,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_At7HW-1",
+			"id":"n_ExXmX",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":657,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_At7HW-1",
+			"id":"n_dlApK",
+			"index":0,
+			"inputs":{
+				"automation_id":"684b3a287aefd45f1ab9d6ba",
+				"start_time":"2025-06-12T20:36:13.275Z",
+				"schedule_type":"ONE_TIME",
+				"cancel_existing":true,
+				"version":"-1",
+				"schedule_name":"Schedule name - 11749757095973",
+				"parameters":{
+					"Input_String":"Input -11749757095973"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
