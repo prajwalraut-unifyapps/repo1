@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["google_ads","shopify"],
 	"createdTime":1756180829005,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_f6hFY",
+			"fromNodeId":"n_dW2bb",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_901xP",
+			"toNodeId":"n_NP0z8",
 			"type":"next"
 		}
 	],
 	"id":"68ad315dfc16116cc3e36ae5",
 	"lastModifiedBy":34,
 	"lcName":"automation_google adsdelete11756179137107",
-	"modifiedTime":1756180829005,
+	"modifiedTime":1756180837105,
 	"name":"Automation_Google AdsDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_f6hFY-1",
-			"id":"_f6hFY",
-			"index":0,
+			"id":"n_dW2bb",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"google_ads",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_f6hFY-1",
-			"id":"_901xP",
-			"index":0,
+			"id":"n_NP0z8",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Google Ads",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
