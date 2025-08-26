@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["oracle_ebusiness_suite","shopify"],
 	"createdTime":1756181453664,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_xrIZg",
+			"fromNodeId":"n_emwwX",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_s18Lj",
+			"toNodeId":"n_U9vuY",
 			"type":"next"
 		}
 	],
 	"id":"68ad33cdfc16116cc3e371fb",
 	"lastModifiedBy":34,
 	"lcName":"automation_oracle e-business suitedelete11756179137107",
-	"modifiedTime":1756181453664,
+	"modifiedTime":1756181462204,
 	"name":"Automation_Oracle E-Business SuiteDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_xrIZg-1",
-			"id":"_xrIZg",
-			"index":0,
+			"id":"n_emwwX",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"oracle_ebusiness_suite",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_xrIZg-1",
-			"id":"_s18Lj",
-			"index":0,
+			"id":"n_U9vuY",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Oracle E-Business Suite",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
