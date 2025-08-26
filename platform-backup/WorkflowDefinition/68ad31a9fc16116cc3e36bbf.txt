@@ -1,21 +1,15 @@
 {
-	"appsUsed":["gmeet","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180905372,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_gUm90",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_oepOF",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad31a9fc16116cc3e36bbf",
 	"lastModifiedBy":34,
 	"lcName":"automation_google meetdelete11756179137107",
-	"modifiedTime":1756180913915,
+	"modifiedTime":1756180918779,
 	"name":"Automation_Google MeetDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_kHhzD-1",
 			"id":"n_gUm90",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"gmeet",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_kHhzD-1",
-			"id":"n_oepOF",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google Meet",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
