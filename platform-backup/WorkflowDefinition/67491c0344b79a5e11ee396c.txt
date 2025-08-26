@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1732844547113,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_tm4IH",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_c0wHB",
+			"type":"next"
+		}
+	],
+	"id":"67491c0344b79a5e11ee396c",
+	"lastModifiedBy":-1,
+	"lcName":"rbac-create_automation 11732840576347",
+	"modifiedTime":1755496326974,
+	"name":"rbac-create_automation 11732840576347",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tm4IH-1",
+			"id":"_tm4IH",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tm4IH-1",
+			"id":"_c0wHB",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":33763,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":15
+}
