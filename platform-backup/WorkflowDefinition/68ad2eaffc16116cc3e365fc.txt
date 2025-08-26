@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756180143003,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756180158780,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2ebefc16116cc3e3660c",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2eaffc16116cc3e365fc",
 	"lastModifiedBy":34,
 	"lcName":"input_schema_soap_117561791371070",
-	"modifiedTime":1756180156233,
+	"modifiedTime":1756180170437,
 	"name":"input_schema_soap_117561791371070",
 	"nodes":[
 		{
@@ -32,7 +40,65 @@
 			"index":1,
 			"inputs":{
 				"request":{
-					"contentType":"application/json"
+					"contentType":"application/json",
+					"headers":{
+						"type":"object",
+						"properties":{
+							"StrHeader":{
+								"type":"string",
+								"title":"StrHeader"
+							},
+							"ArrayStrHeader":{
+								"type":"array",
+								"items":{
+									"type":"string"
+								},
+								"title":"ArrayStrHeader"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					},
+					"soapHeaders":{
+						"type":"object",
+						"properties":{
+							"StrReqHeader":{
+								"type":"string",
+								"title":"StrReqHeader"
+							},
+							"ArrayStrReqHeader":{
+								"type":"array",
+								"items":{
+									"type":"string"
+								},
+								"title":"ArrayStrReqHeader"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					},
+					"body":{
+						"type":"object",
+						"properties":{
+							"Name":{
+								"type":"string",
+								"title":"Name"
+							},
+							"Age":{
+								"type":"number",
+								"title":"Age"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"Name",
+							"Age"
+						]
+					}
 				},
 				"endpointType":"SOAP",
 				"response":[
@@ -104,5 +170,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
