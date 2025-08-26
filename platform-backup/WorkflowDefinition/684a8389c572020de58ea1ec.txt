@@ -1,0 +1,89 @@
+{
+	"appsUsed":["slack"],
+	"createdTime":1749713801137,
+	"deleted":true,
+	"deploymentState":{
+		"deployedAt":1749713817049,
+		"deployedBy":34,
+		"deployedDefinitionId":"684a8398c572020de58ea20d",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_LOQlk",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_xJIrQ",
+			"type":"next"
+		}
+	],
+	"id":"684a8389c572020de58ea1ec",
+	"lastModifiedBy":34,
+	"lcName":"storagebyunifyapps_delete records_trigger_117497101706420",
+	"modifiedTime":1754312264862,
+	"name":"StorageByUnifyapps_Delete records_Trigger_117497101706420",
+	"nodes":[
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":20513,
+				"resourceName":"storage_by_unifyapps_on_delete_record"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RoaHO-1",
+			"id":"n_LOQlk",
+			"index":0,
+			"inputs":{
+				"object_type":"akjd25k"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Deleted record",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27212,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RoaHO-1",
+			"id":"n_xJIrQ",
+			"index":0,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"C07AKEPN1U3",
+				"text":"{{ n_LOQlk.outputs.deleted }}",
+				"mrkdwn":true
+			},
+			"skip":false,
+			"subTitle":"Slack",
+			"title":"Post message",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
