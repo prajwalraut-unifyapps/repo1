@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["ibm_mq","shopify"],
 	"createdTime":1756181035588,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_o5pKq",
+			"fromNodeId":"n_1wmCj",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_KYAnP",
+			"toNodeId":"n_tpwsi",
 			"type":"next"
 		}
 	],
 	"id":"68ad322bfc16116cc3e36d0f",
 	"lastModifiedBy":34,
 	"lcName":"automation_ibm mqdelete11756179137107",
-	"modifiedTime":1756181035588,
+	"modifiedTime":1756181043100,
 	"name":"Automation_IBM MQDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_o5pKq-1",
-			"id":"_o5pKq",
-			"index":0,
+			"id":"n_1wmCj",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"ibm_mq",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_o5pKq-1",
-			"id":"_KYAnP",
-			"index":0,
+			"id":"n_tpwsi",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"IBM MQ",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
