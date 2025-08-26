@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749879119535,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_EspUz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_sAO1p",
+			"type":"next"
+		}
+	],
+	"id":"684d094fdcc37634b991f491",
+	"lastModifiedBy":34,
+	"lcName":"variable by unifyapps create a variable type number 11749878929053",
+	"modifiedTime":1754310955710,
+	"name":"Variable By unifyapps Create a variable type number 11749878929053",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_EspUz-1",
+			"id":"_EspUz",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_EspUz-1",
+			"id":"_sAO1p",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
