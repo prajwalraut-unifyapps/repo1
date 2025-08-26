@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["looker_studio","shopify"],
 	"createdTime":1756181198721,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_2WGPZ",
+			"fromNodeId":"n_pBBAd",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_crrXP",
+			"toNodeId":"n_ZFybb",
 			"type":"next"
 		}
 	],
 	"id":"68ad32cefc16116cc3e36ee5",
 	"lastModifiedBy":34,
 	"lcName":"automation_looker studiodelete11756179137107",
-	"modifiedTime":1756181198721,
+	"modifiedTime":1756181206693,
 	"name":"Automation_Looker StudioDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_2WGPZ-1",
-			"id":"_2WGPZ",
-			"index":0,
+			"id":"n_pBBAd",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"looker_studio",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_2WGPZ-1",
-			"id":"_crrXP",
-			"index":0,
+			"id":"n_ZFybb",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Looker Studio",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
