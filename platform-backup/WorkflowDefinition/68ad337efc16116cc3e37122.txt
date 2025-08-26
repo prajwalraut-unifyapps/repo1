@@ -1,21 +1,15 @@
 {
-	"appsUsed":["motion","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181374627,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_LgQL9",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_1GQaM",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad337efc16116cc3e37122",
 	"lastModifiedBy":34,
 	"lcName":"automation_motiondelete11756179137107",
-	"modifiedTime":1756181383083,
+	"modifiedTime":1756181388478,
 	"name":"Automation_MotionDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_7fcpH-1",
 			"id":"n_LgQL9",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"motion",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_7fcpH-1",
-			"id":"n_1GQaM",
-			"index":2,
-			"skip":false,
-			"subTitle":"Motion",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
