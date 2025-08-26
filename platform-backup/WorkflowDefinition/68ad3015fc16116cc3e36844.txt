@@ -4,47 +4,42 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_zcvol",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_F3weE",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3015fc16116cc3e36844",
 	"lastModifiedBy":34,
 	"lcName":"longtagname_117561791371070",
-	"modifiedTime":1756180501508,
+	"modifiedTime":1756180507173,
 	"name":"longTagName_117561791371070",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_zcvol-1",
-			"id":"_zcvol",
-			"index":0,
+			"id":"n_bkJBC",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_zcvol-1",
-			"id":"_F3weE",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +50,5 @@
 	},
 	"standard":false,
 	"tags":["longTagName1_This_is_a_very_long_label_that_should_test_the_UI_behavior_when_text_overflows_the_container_or_breaks_the_layout_in_any_way_possible_so_that_we_can_handle_it_gracefully_in_the_interface_design117561791371070"],
-	"version":0
+	"version":1
 }
