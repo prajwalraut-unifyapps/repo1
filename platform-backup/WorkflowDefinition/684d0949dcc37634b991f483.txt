@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749879113596,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_FYJg9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_XGXUj",
+			"type":"next"
+		}
+	],
+	"id":"684d0949dcc37634b991f483",
+	"lastModifiedBy":34,
+	"lcName":"variable by unifyapps create a variable string 11749878929053",
+	"modifiedTime":1754310956024,
+	"name":"Variable By unifyapps Create a variable string 11749878929053",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_FYJg9-1",
+			"id":"_FYJg9",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_FYJg9-1",
+			"id":"_XGXUj",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
