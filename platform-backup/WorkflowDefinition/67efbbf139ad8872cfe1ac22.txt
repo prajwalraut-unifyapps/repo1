@@ -1,0 +1,57 @@
+{
+	"appsUsed":["asana"],
+	"createdTime":1743764465741,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1743764613393,
+		"deployedBy":34,
+		"deployedDefinitionId":"67efbc85fb6d3179ba0fec3b",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		
+	],
+	"id":"67efbbf139ad8872cfe1ac22",
+	"lastModifiedBy":-1,
+	"lcName":"njbhg",
+	"modifiedTime":1755496326946,
+	"name":"njbhg",
+	"nodes":[
+		{
+			"context":{
+				"appName":"asana",
+				"resourceVersion":23343,
+				"connectionId":"67c8e24b6cd1763a86093770",
+				"resourceName":"asana_on_new_membership"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"xuNBs-1",
+			"id":"L1yhM",
+			"index":0,
+			"inputs":{
+				"object":"membership"
+			},
+			"skip":false,
+			"subTitle":"Asana",
+			"title":"New membership",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":16
+}
