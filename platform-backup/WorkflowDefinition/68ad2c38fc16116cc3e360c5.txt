@@ -3,12 +3,12 @@
 	"createdTime":1756179512693,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1756179545017,
+		"deployedAt":1756179555610,
 		"deployedBy":34,
-		"deployedDefinitionId":"68ad2c58fc16116cc3e36132",
+		"deployedDefinitionId":"68ad2c63fc16116cc3e36156",
 		"status":"DEPLOYED",
-		"version":3,
-		"workflowVersion":3
+		"version":4,
+		"workflowVersion":4
 	},
 	"description":"description",
 	"edges":[
@@ -23,7 +23,7 @@
 	"id":"68ad2c38fc16116cc3e360c5",
 	"lastModifiedBy":34,
 	"lcName":"restoreoldestversion_117561791371070",
-	"modifiedTime":1756179552925,
+	"modifiedTime":1756179563768,
 	"name":"restoreOldestVersion_117561791371070",
 	"nodes":[
 		{
@@ -58,26 +58,11 @@
 						"input_String":{
 							"type":"string",
 							"title":"input_String"
-						},
-						"input_string2":{
-							"type":"string",
-							"title":"input_string2"
-						},
-						"input_string3":{
-							"type":"string",
-							"title":"input_string3"
-						},
-						"input_string4":{
-							"type":"string",
-							"title":"input_string4"
 						}
 					},
 					"additionalProperties":false,
 					"required":[
-						"input_String",
-						"input_string2",
-						"input_string3",
-						"input_string4"
+						"input_String"
 					]
 				}
 			},
@@ -97,7 +82,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_j9rGq-1",
 			"id":"n_hRsm5",
@@ -125,5 +110,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":4
+	"version":5
 }
