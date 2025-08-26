@@ -1,21 +1,15 @@
 {
-	"appsUsed":["mileiq","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181327168,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_lmrfC",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_plDBg",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad334ffc16116cc3e3708e",
 	"lastModifiedBy":34,
 	"lcName":"automation_mileiqdelete11756179137107",
-	"modifiedTime":1756181335798,
+	"modifiedTime":1756181340607,
 	"name":"Automation_MileIQDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_FO747-1",
 			"id":"n_lmrfC",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"mileiq",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_FO747-1",
-			"id":"n_plDBg",
-			"index":2,
-			"skip":false,
-			"subTitle":"MileIQ",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
