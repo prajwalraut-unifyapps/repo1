@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1735020113628,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_OUAVl",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_6Oeul",
+			"type":"next"
+		}
+	],
+	"id":"676a4e51d3ebf3170cfc660a",
+	"lastModifiedBy":-1,
+	"lcName":"sftp",
+	"modifiedTime":1755496340432,
+	"name":"sftp",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OUAVl-1",
+			"id":"_OUAVl",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OUAVl-1",
+			"id":"_6Oeul",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
