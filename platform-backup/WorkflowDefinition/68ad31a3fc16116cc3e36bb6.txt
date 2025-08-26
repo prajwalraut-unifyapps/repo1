@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["google_kms","shopify"],
 	"createdTime":1756180899939,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_GDbSr",
+			"fromNodeId":"n_9M6OO",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_RZIFo",
+			"toNodeId":"n_AWZCK",
 			"type":"next"
 		}
 	],
 	"id":"68ad31a3fc16116cc3e36bb6",
 	"lastModifiedBy":34,
 	"lcName":"automation_google kmsdelete11756179137107",
-	"modifiedTime":1756180899939,
+	"modifiedTime":1756180907865,
 	"name":"Automation_Google KMSDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_GDbSr-1",
-			"id":"_GDbSr",
-			"index":0,
+			"id":"n_9M6OO",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"google_kms",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_GDbSr-1",
-			"id":"_RZIFo",
-			"index":0,
+			"id":"n_AWZCK",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Google KMS",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
