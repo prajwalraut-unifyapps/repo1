@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1735277795403,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"ZShd7",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"MPvr3",
+			"type":"next"
+		}
+	],
+	"id":"676e3ce3c6957c1e6a18fe70",
+	"lastModifiedBy":-1,
+	"lcName":"harsha",
+	"modifiedTime":1755496340110,
+	"name":"harsha",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ZShd7-1",
+			"id":"ZShd7",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ZShd7-1",
+			"id":"MPvr3",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
