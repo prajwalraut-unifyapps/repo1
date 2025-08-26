@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["float","shopify"],
 	"createdTime":1756180707978,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_LU4IU",
+			"fromNodeId":"n_xvT7a",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_oLfv8",
+			"toNodeId":"n_nDEVY",
 			"type":"next"
 		}
 	],
 	"id":"68ad30e3fc16116cc3e369d9",
 	"lastModifiedBy":34,
 	"lcName":"automation_floatdelete11756179137107",
-	"modifiedTime":1756180707978,
+	"modifiedTime":1756180715526,
 	"name":"Automation_FloatDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_LU4IU-1",
-			"id":"_LU4IU",
-			"index":0,
+			"id":"n_xvT7a",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"float",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_LU4IU-1",
-			"id":"_oLfv8",
-			"index":0,
+			"id":"n_nDEVY",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Float",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
