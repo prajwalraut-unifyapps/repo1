@@ -4,18 +4,12 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_PA3Iv",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_m8kdD",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad344ffc16116cc3e3730c",
 	"lastModifiedBy":34,
 	"lcName":"automation_platform by unifyappsdelete11756179137107",
-	"modifiedTime":1756181592711,
+	"modifiedTime":1756181597680,
 	"name":"Automation_Platform by UnifyAppsDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_AuyZG-1",
 			"id":"n_PA3Iv",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"platform_by_unifyapps",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_AuyZG-1",
-			"id":"n_m8kdD",
-			"index":2,
-			"skip":false,
-			"subTitle":"Platform by UnifyApps",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
