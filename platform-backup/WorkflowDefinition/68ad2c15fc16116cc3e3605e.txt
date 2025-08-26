@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756179477098,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756179489758,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2c21fc16116cc3e3607c",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2c15fc16116cc3e3605e",
 	"lastModifiedBy":34,
 	"lcName":"accessversionhistory_117561791371070",
-	"modifiedTime":1756179487307,
+	"modifiedTime":1756179493824,
 	"name":"accessVersionHistory_117561791371070",
 	"nodes":[
 		{
@@ -102,5 +110,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
