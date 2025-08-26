@@ -1,21 +1,15 @@
 {
-	"appsUsed":["jotform","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181112247,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_CE1Gu",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_KISut",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3278fc16116cc3e36de8",
 	"lastModifiedBy":34,
 	"lcName":"automation_jotformdelete11756179137107",
-	"modifiedTime":1756181120904,
+	"modifiedTime":1756181126308,
 	"name":"Automation_JotformDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_eQexk-1",
 			"id":"n_CE1Gu",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"jotform",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_eQexk-1",
-			"id":"n_KISut",
-			"index":2,
-			"skip":false,
-			"subTitle":"Jotform",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
