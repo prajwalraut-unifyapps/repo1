@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["jobdiva","shopify"],
 	"createdTime":1756181105181,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_gZWLz",
+			"fromNodeId":"n_ed6UF",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_6b2Us",
+			"toNodeId":"n_yHyGk",
 			"type":"next"
 		}
 	],
 	"id":"68ad3271fc16116cc3e36dd8",
 	"lastModifiedBy":34,
 	"lcName":"automation_jobdivadelete11756179137107",
-	"modifiedTime":1756181105181,
+	"modifiedTime":1756181113513,
 	"name":"Automation_JobDivaDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_gZWLz-1",
-			"id":"_gZWLz",
-			"index":0,
+			"id":"n_ed6UF",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"jobdiva",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_gZWLz-1",
-			"id":"_6b2Us",
-			"index":0,
+			"id":"n_yHyGk",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"JobDiva",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
