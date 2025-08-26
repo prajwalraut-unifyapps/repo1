@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749746474733,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_FErIL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Rka97",
+			"type":"next"
+		}
+	],
+	"id":"684b032abc14c361d08c0f1b",
+	"lastModifiedBy":34,
+	"lcName":"variablebyunifyapps_fieldtype_117497442918380",
+	"modifiedTime":1754311722565,
+	"name":"variableByUnifyApps_fieldType_117497442918380",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_FErIL-1",
+			"id":"_FErIL",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_FErIL-1",
+			"id":"_Rka97",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
