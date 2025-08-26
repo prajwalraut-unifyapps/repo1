@@ -1,21 +1,15 @@
 {
-	"appsUsed":["looker_studio","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181198721,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_pBBAd",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_ZFybb",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad32cefc16116cc3e36ee5",
 	"lastModifiedBy":34,
 	"lcName":"automation_looker studiodelete11756179137107",
-	"modifiedTime":1756181206693,
+	"modifiedTime":1756181211793,
 	"name":"Automation_Looker StudioDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_2WGPZ-1",
 			"id":"n_pBBAd",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"looker_studio",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_2WGPZ-1",
-			"id":"n_ZFybb",
-			"index":2,
-			"skip":false,
-			"subTitle":"Looker Studio",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
