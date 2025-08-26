@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["oracle_fusion_cloud","shopify"],
 	"createdTime":1756181465540,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_bVd3I",
+			"fromNodeId":"n_AtFQO",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_9MRJ9",
+			"toNodeId":"n_NbUKL",
 			"type":"next"
 		}
 	],
 	"id":"68ad33d9fc16116cc3e3720e",
 	"lastModifiedBy":34,
 	"lcName":"automation_oracle fusion clouddelete11756179137107",
-	"modifiedTime":1756181465540,
+	"modifiedTime":1756181474568,
 	"name":"Automation_Oracle Fusion CloudDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_bVd3I-1",
-			"id":"_bVd3I",
-			"index":0,
+			"id":"n_AtFQO",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"oracle_fusion_cloud",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_bVd3I-1",
-			"id":"_9MRJ9",
-			"index":0,
+			"id":"n_NbUKL",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Oracle Fusion Cloud",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
