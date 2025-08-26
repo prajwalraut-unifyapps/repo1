@@ -15,7 +15,7 @@
 	"id":"68ad332dfc16116cc3e37020",
 	"lastModifiedBy":34,
 	"lcName":"childautomationforbranchconditioncallableinloop11756179137324",
-	"modifiedTime":1756181304932,
+	"modifiedTime":1756181307164,
 	"name":"childAutomationForbranchConditionCallableInLoop11756179137324",
 	"nodes":[
 		{
@@ -102,5 +102,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
