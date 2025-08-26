@@ -5,46 +5,161 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_fMnra",
+			"fromNodeId":"n_DsSyT",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_HpffF",
+			"toNodeId":"n_eey8t",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_eey8t",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Z86oR",
 			"type":"next"
 		}
 	],
 	"id":"68ad2ae1fc16116cc3e35c77",
 	"lastModifiedBy":34,
 	"lcName":"retrynullpointerexception_117561791371070",
-	"modifiedTime":1756179169824,
+	"modifiedTime":1756179184403,
 	"name":"retryNullPointerException_117561791371070",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_fMnra-1",
-			"id":"_fMnra",
-			"index":0,
+			"id":"n_DsSyT",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"result_String":{
+							"type":"string",
+							"title":"result_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"result_String"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"test_http",
+				"resourceVersion":27202,
+				"connectionId":"66b0ee649c311126267a17b7",
+				"resourceName":"test_http_post_api",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_fMnra-1",
-			"id":"_HpffF",
-			"index":0,
+			"id":"n_eey8t",
+			"index":2,
+			"inputs":{
+				"field1":"success",
+				"field2":true
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"global":false
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false,
+					"slidingWindowType":"COUNT_BASED"
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"rateLimitConfig":{
+					"enabled":false,
+					"unit":"MINUTES",
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"captureRetries":false,
+					"enabled":true
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Test HTTP API",
+			"title":"Test HTTP Post API",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_fMnra-1",
+			"id":"n_Z86oR",
+			"index":3,
+			"inputs":{
+				"result":{
+					"result_String":"cool"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +170,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
