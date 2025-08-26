@@ -1,0 +1,86 @@
+{
+	"appsUsed":["servicenow","shopify"],
+	"createdTime":1737142876903,
+	"deleted":true,
+	"deploymentState":{
+		"deployedAt":1737142889843,
+		"deployedBy":34,
+		"deployedDefinitionId":"678ab269ba15fb594aee59a1",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"pG2BF",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"jWlPw",
+			"type":"next"
+		}
+	],
+	"id":"678ab25cba15fb594aee598a",
+	"lastModifiedBy":34,
+	"lcName":"workflow run 11737142675117",
+	"modifiedTime":1754372845061,
+	"name":"Workflow run 11737142675117",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify",
+				"resourceVersion":23749,
+				"connectionId":"6715f2a46bf0973ddecce072",
+				"resourceName":"shopify_on_order_create"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"yTIy0-1",
+			"id":"pG2BF",
+			"index":0,
+			"inputs":{
+				
+			},
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Order created",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"servicenow",
+				"resourceVersion":24958,
+				"connectionId":"6708ab5fb01e392a8f978345",
+				"resourceName":"servicenow_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"yTIy0-1",
+			"id":"jWlPw",
+			"index":0,
+			"inputs":{
+				"objectSourceResourceName":"servicenow_fetch_object"
+			},
+			"skip":false,
+			"subTitle":"ServiceNow",
+			"title":"Create record",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
