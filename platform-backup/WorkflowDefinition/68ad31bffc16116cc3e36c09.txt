@@ -29,7 +29,7 @@
 	"id":"68ad31bffc16116cc3e36c09",
 	"lastModifiedBy":34,
 	"lcName":"deletefiledinworkflow_11756179137324",
-	"modifiedTime":1756180961273,
+	"modifiedTime":1756180966999,
 	"name":"DeleteFiledInWorkflow_11756179137324",
 	"nodes":[
 		{
@@ -81,24 +81,15 @@
 							"type":"string",
 							"title":"designation"
 						},
-						"department":{
-							"type":"string",
-							"title":"department"
-						},
-						"salary":{
-							"type":"integer",
-							"title":"salary"
-						},
-						"city":{
-							"type":"string",
-							"title":"city"
-						},
 						"state":{
 							"type":"string",
 							"title":"state"
 						}
 					},
-					"additionalProperties":false
+					"additionalProperties":false,
+					"required":[
+						
+					]
 				}
 			},
 			"skip":false,
@@ -128,6 +119,57 @@
 				"assetClass":"Demo",
 				"userId":948,
 				"content":"Text"
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"global":false
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false,
+					"slidingWindowType":"COUNT_BASED"
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":true,
+					"logPolicies":[
+						
+					]
+				},
+				"rateLimitConfig":{
+					"enabled":false,
+					"unit":"MINUTES",
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"captureRetries":false,
+					"enabled":false
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				}
 			},
 			"skip":false,
 			"subTitle":"Comments by UnifyApps",
@@ -196,5 +238,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
