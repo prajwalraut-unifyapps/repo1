@@ -1,21 +1,15 @@
 {
-	"appsUsed":["klog","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181122820,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_bnl3E",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_Bcndr",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3282fc16116cc3e36e0b",
 	"lastModifiedBy":34,
 	"lcName":"automation_klogdelete11756179137107",
-	"modifiedTime":1756181131316,
+	"modifiedTime":1756181136269,
 	"name":"Automation_KLogDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_14gBC-1",
 			"id":"n_bnl3E",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"klog",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_14gBC-1",
-			"id":"n_Bcndr",
-			"index":2,
-			"skip":false,
-			"subTitle":"KLog",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
