@@ -1,21 +1,15 @@
 {
-	"appsUsed":["notion","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181403285,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_Bx0Ob",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_47q5b",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad339bfc16116cc3e3716a",
 	"lastModifiedBy":34,
 	"lcName":"automation_notiondelete11756179137107",
-	"modifiedTime":1756181410865,
+	"modifiedTime":1756181416155,
 	"name":"Automation_NotionDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_xrclR-1",
 			"id":"n_Bx0Ob",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"notion",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_xrclR-1",
-			"id":"n_47q5b",
-			"index":2,
-			"skip":false,
-			"subTitle":"Notion",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
