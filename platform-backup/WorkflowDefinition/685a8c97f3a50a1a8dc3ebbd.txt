@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750764695437,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_PaM3o",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_alDOB",
+			"type":"next"
+		}
+	],
+	"id":"685a8c97f3a50a1a8dc3ebbd",
+	"lastModifiedBy":34,
+	"lcName":"automation_audit by unifyappsdelete11750764218406",
+	"modifiedTime":1754310671402,
+	"name":"Automation_Audit by UnifyAppsDelete11750764218406",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PaM3o-1",
+			"id":"_PaM3o",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PaM3o-1",
+			"id":"_alDOB",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
