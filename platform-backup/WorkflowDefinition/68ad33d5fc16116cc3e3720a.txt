@@ -1,21 +1,15 @@
 {
-	"appsUsed":["oracle_fusion","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181461827,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_1HIKs",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_TmrgQ",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad33d5fc16116cc3e3720a",
 	"lastModifiedBy":34,
 	"lcName":"automation_oracle fusiondelete11756179137107",
-	"modifiedTime":1756181471329,
+	"modifiedTime":1756181476195,
 	"name":"Automation_Oracle FusionDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_hV9ma-1",
 			"id":"n_1HIKs",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"oracle_fusion",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_hV9ma-1",
-			"id":"n_TmrgQ",
-			"index":2,
-			"skip":false,
-			"subTitle":"Oracle Fusion",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
