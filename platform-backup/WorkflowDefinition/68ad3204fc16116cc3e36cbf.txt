@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["hadoop","shopify"],
 	"createdTime":1756180996348,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Okky9",
+			"fromNodeId":"n_wifws",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_onyNS",
+			"toNodeId":"n_hnmOS",
 			"type":"next"
 		}
 	],
 	"id":"68ad3204fc16116cc3e36cbf",
 	"lastModifiedBy":34,
 	"lcName":"automation_hadoopdelete11756179137107",
-	"modifiedTime":1756180996348,
+	"modifiedTime":1756181005525,
 	"name":"Automation_HadoopDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Okky9-1",
-			"id":"_Okky9",
-			"index":0,
+			"id":"n_wifws",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"hadoop",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Okky9-1",
-			"id":"_onyNS",
-			"index":0,
+			"id":"n_hnmOS",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Hadoop",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
