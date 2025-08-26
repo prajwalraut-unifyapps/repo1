@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["fleetio","shopify"],
 	"createdTime":1756180701762,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_foWaE",
+			"fromNodeId":"n_wO752",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_DhvQ3",
+			"toNodeId":"n_dc4hl",
 			"type":"next"
 		}
 	],
 	"id":"68ad30ddfc16116cc3e369c9",
 	"lastModifiedBy":34,
 	"lcName":"automation_fleetiodelete11756179137107",
-	"modifiedTime":1756180701762,
+	"modifiedTime":1756180709679,
 	"name":"Automation_FleetioDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_foWaE-1",
-			"id":"_foWaE",
-			"index":0,
+			"id":"n_wO752",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"fleetio",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_foWaE-1",
-			"id":"_DhvQ3",
-			"index":0,
+			"id":"n_dc4hl",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Fleetio",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
