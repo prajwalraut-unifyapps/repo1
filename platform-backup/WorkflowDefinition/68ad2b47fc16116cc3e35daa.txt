@@ -1,50 +1,71 @@
 {
-	"appsUsed":[],
+	"appsUsed":["kafka"],
 	"createdTime":1756179271240,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_vzORX",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_0CCEC",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad2b47fc16116cc3e35daa",
 	"lastModifiedBy":34,
 	"lcName":"servivenowheadereventschema_117561791371070",
-	"modifiedTime":1756179271240,
+	"modifiedTime":1756179280280,
 	"name":"serviveNowHeaderEventSchema_117561791371070",
 	"nodes":[
 		{
+			"context":{
+				"appName":"kafka",
+				"resourceVersion":24475,
+				"resourceName":"kafka_on_record"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_vzORX-1",
-			"id":"_vzORX",
-			"index":0,
+			"id":"n_6YGgE",
+			"index":1,
+			"inputs":{
+				"headers":{
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"name"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"name"
+					]
+				},
+				"executeInOrder":false,
+				"format":"JSON",
+				"topic":"Topic",
+				"event":{
+					"type":"object",
+					"properties":{
+						"result":{
+							"type":"string",
+							"title":"result"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"result"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Kafka",
+			"title":"Trigger from event in a topic in Kafka",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_vzORX-1",
-			"id":"_0CCEC",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +76,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
