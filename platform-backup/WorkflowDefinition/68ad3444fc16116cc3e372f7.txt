@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["pipedrive","shopify"],
 	"createdTime":1756181572778,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Lgfan",
+			"fromNodeId":"n_9PCQp",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_OcINT",
+			"toNodeId":"n_3xMgd",
 			"type":"next"
 		}
 	],
 	"id":"68ad3444fc16116cc3e372f7",
 	"lastModifiedBy":34,
 	"lcName":"automation_pipedrivedelete11756179137107",
-	"modifiedTime":1756181572778,
+	"modifiedTime":1756181581276,
 	"name":"Automation_PipedriveDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Lgfan-1",
-			"id":"_Lgfan",
-			"index":0,
+			"id":"n_9PCQp",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"pipedrive",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Lgfan-1",
-			"id":"_OcINT",
-			"index":0,
+			"id":"n_3xMgd",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Pipedrive",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
