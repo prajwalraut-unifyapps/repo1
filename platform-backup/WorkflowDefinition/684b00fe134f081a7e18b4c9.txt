@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749745918531,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_rnyxD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ClokT",
+			"type":"next"
+		}
+	],
+	"id":"684b00fe134f081a7e18b4c9",
+	"lastModifiedBy":34,
+	"lcName":"amazing marvin-create eventverifytimeisnotautoupdating117497442918380",
+	"modifiedTime":1754311781775,
+	"name":"Amazing Marvin-Create EventverifyTimeIsNotAutoUpdating117497442918380",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rnyxD-1",
+			"id":"_rnyxD",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rnyxD-1",
+			"id":"_ClokT",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
