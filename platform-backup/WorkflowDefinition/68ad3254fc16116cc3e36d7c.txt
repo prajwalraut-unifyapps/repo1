@@ -1,21 +1,15 @@
 {
-	"appsUsed":["intercom","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181076387,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_GhXX8",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_uBF6q",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3254fc16116cc3e36d7c",
 	"lastModifiedBy":34,
 	"lcName":"automation_intercomdelete11756179137107",
-	"modifiedTime":1756181084546,
+	"modifiedTime":1756181089411,
 	"name":"Automation_IntercomDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_T0dXi-1",
 			"id":"n_GhXX8",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"intercom",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_T0dXi-1",
-			"id":"n_uBF6q",
-			"index":2,
-			"skip":false,
-			"subTitle":"Intercom",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
