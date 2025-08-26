@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751268249975,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_etKKp",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_x8it5",
+			"type":"next"
+		}
+	],
+	"id":"68623b9908c1135abbd2bb9c",
+	"lastModifiedBy":34,
+	"lcName":"automation_edi tools by unifyappsdelete11751266296834",
+	"modifiedTime":1754310525992,
+	"name":"Automation_EDI Tools by UnifyAppsDelete11751266296834",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_etKKp-1",
+			"id":"_etKKp",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_etKKp-1",
+			"id":"_x8it5",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
