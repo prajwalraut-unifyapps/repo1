@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749707378371,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_RRiXG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_JPQni",
+			"type":"next"
+		}
+	],
+	"id":"684a6a72cf24740cabb72e80",
+	"lastModifiedBy":34,
+	"lcName":"check_logleveldropdown_117497072990660",
+	"modifiedTime":1754312455173,
+	"name":"Check_logLevelDropdown_117497072990660",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RRiXG-1",
+			"id":"_RRiXG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RRiXG-1",
+			"id":"_JPQni",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
