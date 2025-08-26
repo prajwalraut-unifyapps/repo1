@@ -1,21 +1,15 @@
 {
-	"appsUsed":["google_gemini","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180895390,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_twcgz",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_aOihw",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad319ffc16116cc3e36baa",
 	"lastModifiedBy":34,
 	"lcName":"automation_google geminidelete11756179137107",
-	"modifiedTime":1756180903235,
+	"modifiedTime":1756180908650,
 	"name":"Automation_Google GeminiDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_p49PQ-1",
 			"id":"n_twcgz",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"google_gemini",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_p49PQ-1",
-			"id":"n_aOihw",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google Gemini",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
