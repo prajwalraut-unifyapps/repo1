@@ -1,21 +1,15 @@
 {
-	"appsUsed":["keenio","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181130744,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_OH2JJ",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_kR5dT",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad328afc16116cc3e36e29",
 	"lastModifiedBy":34,
 	"lcName":"automation_keen.iodelete11756179137107",
-	"modifiedTime":1756181138489,
+	"modifiedTime":1756181143655,
 	"name":"Automation_Keen.ioDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_ovyvX-1",
 			"id":"n_OH2JJ",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"keenio",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_ovyvX-1",
-			"id":"n_kR5dT",
-			"index":2,
-			"skip":false,
-			"subTitle":"Keen.io",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
