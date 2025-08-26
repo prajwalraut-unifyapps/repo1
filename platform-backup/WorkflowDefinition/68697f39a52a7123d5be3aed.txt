@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751744313386,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_AOL0R",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_iVv1R",
+			"type":"next"
+		}
+	],
+	"id":"68697f39a52a7123d5be3aed",
+	"lastModifiedBy":34,
+	"lcName":"test with mock data 11751744174806",
+	"modifiedTime":1754310455991,
+	"name":"Test with mock data 11751744174806",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_AOL0R-1",
+			"id":"_AOL0R",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_AOL0R-1",
+			"id":"_iVv1R",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
