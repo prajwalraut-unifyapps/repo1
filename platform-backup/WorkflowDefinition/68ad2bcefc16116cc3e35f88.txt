@@ -5,46 +5,172 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_aPdIO",
+			"fromNodeId":"n_3p12a",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_fk3iA",
+			"toNodeId":"n_CQcnF",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_CQcnF",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_9Tzcp",
 			"type":"next"
 		}
 	],
 	"id":"68ad2bcefc16116cc3e35f88",
 	"lastModifiedBy":34,
 	"lcName":"import_soapapigroupcustom_ 117561791373240",
-	"modifiedTime":1756179406865,
+	"modifiedTime":1756179423533,
 	"name":"import_SoapAPIGroupCustom_ 117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_aPdIO-1",
-			"id":"_aPdIO",
-			"index":0,
+			"id":"n_3p12a",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"output_String":{
+							"type":"string",
+							"title":"output_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output_String"
+					]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"input_String":{
+							"type":"string",
+							"title":"input_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"input_String"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"custom_http_endpoint",
+				"resourceVersion":632,
+				"resourceName":"custom_http_endpoint_execute_soap",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_aPdIO-1",
-			"id":"_fk3iA",
-			"index":0,
+			"id":"n_CQcnF",
+			"index":2,
+			"inputs":{
+				"isAsync":false,
+				"enableProxy":false,
+				"requestTimeoutInSecs":-1,
+				"httpMethod":"POST",
+				"body":{
+					"tns:input":"cool"
+				},
+				"version":"v1.1",
+				"sslVerify":false,
+				"path":"/api-endpoint/azrf2zk/aoqvebv",
+				"responseSchema":{
+					"type":"object",
+					"properties":{
+						"output":{
+							"type":"string"
+						}
+					}
+				},
+				"baseUrl":"https://api-security.qa.unifyapps.com",
+				"password":"UnifyAppsme1bdm",
+				"bodySchema":{
+					"type":"object",
+					"properties":{
+						"tns:input":{
+							"type":"string"
+						}
+					}
+				},
+				"responseContentType":"text/xml",
+				"targetNamespace":"http://www.example.com/",
+				"authType":"BASIC_AUTH",
+				"requestContentType":"text/xml",
+				"isNestedHeaders":false,
+				"namespaces":[
+					{
+						"value":"http://schemas.xmlsoap.org/wsdl/",
+						"key":"wsdl"
+					},
+					{
+						"value":"http://www.example.com/",
+						"key":"tns"
+					},
+					{
+						"value":"http://www.w3.org/2001/XMLSchema",
+						"key":"xsd"
+					},
+					{
+						"value":"http://schemas.xmlsoap.org/wsdl/soap/",
+						"key":"soap"
+					}
+				],
+				"username":"unifyapps"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Custom HTTP Endpoint",
+			"title":"Execute SOAP request",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_aPdIO-1",
+			"id":"n_9Tzcp",
+			"index":3,
+			"inputs":{
+				"result":{
+					"output_String":"{{ n_CQcnF.outputs.result }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +181,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
