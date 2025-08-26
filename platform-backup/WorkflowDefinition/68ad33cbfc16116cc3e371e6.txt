@@ -1,21 +1,15 @@
 {
-	"appsUsed":["oracledb","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181451596,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_8iNRy",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_EpebL",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad33cbfc16116cc3e371e6",
 	"lastModifiedBy":34,
 	"lcName":"automation_oracle dbdelete11756179137107",
-	"modifiedTime":1756181460109,
+	"modifiedTime":1756181465111,
 	"name":"Automation_Oracle DBDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_gWwhY-1",
 			"id":"n_8iNRy",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"oracledb",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_gWwhY-1",
-			"id":"n_EpebL",
-			"index":2,
-			"skip":false,
-			"subTitle":"Oracle DB",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
