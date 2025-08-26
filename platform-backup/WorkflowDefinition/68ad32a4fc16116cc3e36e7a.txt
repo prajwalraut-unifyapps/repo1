@@ -1,21 +1,15 @@
 {
-	"appsUsed":["leaddyno","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181156992,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_lUOf2",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_3IzUE",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad32a4fc16116cc3e36e7a",
 	"lastModifiedBy":34,
 	"lcName":"automation_leaddynodelete11756179137107",
-	"modifiedTime":1756181164919,
+	"modifiedTime":1756181169924,
 	"name":"Automation_LeadDynoDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_dZ0TM-1",
 			"id":"n_lUOf2",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"leaddyno",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_dZ0TM-1",
-			"id":"n_3IzUE",
-			"index":2,
-			"skip":false,
-			"subTitle":"LeadDyno",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
