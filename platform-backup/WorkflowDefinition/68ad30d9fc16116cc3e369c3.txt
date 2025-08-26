@@ -1,21 +1,15 @@
 {
-	"appsUsed":["firebase","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180697703,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_cQpjZ",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_zDmrI",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad30d9fc16116cc3e369c3",
 	"lastModifiedBy":34,
 	"lcName":"automation_firebasedelete11756179137107",
-	"modifiedTime":1756180705560,
+	"modifiedTime":1756180710731,
 	"name":"Automation_FirebaseDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_XB8vF-1",
 			"id":"n_cQpjZ",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"firebase",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_XB8vF-1",
-			"id":"n_zDmrI",
-			"index":2,
-			"skip":false,
-			"subTitle":"Firebase",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
