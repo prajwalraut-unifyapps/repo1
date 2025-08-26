@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["mindstone","shopify"],
 	"createdTime":1756181331450,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Qip5D",
+			"fromNodeId":"n_Jjv94",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_Rq6to",
+			"toNodeId":"n_4bPfe",
 			"type":"next"
 		}
 	],
 	"id":"68ad3353fc16116cc3e3709a",
 	"lastModifiedBy":34,
 	"lcName":"automation_mindstonedelete11756179137107",
-	"modifiedTime":1756181331450,
+	"modifiedTime":1756181341912,
 	"name":"Automation_MindstoneDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Qip5D-1",
-			"id":"_Qip5D",
-			"index":0,
+			"id":"n_Jjv94",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"mindstone",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Qip5D-1",
-			"id":"_Rq6to",
-			"index":0,
+			"id":"n_4bPfe",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Mindstone",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
