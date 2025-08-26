@@ -1,21 +1,15 @@
 {
-	"appsUsed":["google_admob","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180823176,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_Soz9i",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_30ooh",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3157fc16116cc3e36ad9",
 	"lastModifiedBy":34,
 	"lcName":"automation_google admobdelete11756179137107",
-	"modifiedTime":1756180831256,
+	"modifiedTime":1756180836434,
 	"name":"Automation_Google AdMobDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_4Swke-1",
 			"id":"n_Soz9i",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"google_admob",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_4Swke-1",
-			"id":"n_30ooh",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google AdMob",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
