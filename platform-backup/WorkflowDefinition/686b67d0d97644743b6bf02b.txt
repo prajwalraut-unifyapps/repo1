@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751869392097,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_J78mf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_3x9ko",
+			"type":"next"
+		}
+	],
+	"id":"686b67d0d97644743b6bf02b",
+	"lastModifiedBy":34,
+	"lcName":"csvbyunifyapps_writer_dynamicheaderswithencodingutf16_117518684908710",
+	"modifiedTime":1754310172547,
+	"name":"CSVByUnifyApps_Writer_DynamicHeaderswithEncodingUTF16_117518684908710",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_J78mf-1",
+			"id":"_J78mf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_J78mf-1",
+			"id":"_3x9ko",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
