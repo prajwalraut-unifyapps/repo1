@@ -1,21 +1,15 @@
 {
-	"appsUsed":["logik","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181182544,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_FPotz",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_olMqf",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad32befc16116cc3e36ebb",
 	"lastModifiedBy":34,
 	"lcName":"automation_logikdelete11756179137107",
-	"modifiedTime":1756181190094,
+	"modifiedTime":1756181195030,
 	"name":"Automation_LogikDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_OQahS-1",
 			"id":"n_FPotz",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"logik",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_OQahS-1",
-			"id":"n_olMqf",
-			"index":2,
-			"skip":false,
-			"subTitle":"Logik",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
