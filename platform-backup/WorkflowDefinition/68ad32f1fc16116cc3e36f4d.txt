@@ -1,21 +1,15 @@
 {
-	"appsUsed":["mavi","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181233458,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_IAtS2",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_90LCB",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad32f1fc16116cc3e36f4d",
 	"lastModifiedBy":34,
 	"lcName":"automation_mavidelete11756179137107",
-	"modifiedTime":1756181241175,
+	"modifiedTime":1756181246331,
 	"name":"Automation_MaviDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_KIjmL-1",
 			"id":"n_IAtS2",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"mavi",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_KIjmL-1",
-			"id":"n_90LCB",
-			"index":2,
-			"skip":false,
-			"subTitle":"Mavi",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
