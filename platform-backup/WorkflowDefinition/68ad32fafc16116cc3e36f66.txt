@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["microsoft_azure_ai","shopify"],
 	"createdTime":1756181242471,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_lJ2bQ",
+			"fromNodeId":"n_PnhvT",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_XXVD9",
+			"toNodeId":"n_lRGnf",
 			"type":"next"
 		}
 	],
 	"id":"68ad32fafc16116cc3e36f66",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft azure aidelete11756179137107",
-	"modifiedTime":1756181242471,
+	"modifiedTime":1756181252340,
 	"name":"Automation_Microsoft Azure AIDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_lJ2bQ-1",
-			"id":"_lJ2bQ",
-			"index":0,
+			"id":"n_PnhvT",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"microsoft_azure_ai",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_lJ2bQ-1",
-			"id":"_XXVD9",
-			"index":0,
+			"id":"n_lRGnf",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Microsoft Azure AI",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
