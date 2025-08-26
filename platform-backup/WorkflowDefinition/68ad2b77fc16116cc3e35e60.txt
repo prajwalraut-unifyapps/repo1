@@ -1,50 +1,66 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756179319402,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_iwCqX",
+			"fromNodeId":"n_g4clk",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_5Mb3Y",
+			"toNodeId":"n_yRKsK",
 			"type":"next"
 		}
 	],
 	"id":"68ad2b77fc16116cc3e35e60",
 	"lastModifiedBy":34,
 	"lcName":"errorsnackbaraction_117561791371070",
-	"modifiedTime":1756179319402,
+	"modifiedTime":1756179336340,
 	"name":"errorSnackbarAction_117561791371070",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify",
+				"resourceVersion":26109,
+				"connectionId":"6798bc9b219ec7180823c4e5",
+				"resourceName":"shopify_on_order_create"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_iwCqX-1",
-			"id":"_iwCqX",
-			"index":0,
+			"id":"n_g4clk",
+			"index":1,
+			"inputs":{
+				
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Shopify",
+			"title":"Order created",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_iwCqX-1",
-			"id":"_5Mb3Y",
-			"index":0,
+			"id":"n_yRKsK",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Select an action",
+			"type":"CALL_WORKFLOW"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +71,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
