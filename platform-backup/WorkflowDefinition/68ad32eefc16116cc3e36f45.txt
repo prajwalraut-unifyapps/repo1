@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["glaucusmaven","shopify"],
 	"createdTime":1756181230092,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_jOH8I",
+			"fromNodeId":"n_I4EAK",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_tIfED",
+			"toNodeId":"n_28IKy",
 			"type":"next"
 		}
 	],
 	"id":"68ad32eefc16116cc3e36f45",
 	"lastModifiedBy":34,
 	"lcName":"automation_maven by glaucusdelete11756179137107",
-	"modifiedTime":1756181230092,
+	"modifiedTime":1756181238847,
 	"name":"Automation_Maven by GlaucusDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_jOH8I-1",
-			"id":"_jOH8I",
-			"index":0,
+			"id":"n_I4EAK",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"glaucusmaven",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_jOH8I-1",
-			"id":"_tIfED",
-			"index":0,
+			"id":"n_28IKy",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Maven by Glaucus",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
