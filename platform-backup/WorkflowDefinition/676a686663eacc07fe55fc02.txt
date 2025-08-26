@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1735026790192,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_YfhOf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_skgow",
+			"type":"next"
+		}
+	],
+	"id":"676a686663eacc07fe55fc02",
+	"lastModifiedBy":-1,
+	"lcName":"c vj",
+	"modifiedTime":1755496340553,
+	"name":"c vj",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_YfhOf-1",
+			"id":"_YfhOf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_YfhOf-1",
+			"id":"_skgow",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
