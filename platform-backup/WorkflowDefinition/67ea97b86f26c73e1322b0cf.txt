@@ -1,0 +1,50 @@
+{
+	"appsUsed":["simplesat"],
+	"createdTime":1743427512839,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"67ea97b86f26c73e1322b0cf",
+	"lastModifiedBy":-1,
+	"lcName":"klmnj",
+	"modifiedTime":1755496326212,
+	"name":"klmnj",
+	"nodes":[
+		{
+			"context":{
+				"appName":"simplesat",
+				"resourceVersion":376,
+				"connectionId":"67e3faba4dbb5720e8793904",
+				"resourceName":"simplesat_on_new_feedback"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"H13ax-1",
+			"id":"kfRiU",
+			"index":0,
+			"inputs":{
+				"interval":1,
+				"batchSize":100
+			},
+			"skip":false,
+			"subTitle":"Simplesat",
+			"title":"New feedback",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":18
+}
