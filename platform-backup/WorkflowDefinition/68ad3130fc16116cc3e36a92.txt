@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["gitlab","shopify"],
 	"createdTime":1756180784179,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_GMPuZ",
+			"fromNodeId":"n_DcobU",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_mKCIl",
+			"toNodeId":"n_77NV7",
 			"type":"next"
 		}
 	],
 	"id":"68ad3130fc16116cc3e36a92",
 	"lastModifiedBy":34,
 	"lcName":"automation_gitlabdelete11756179137107",
-	"modifiedTime":1756180784179,
+	"modifiedTime":1756180792341,
 	"name":"Automation_GitLabDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_GMPuZ-1",
-			"id":"_GMPuZ",
-			"index":0,
+			"id":"n_DcobU",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"gitlab",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_GMPuZ-1",
-			"id":"_mKCIl",
-			"index":0,
+			"id":"n_77NV7",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"GitLab",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
