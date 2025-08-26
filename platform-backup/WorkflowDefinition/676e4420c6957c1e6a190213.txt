@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1735279648880,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"77KvO",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"vaJo3",
+			"type":"next"
+		}
+	],
+	"id":"676e4420c6957c1e6a190213",
+	"lastModifiedBy":-1,
+	"lcName":"vfhb",
+	"modifiedTime":1755496340694,
+	"name":"vfhb",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"77KvO-1",
+			"id":"77KvO",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"77KvO-1",
+			"id":"vaJo3",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
