@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["jira","shopify"],
 	"createdTime":1756181087103,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_6HiXV",
+			"fromNodeId":"n_PouJV",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_el9Bz",
+			"toNodeId":"n_FY5Jn",
 			"type":"next"
 		}
 	],
 	"id":"68ad325ffc16116cc3e36d9a",
 	"lastModifiedBy":34,
 	"lcName":"automation_jiradelete11756179137107",
-	"modifiedTime":1756181087103,
+	"modifiedTime":1756181094814,
 	"name":"Automation_JiraDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_6HiXV-1",
-			"id":"_6HiXV",
-			"index":0,
+			"id":"n_PouJV",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"jira",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_6HiXV-1",
-			"id":"_el9Bz",
-			"index":0,
+			"id":"n_FY5Jn",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Jira",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
