@@ -4,18 +4,12 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_G8dhL",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_YYhMi",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3398fc16116cc3e37160",
 	"lastModifiedBy":34,
 	"lcName":"automation_notification by unifyappsdelete11756179137107",
-	"modifiedTime":1756181408952,
+	"modifiedTime":1756181413850,
 	"name":"Automation_Notification by UnifyAppsDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_4XfjX-1",
 			"id":"n_G8dhL",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"notification_by_unifyapps",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_4XfjX-1",
-			"id":"n_YYhMi",
-			"index":2,
-			"skip":false,
-			"subTitle":"Notification by UnifyApps",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
