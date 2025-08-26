@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["miro","shopify"],
 	"createdTime":1756181349620,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Q3ZzZ",
+			"fromNodeId":"n_pQmYQ",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_uztWz",
+			"toNodeId":"n_BS8K3",
 			"type":"next"
 		}
 	],
 	"id":"68ad3365fc16116cc3e370d6",
 	"lastModifiedBy":34,
 	"lcName":"automation_mirodelete11756179137107",
-	"modifiedTime":1756181349620,
+	"modifiedTime":1756181357599,
 	"name":"Automation_MiroDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Q3ZzZ-1",
-			"id":"_Q3ZzZ",
-			"index":0,
+			"id":"n_pQmYQ",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"miro",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Q3ZzZ-1",
-			"id":"_uztWz",
-			"index":0,
+			"id":"n_BS8K3",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Miro",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
