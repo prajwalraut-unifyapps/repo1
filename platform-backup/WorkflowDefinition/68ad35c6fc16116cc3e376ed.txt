@@ -4,47 +4,42 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_oeOS5",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_ufiVd",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad35c6fc16116cc3e376ed",
 	"lastModifiedBy":34,
 	"lcName":"replace_trigger_117561791373240",
-	"modifiedTime":1756181958026,
+	"modifiedTime":1756181970413,
 	"name":"Replace_Trigger_117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_oeOS5-1",
-			"id":"_oeOS5",
-			"index":0,
+			"id":"n_eGQX7",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_oeOS5-1",
-			"id":"_ufiVd",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +50,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
