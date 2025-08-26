@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1756181283672,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_MgLJA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_QLuvc",
+			"type":"next"
+		}
+	],
+	"id":"68ad3323fc16116cc3e36ffd",
+	"lastModifiedBy":34,
+	"lcName":"automation_microsoft graph apidelete11756179137107",
+	"modifiedTime":1756181283672,
+	"name":"Automation_Microsoft Graph APIDelete11756179137107",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MgLJA-1",
+			"id":"_MgLJA",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MgLJA-1",
+			"id":"_QLuvc",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":0
+}
