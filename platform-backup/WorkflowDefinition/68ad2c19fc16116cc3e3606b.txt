@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756179481842,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756179502851,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2c2efc16116cc3e360a4",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":2
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2c19fc16116cc3e3606b",
 	"lastModifiedBy":34,
 	"lcName":"restorerecentversion_117561791371070",
-	"modifiedTime":1756179491579,
+	"modifiedTime":1756179512227,
 	"name":"restoreRecentVersion_117561791371070",
 	"nodes":[
 		{
@@ -50,11 +58,21 @@
 						"input_String":{
 							"type":"string",
 							"title":"input_String"
+						},
+						"input_string2":{
+							"type":"string",
+							"title":"input_string2"
+						},
+						"input_string3":{
+							"type":"string",
+							"title":"input_string3"
 						}
 					},
 					"additionalProperties":false,
 					"required":[
-						"input_String"
+						"input_String",
+						"input_string2",
+						"input_string3"
 					]
 				}
 			},
@@ -102,5 +120,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":3
 }
