@@ -1,0 +1,80 @@
+{
+	"appsUsed":[],
+	"createdTime":1735187931208,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"676cdddb2939920f95e7b75c",
+	"lastModifiedBy":-1,
+	"lcName":"ydnmfogrjx callable automation",
+	"modifiedTime":1755496340224,
+	"name":"ydNmFOgRJX Callable Automation",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":112,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Dm6Nz-1",
+			"id":"Dm6Nz",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"Name"
+						}
+					},
+					"required":[
+						
+					]
+				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"filter":{
+								"value":"",
+								"operator":"EQUAL"
+							},
+							"property":""
+						}
+					],
+					"operator":"AND"
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"Name"
+						}
+					},
+					"required":[
+						
+					]
+				}
+			},
+			"skip":false,
+			"title":"Trigger via {{moduleDefs.WORKFLOW_DEFINITION.name.toLowerCase()}}",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":7
+}
