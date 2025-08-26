@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["gforms","shopify"],
 	"createdTime":1756180884209,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_5PPK2",
+			"fromNodeId":"n_Ujwkl",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_6Q6Ot",
+			"toNodeId":"n_DTyJy",
 			"type":"next"
 		}
 	],
 	"id":"68ad3194fc16116cc3e36b8b",
 	"lastModifiedBy":34,
 	"lcName":"automation_google formsdelete11756179137107",
-	"modifiedTime":1756180884209,
+	"modifiedTime":1756180892470,
 	"name":"Automation_Google FormsDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_5PPK2-1",
-			"id":"_5PPK2",
-			"index":0,
+			"id":"n_Ujwkl",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"gforms",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_5PPK2-1",
-			"id":"_6Q6Ot",
-			"index":0,
+			"id":"n_DTyJy",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Google Forms",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
