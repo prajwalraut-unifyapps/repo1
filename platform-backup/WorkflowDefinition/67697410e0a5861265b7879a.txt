@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1734964240002,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_zd44P",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_bjEWv",
+			"type":"next"
+		}
+	],
+	"id":"67697410e0a5861265b7879a",
+	"lastModifiedBy":-1,
+	"lcName":"wefbr",
+	"modifiedTime":1755496342056,
+	"name":"wefbr",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zd44P-1",
+			"id":"_zd44P",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zd44P-1",
+			"id":"_bjEWv",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
