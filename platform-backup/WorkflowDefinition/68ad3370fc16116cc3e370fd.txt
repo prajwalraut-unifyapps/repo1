@@ -1,21 +1,15 @@
 {
-	"appsUsed":["monday","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181360402,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_UhmUU",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_IXgu4",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3370fc16116cc3e370fd",
 	"lastModifiedBy":34,
 	"lcName":"automation_mondaydelete11756179137107",
-	"modifiedTime":1756181368539,
+	"modifiedTime":1756181373393,
 	"name":"Automation_MondayDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Ubvg9-1",
 			"id":"n_UhmUU",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"monday",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Ubvg9-1",
-			"id":"n_IXgu4",
-			"index":2,
-			"skip":false,
-			"subTitle":"Monday",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
