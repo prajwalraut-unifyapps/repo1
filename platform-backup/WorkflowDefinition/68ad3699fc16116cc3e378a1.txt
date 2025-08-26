@@ -1,50 +1,216 @@
 {
-	"appsUsed":[],
+	"appsUsed":["storage_by_unifyapps"],
 	"createdTime":1756182169845,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_1L69r",
+			"fromNodeId":"n_WIrO3",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_Fj0pj",
+			"toNodeId":"n_Askw4",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Askw4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ohjKu",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ohjKu",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_lNPg7",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_lNPg7",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_1Vuh8",
 			"type":"next"
 		}
 	],
 	"id":"68ad3699fc16116cc3e378a1",
 	"lastModifiedBy":34,
 	"lcName":"exportnotifications_117561791373240",
-	"modifiedTime":1756182169845,
+	"modifiedTime":1756182195186,
 	"name":"ExportNotifications_117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_1L69r-1",
-			"id":"_1L69r",
-			"index":0,
+			"id":"n_WIrO3",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"Success":{
+							"type":"string",
+							"title":"Success"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"Success"
+					]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"fileType":{
+							"type":"string",
+							"title":"fileType"
+						},
+						"filter":{
+							"type":"object",
+							"properties":{
+								"Op":{
+									"type":"string",
+									"title":"Op"
+								}
+							},
+							"title":"filter",
+							"additionalProperties":false
+						},
+						"entityType":{
+							"type":"string",
+							"title":"entityType"
+						}
+					},
+					"additionalProperties":false
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":20707,
+				"resourceName":"storage_by_unifyapps_export_records",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_1L69r-1",
-			"id":"_Fj0pj",
-			"index":0,
+			"id":"n_Askw4",
+			"index":2,
+			"inputs":{
+				"maxRowsPerFile":1048576,
+				"fileName":"{{ n_WIrO3.outputs.fileType }}",
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"resolvedFilter":{
+								"filter":"{{ n_WIrO3.outputs.filter }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"ag5bkgw",
+				"format":"MM/dd/yyyy",
+				"recordsBatchSize":100,
+				"writeToMultipleFilesIfOverflow":false,
+				"keepExactFileName":false,
+				"fileType":"CSV"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Storage by UnifyApps",
+			"title":"Export records",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"notification_by_unifyapps",
+				"resourceVersion":602,
+				"resourceName":"notification_by_unifyapps_send_notification",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_1L69r-1",
+			"id":"n_ohjKu",
+			"index":3,
+			"inputs":{
+				"cta":{
+					"type":"url",
+					"width":{
+						"custom":"400px"
+					}
+				},
+				"module":"object",
+				"eventType":"export_success",
+				"applicationId":"",
+				"notificationPreviewTime":5,
+				"content":{
+					"templateId":"e_export_entity_template"
+				}
+			},
+			"skip":false,
+			"subTitle":"Notification by UnifyApps",
+			"title":"Send notification",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_1L69r-1",
+			"id":"n_lNPg7",
+			"index":4,
+			"inputs":{
+				"result":{
+					"Success":"true"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_1L69r-1",
+			"id":"n_1Vuh8",
+			"index":5,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +221,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
