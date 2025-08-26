@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["infusion_soft","shopify"],
 	"createdTime":1756181054852,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_jiQkY",
+			"fromNodeId":"n_njUKL",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_kNHYU",
+			"toNodeId":"n_tX8AJ",
 			"type":"next"
 		}
 	],
 	"id":"68ad323efc16116cc3e36d3b",
 	"lastModifiedBy":34,
 	"lcName":"automation_infusionsoftdelete11756179137107",
-	"modifiedTime":1756181054852,
+	"modifiedTime":1756181062324,
 	"name":"Automation_InfusionsoftDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_jiQkY-1",
-			"id":"_jiQkY",
-			"index":0,
+			"id":"n_njUKL",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"infusion_soft",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_jiQkY-1",
-			"id":"_kNHYU",
-			"index":0,
+			"id":"n_tX8AJ",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Infusionsoft",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
