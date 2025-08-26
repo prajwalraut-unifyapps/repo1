@@ -1,21 +1,15 @@
 {
-	"appsUsed":["google_kms","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180899939,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_9M6OO",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_AWZCK",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad31a3fc16116cc3e36bb6",
 	"lastModifiedBy":34,
 	"lcName":"automation_google kmsdelete11756179137107",
-	"modifiedTime":1756180907865,
+	"modifiedTime":1756180912971,
 	"name":"Automation_Google KMSDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_GDbSr-1",
 			"id":"n_9M6OO",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"google_kms",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_GDbSr-1",
-			"id":"n_AWZCK",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google KMS",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
