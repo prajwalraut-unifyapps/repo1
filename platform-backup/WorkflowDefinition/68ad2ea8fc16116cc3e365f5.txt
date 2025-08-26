@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756180136548,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756180159737,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2ebffc16116cc3e3660d",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2ea8fc16116cc3e365f5",
 	"lastModifiedBy":34,
 	"lcName":"request_soap_header_columns_117561791371070",
-	"modifiedTime":1756180157198,
+	"modifiedTime":1756180167516,
 	"name":"request_soap_header_columns_117561791371070",
 	"nodes":[
 		{
@@ -36,10 +44,6 @@
 					"soapHeaders":{
 						"type":"object",
 						"properties":{
-							"StringHeader":{
-								"type":"string",
-								"title":"StringHeader"
-							},
 							"ArrayStrHeader":{
 								"type":"array",
 								"items":{
@@ -124,5 +128,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
