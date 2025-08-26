@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["notion","shopify"],
 	"createdTime":1756181403285,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_xrclR",
+			"fromNodeId":"n_Bx0Ob",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_vTZHI",
+			"toNodeId":"n_47q5b",
 			"type":"next"
 		}
 	],
 	"id":"68ad339bfc16116cc3e3716a",
 	"lastModifiedBy":34,
 	"lcName":"automation_notiondelete11756179137107",
-	"modifiedTime":1756181403285,
+	"modifiedTime":1756181410865,
 	"name":"Automation_NotionDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_xrclR-1",
-			"id":"_xrclR",
-			"index":0,
+			"id":"n_Bx0Ob",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"notion",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_xrclR-1",
-			"id":"_vTZHI",
-			"index":0,
+			"id":"n_47q5b",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Notion",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
