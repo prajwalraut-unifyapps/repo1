@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["google_task","shopify"],
 	"createdTime":1756180934387,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Dr9os",
+			"fromNodeId":"n_uaGtc",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_zRK9Q",
+			"toNodeId":"n_QcJ0H",
 			"type":"next"
 		}
 	],
 	"id":"68ad31c6fc16116cc3e36c1d",
 	"lastModifiedBy":34,
 	"lcName":"automation_google taskdelete11756179137107",
-	"modifiedTime":1756180934387,
+	"modifiedTime":1756180942618,
 	"name":"Automation_Google TaskDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Dr9os-1",
-			"id":"_Dr9os",
-			"index":0,
+			"id":"n_uaGtc",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"google_task",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Dr9os-1",
-			"id":"_zRK9Q",
-			"index":0,
+			"id":"n_QcJ0H",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Google Task",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
