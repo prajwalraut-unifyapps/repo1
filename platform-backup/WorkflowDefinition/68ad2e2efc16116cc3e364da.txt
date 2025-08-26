@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756180014889,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756180030013,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2e3dfc16116cc3e364fc",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2e2efc16116cc3e364da",
 	"lastModifiedBy":34,
 	"lcName":"hidden_path_columns_117561791371070",
-	"modifiedTime":1756180027472,
+	"modifiedTime":1756180039590,
 	"name":"hidden_path_columns_117561791371070",
 	"nodes":[
 		{
@@ -36,14 +44,6 @@
 					"pathParams":{
 						"type":"object",
 						"properties":{
-							"StringParam":{
-								"type":"string",
-								"title":"StringParam"
-							},
-							"NumberParam":{
-								"type":"number",
-								"title":"NumberParam"
-							},
 							"BooleanParam":{
 								"type":"boolean",
 								"title":"BooleanParam"
@@ -135,5 +135,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
