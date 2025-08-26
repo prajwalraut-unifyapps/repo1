@@ -1,21 +1,15 @@
 {
-	"appsUsed":["gchat","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180853799,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_ulsBy",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_G2nqq",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3175fc16116cc3e36b27",
 	"lastModifiedBy":34,
 	"lcName":"automation_google chatdelete11756179137107",
-	"modifiedTime":1756180864257,
+	"modifiedTime":1756180869201,
 	"name":"Automation_Google ChatDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_FRAZm-1",
 			"id":"n_ulsBy",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"gchat",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_FRAZm-1",
-			"id":"n_G2nqq",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google Chat",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
