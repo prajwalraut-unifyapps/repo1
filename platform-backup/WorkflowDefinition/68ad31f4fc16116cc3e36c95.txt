@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["gusto","shopify"],
 	"createdTime":1756180980441,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_GPbxc",
+			"fromNodeId":"n_Tc9Jg",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ivAK3",
+			"toNodeId":"n_dIVK2",
 			"type":"next"
 		}
 	],
 	"id":"68ad31f4fc16116cc3e36c95",
 	"lastModifiedBy":34,
 	"lcName":"automation_gustodelete11756179137107",
-	"modifiedTime":1756180980441,
+	"modifiedTime":1756180987820,
 	"name":"Automation_GustoDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_GPbxc-1",
-			"id":"_GPbxc",
-			"index":0,
+			"id":"n_Tc9Jg",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"gusto",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_GPbxc-1",
-			"id":"_ivAK3",
-			"index":0,
+			"id":"n_dIVK2",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Gusto",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
