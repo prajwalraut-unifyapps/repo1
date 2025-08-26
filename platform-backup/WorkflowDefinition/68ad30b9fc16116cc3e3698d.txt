@@ -1,21 +1,15 @@
 {
-	"appsUsed":["6sense","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180665794,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_2qeH0",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_OUdT5",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad30b9fc16116cc3e3698d",
 	"lastModifiedBy":34,
 	"lcName":"automation_6sensedelete11756179137107",
-	"modifiedTime":1756180673867,
+	"modifiedTime":1756180679045,
 	"name":"Automation_6senseDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_rjUCd-1",
 			"id":"n_2qeH0",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"6sense",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_rjUCd-1",
-			"id":"n_OUdT5",
-			"index":2,
-			"skip":false,
-			"subTitle":"6sense",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
