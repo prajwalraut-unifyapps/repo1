@@ -5,46 +5,71 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_1iijE",
+			"fromNodeId":"n_WMk9a",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_XiV5w",
+			"toNodeId":"n_6gyDC",
 			"type":"next"
 		}
 	],
 	"id":"68ad3489fc16116cc3e37394",
 	"lastModifiedBy":34,
 	"lcName":"multiple action node with complete action&input  - 11756179137107",
-	"modifiedTime":1756181641197,
+	"modifiedTime":1756181650140,
 	"name":"Multiple action node with complete action&input  - 11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_1iijE-1",
-			"id":"_1iijE",
-			"index":0,
+			"id":"n_WMk9a",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				},
+				"endpointType":"REST",
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"delay",
+				"resourceVersion":656,
+				"resourceName":"delay_for",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_1iijE-1",
-			"id":"_XiV5w",
-			"index":0,
+			"id":"n_6gyDC",
+			"index":2,
+			"inputs":{
+				"duration":29,
+				"unit":"MINUTES"
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Delay",
+			"title":"Set delay duration",
+			"type":"DELAY"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +80,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
