@@ -1,0 +1,46 @@
+{
+	"appsUsed":[],
+	"createdTime":1749744649060,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"684afc097f99ac1994cb0a85",
+	"lastModifiedBy":34,
+	"lcName":"filter -- before created time - 11749744291838",
+	"modifiedTime":1754311966959,
+	"name":"Filter -- Before Created Time - 11749744291838",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":583,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HoTu5-1",
+			"id":"n_YkDf3",
+			"index":0,
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
