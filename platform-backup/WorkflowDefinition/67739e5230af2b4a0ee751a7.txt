@@ -1,0 +1,58 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1735630418693,
+	"deleted":true,
+	"deploymentState":{
+		"deployedAt":1735630426745,
+		"deployedBy":34,
+		"deployedDefinitionId":"67739e5a30af2b4a0ee751c4",
+		"status":"PAUSED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"67739e5230af2b4a0ee751a7",
+	"lastModifiedBy":34,
+	"lcName":"concurrent users - 11735630050885",
+	"modifiedTime":1754312504025,
+	"name":"concurrent users - 11735630050885",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify",
+				"resourceVersion":23521,
+				"connectionId":"6715f2a46bf0973ddecce072",
+				"resourceName":"shopify_on_order_create"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"gE5iL-1",
+			"id":"6MhTW",
+			"index":0,
+			"inputs":{
+				
+			},
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Order created",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
