@@ -1,0 +1,69 @@
+{
+	"appsUsed":["oracle_fusion","shopify"],
+	"createdTime":1756181461827,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_1HIKs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_TmrgQ",
+			"type":"next"
+		}
+	],
+	"id":"68ad33d5fc16116cc3e3720a",
+	"lastModifiedBy":34,
+	"lcName":"automation_oracle fusiondelete11756179137107",
+	"modifiedTime":1756181471329,
+	"name":"Automation_Oracle FusionDelete11756179137107",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_hV9ma-1",
+			"id":"n_1HIKs",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"oracle_fusion",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_hV9ma-1",
+			"id":"n_TmrgQ",
+			"index":2,
+			"skip":false,
+			"subTitle":"Oracle Fusion",
+			"title":"Select an action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
