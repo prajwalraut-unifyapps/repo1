@@ -3,12 +3,12 @@
 	"createdTime":1756179912080,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1756179925461,
+		"deployedAt":1756179932024,
 		"deployedBy":34,
-		"deployedDefinitionId":"68ad2dd5fc16116cc3e363e5",
+		"deployedDefinitionId":"68ad2ddbfc16116cc3e363f5",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":1
+		"version":2,
+		"workflowVersion":2
 	},
 	"description":"description",
 	"edges":[
@@ -23,7 +23,7 @@
 	"id":"68ad2dc8fc16116cc3e363ca",
 	"lastModifiedBy":34,
 	"lcName":"doesnotappear_setanddeletevariable_117561791371070",
-	"modifiedTime":1756179929540,
+	"modifiedTime":1756179943137,
 	"name":"doesNotAppear_setAndDeleteVariable_117561791371070",
 	"nodes":[
 		{
@@ -39,19 +39,6 @@
 			"id":"n_xD5Gn",
 			"index":1,
 			"inputs":{
-				"result":{
-					"type":"object",
-					"properties":{
-						"output_String":{
-							"type":"string",
-							"title":"output_String"
-						}
-					},
-					"additionalProperties":false,
-					"required":[
-						"output_String"
-					]
-				},
 				"setup":{
 					"type":"object",
 					"properties":{
@@ -110,5 +97,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":2
+	"version":3
 }
