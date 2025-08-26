@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["gokwik","shopify"],
 	"createdTime":1756180803357,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_qTY2U",
+			"fromNodeId":"n_sQJjl",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_YQzLO",
+			"toNodeId":"n_ivYv3",
 			"type":"next"
 		}
 	],
 	"id":"68ad3143fc16116cc3e36ab3",
 	"lastModifiedBy":34,
 	"lcName":"automation_gokwikdelete11756179137107",
-	"modifiedTime":1756180803357,
+	"modifiedTime":1756180811035,
 	"name":"Automation_GoKwikDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_qTY2U-1",
-			"id":"_qTY2U",
-			"index":0,
+			"id":"n_sQJjl",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"gokwik",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_qTY2U-1",
-			"id":"_YQzLO",
-			"index":0,
+			"id":"n_ivYv3",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"GoKwik",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
