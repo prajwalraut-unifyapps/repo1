@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["groove_hq","shopify"],
 	"createdTime":1756180971212,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_QwC1q",
+			"fromNodeId":"n_yeYsy",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_QIR44",
+			"toNodeId":"n_sXixW",
 			"type":"next"
 		}
 	],
 	"id":"68ad31ebfc16116cc3e36c77",
 	"lastModifiedBy":34,
 	"lcName":"automation_groove hqdelete11756179137107",
-	"modifiedTime":1756180971212,
+	"modifiedTime":1756180978960,
 	"name":"Automation_Groove HQDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_QwC1q-1",
-			"id":"_QwC1q",
-			"index":0,
+			"id":"n_yeYsy",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"groove_hq",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_QwC1q-1",
-			"id":"_QIR44",
-			"index":0,
+			"id":"n_sXixW",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Groove HQ",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
