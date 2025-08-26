@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749745902823,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_GDH0g",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_x7Tox",
+			"type":"next"
+		}
+	],
+	"id":"684b00eebc14c361d08c0a4b",
+	"lastModifiedBy":34,
+	"lcName":"condition box|number input - does not equal 11749744267712",
+	"modifiedTime":1754311782618,
+	"name":"Condition Box|Number Input - Does not equal 11749744267712",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GDH0g-1",
+			"id":"_GDH0g",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GDH0g-1",
+			"id":"_x7Tox",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
