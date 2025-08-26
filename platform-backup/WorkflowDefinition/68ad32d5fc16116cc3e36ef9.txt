@@ -4,33 +4,12 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_3sf9j",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_K9JHA",
-			"type":"next"
-		},
-		{
-			"fromNodeId":"n_K9JHA",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_8aJQo",
-			"type":"loop"
-		},
-		{
-			"fromNodeId":"n_8aJQo",
-			"name":"loopback",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_K9JHA",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad32d5fc16116cc3e36ef9",
 	"lastModifiedBy":34,
 	"lcName":"automation_loopdelete11756179137107",
-	"modifiedTime":1756181213378,
+	"modifiedTime":1756181218192,
 	"name":"Automation_LoopDelete11756179137107",
 	"nodes":[
 		{
@@ -38,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_lwN04-1",
 			"id":"n_3sf9j",
@@ -50,33 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"loop",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_lwN04-1",
-			"id":"n_K9JHA",
-			"index":2,
-			"skip":false,
-			"subTitle":"Loop",
-			"title":"Select an action",
-			"type":"LOOP"
-		},
-		{
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"n_K9JHA@_lwN04-1@l",
-			"id":"n_8aJQo",
-			"index":3,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -91,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
