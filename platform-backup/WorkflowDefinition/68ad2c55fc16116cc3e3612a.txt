@@ -5,46 +5,172 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_rIkZy",
+			"fromNodeId":"n_NGajy",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_cws7L",
+			"toNodeId":"n_qKz5O",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_qKz5O",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_eC68N",
 			"type":"next"
 		}
 	],
 	"id":"68ad2c55fc16116cc3e3612a",
 	"lastModifiedBy":34,
 	"lcName":"http_emptyvalue_workflow_117561791373240",
-	"modifiedTime":1756179541754,
+	"modifiedTime":1756179573863,
 	"name":"http_emptyValue_workflow_117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_rIkZy-1",
-			"id":"_rIkZy",
-			"index":0,
+			"id":"n_NGajy",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"output":{
+							"type":"object",
+							"properties":{
+								
+							},
+							"additionalProperties":false,
+							"title":"output"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output"
+					]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"input":{
+							"type":"object",
+							"properties":{
+								
+							},
+							"additionalProperties":false,
+							"title":"input"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"input"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"custom_http_endpoint",
+				"resourceVersion":632,
+				"resourceName":"custom_http_endpoint_execute_soap",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_rIkZy-1",
-			"id":"_cws7L",
-			"index":0,
+			"id":"n_qKz5O",
+			"index":2,
+			"inputs":{
+				"isAsync":false,
+				"enableProxy":false,
+				"requestTimeoutInSecs":-1,
+				"httpMethod":"POST",
+				"version":"v1.2",
+				"sslVerify":false,
+				"path":"/ahdxox6/ajctvuuc",
+				"responseSchema":{
+					"type":"object",
+					"properties":{
+						"data":{
+							"type":"object",
+							"title":"data"
+						}
+					},
+					"additionalProperties":false
+				},
+				"baseUrl":"https://api-security.qa.unifyapps.com/api-endpoint",
+				"password":"UnifyApps7p1j8s",
+				"bodySchema":{
+					"type":"object",
+					"properties":{
+						"array_input":{
+							"type":"object",
+							"properties":{
+								"name":{
+									"type":"string",
+									"title":"name"
+								}
+							},
+							"title":"array_input",
+							"additionalProperties":false
+						}
+					},
+					"additionalProperties":false
+				},
+				"responseContentType":"application/soap+xml",
+				"authType":"BASIC_AUTH",
+				"requestContentType":"application/soap+xml",
+				"isNestedHeaders":false,
+				"namespaces":[
+					
+				],
+				"username":"unifyapps"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Custom HTTP Endpoint",
+			"title":"Execute SOAP request",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_rIkZy-1",
+			"id":"n_eC68N",
+			"index":3,
+			"inputs":{
+				"result":{
+					"output":"{{ n_qKz5O.outputs.result.data }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +181,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
