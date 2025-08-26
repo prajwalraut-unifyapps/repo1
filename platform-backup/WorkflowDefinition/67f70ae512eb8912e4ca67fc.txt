@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1744243429220,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"67f70ae512eb8912e4ca67fc",
+	"lastModifiedBy":-1,
+	"lcName":"vgwoleqhtm schedule automation",
+	"modifiedTime":1755496342766,
+	"name":"vgWolEqHTm Schedule Automation",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":308,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"PkdYf-1",
+			"id":"PkdYf",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"filter":{
+								"value":"",
+								"operator":"EQUAL"
+							},
+							"property":""
+						}
+					],
+					"operator":"AND"
+				},
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"title":"New recurring event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":7
+}
