@@ -1,21 +1,15 @@
 {
-	"appsUsed":["postgres","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181598914,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_qceSa",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_fBdiw",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad345efc16116cc3e3732c",
 	"lastModifiedBy":34,
 	"lcName":"automation_postgresqldelete11756179137107",
-	"modifiedTime":1756181608291,
+	"modifiedTime":1756181613561,
 	"name":"Automation_PostgreSQLDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_dtr2p-1",
 			"id":"n_qceSa",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"postgres",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_dtr2p-1",
-			"id":"n_fBdiw",
-			"index":2,
-			"skip":false,
-			"subTitle":"PostgreSQL",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
