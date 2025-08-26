@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756180061672,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756180092463,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2e7cfc16116cc3e3658a",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2e5dfc16116cc3e3654a",
 	"lastModifiedBy":34,
 	"lcName":"toggle_hidden_request_body_columns_117561791371070",
-	"modifiedTime":1756180089936,
+	"modifiedTime":1756180111299,
 	"name":"toggle_hidden_request_body_columns_117561791371070",
 	"nodes":[
 		{
@@ -36,28 +44,9 @@
 					"body":{
 						"type":"object",
 						"properties":{
-							"StringBody":{
-								"type":"string",
-								"title":"StringBody"
-							},
-							"NumberBody":{
-								"type":"number",
-								"title":"NumberBody"
-							},
-							"IntegerBody":{
-								"type":"integer",
-								"title":"IntegerBody"
-							},
 							"BooleanBody":{
 								"type":"boolean",
 								"title":"BooleanBody"
-							},
-							"ArrayStrBody":{
-								"type":"array",
-								"items":{
-									"type":"string"
-								},
-								"title":"ArrayStrBody"
 							},
 							"ArrayNumBody":{
 								"type":"array",
@@ -156,11 +145,7 @@
 						},
 						"additionalProperties":false,
 						"required":[
-							"StringBody",
-							"NumberBody",
-							"IntegerBody",
 							"BooleanBody",
-							"ArrayStrBody",
 							"ArrayNumBody",
 							"ArrayIntBody",
 							"ArrayBoolBody",
@@ -242,5 +227,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
