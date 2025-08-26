@@ -1,21 +1,15 @@
 {
-	"appsUsed":["ibm_mq","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181035588,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_1wmCj",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_tpwsi",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad322bfc16116cc3e36d0f",
 	"lastModifiedBy":34,
 	"lcName":"automation_ibm mqdelete11756179137107",
-	"modifiedTime":1756181043100,
+	"modifiedTime":1756181048014,
 	"name":"Automation_IBM MQDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_o5pKq-1",
 			"id":"n_1wmCj",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"ibm_mq",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_o5pKq-1",
-			"id":"n_tpwsi",
-			"index":2,
-			"skip":false,
-			"subTitle":"IBM MQ",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
