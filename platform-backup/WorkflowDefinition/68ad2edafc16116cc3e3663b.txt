@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756180186416,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756180207824,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2eeffc16116cc3e36653",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2edafc16116cc3e3663b",
 	"lastModifiedBy":34,
 	"lcName":"toggle_webhook_query_fields_117561791371070",
-	"modifiedTime":1756180204927,
+	"modifiedTime":1756180217452,
 	"name":"toggle_webhook_query_fields_117561791371070",
 	"nodes":[
 		{
@@ -36,14 +44,6 @@
 					"queryParams":{
 						"type":"object",
 						"properties":{
-							"StringQuery":{
-								"type":"string",
-								"title":"StringQuery"
-							},
-							"NumberQuery":{
-								"type":"number",
-								"title":"NumberQuery"
-							},
 							"IntegerQuery":{
 								"type":"integer",
 								"title":"IntegerQuery"
@@ -138,5 +138,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
