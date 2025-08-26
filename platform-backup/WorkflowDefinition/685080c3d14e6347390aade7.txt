@@ -1,0 +1,100 @@
+{
+	"appsUsed":["slack"],
+	"createdTime":1750106307043,
+	"deleted":true,
+	"deploymentState":{
+		"deployedAt":1750106333040,
+		"deployedBy":34,
+		"deployedDefinitionId":"685080db6be53927e3931942",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_f4ZbE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_B3VGM",
+			"type":"next"
+		}
+	],
+	"id":"685080c3d14e6347390aade7",
+	"lastModifiedBy":34,
+	"lcName":"storagebyunifyapps_conditions_update record by id_trigger_117501026800330",
+	"modifiedTime":1750516613685,
+	"name":"StorageByUnifyapps_Conditions_Update record by ID_trigger_117501026800330",
+	"nodes":[
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":20574,
+				"resourceName":"storage_by_unifyapps_on_update_record"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_n5r20-1",
+			"id":"n_f4ZbE",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"{{ n_f4ZbE.outputs.properties.Name }}",
+							"filter":{
+								"operator":"EXISTS"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"a45k6ke"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Updated record",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27318,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_n5r20-1",
+			"id":"n_B3VGM",
+			"index":0,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"C07AKEPN1U3",
+				"text":"{{ n_f4ZbE.outputs.id }}{{ n_f4ZbE.outputs.properties }}",
+				"mrkdwn":true
+			},
+			"skip":false,
+			"subTitle":"Slack",
+			"title":"Post message",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
