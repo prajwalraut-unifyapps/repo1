@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750401005243,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"6854ffedf3ecb05ba2f978b4",
+	"lastModifiedBy":34,
+	"lcName":"automation_sap rfcdelete11750400591884",
+	"modifiedTime":1750514144476,
+	"name":"Automation_SAP RFCDelete11750400591884",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ACqe9-1",
+			"id":"n_kAxVu",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
