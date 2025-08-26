@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["magento","shopify"],
 	"createdTime":1756181207646,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_xCpdE",
+			"fromNodeId":"n_HPab7",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_yCsQB",
+			"toNodeId":"n_aw5cj",
 			"type":"next"
 		}
 	],
 	"id":"68ad32d7fc16116cc3e36f02",
 	"lastModifiedBy":34,
 	"lcName":"automation_magentodelete11756179137107",
-	"modifiedTime":1756181207646,
+	"modifiedTime":1756181215673,
 	"name":"Automation_MagentoDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_xCpdE-1",
-			"id":"_xCpdE",
-			"index":0,
+			"id":"n_HPab7",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"magento",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_xCpdE-1",
-			"id":"_yCsQB",
-			"index":0,
+			"id":"n_aw5cj",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Magento",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
