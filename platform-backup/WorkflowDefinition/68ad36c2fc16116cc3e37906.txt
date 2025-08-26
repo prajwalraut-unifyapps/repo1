@@ -5,46 +5,78 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_LPNyn",
+			"fromNodeId":"n_TAabu",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_0eb9E",
+			"toNodeId":"n_cdwMf",
 			"type":"next"
 		}
 	],
 	"id":"68ad36c2fc16116cc3e37906",
 	"lastModifiedBy":34,
 	"lcName":"notificationsbyunifyapps_cta_117561791373240",
-	"modifiedTime":1756182210915,
+	"modifiedTime":1756182222092,
 	"name":"NotificationsByUnifyApps_CTA_117561791373240",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_LPNyn-1",
-			"id":"_LPNyn",
-			"index":0,
+			"id":"n_TAabu",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"notification_by_unifyapps",
+				"resourceVersion":602,
+				"resourceName":"notification_by_unifyapps_send_notification",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_LPNyn-1",
-			"id":"_0eb9E",
-			"index":0,
+			"id":"n_cdwMf",
+			"index":2,
+			"inputs":{
+				"cta":{
+					"type":"url",
+					"width":{
+						"custom":"400px"
+					}
+				},
+				"applicationId":"",
+				"notificationPreviewTime":5,
+				"content":{
+					"templateId":"failed_export_notification_template"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Notification by UnifyApps",
+			"title":"Send notification",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +87,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
