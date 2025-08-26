@@ -1,21 +1,15 @@
 {
-	"appsUsed":["jira","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181087103,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_PouJV",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_FY5Jn",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad325ffc16116cc3e36d9a",
 	"lastModifiedBy":34,
 	"lcName":"automation_jiradelete11756179137107",
-	"modifiedTime":1756181094814,
+	"modifiedTime":1756181099729,
 	"name":"Automation_JiraDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_6HiXV-1",
 			"id":"n_PouJV",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"jira",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_6HiXV-1",
-			"id":"n_FY5Jn",
-			"index":2,
-			"skip":false,
-			"subTitle":"Jira",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
