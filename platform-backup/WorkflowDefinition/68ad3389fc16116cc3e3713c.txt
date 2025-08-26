@@ -1,21 +1,15 @@
 {
-	"appsUsed":["nicportal","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181385353,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_Yf4iU",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_q36vz",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3389fc16116cc3e3713c",
 	"lastModifiedBy":34,
 	"lcName":"automation_nic portaldelete11756179137107",
-	"modifiedTime":1756181393604,
+	"modifiedTime":1756181398528,
 	"name":"Automation_NIC PortalDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_HXbxC-1",
 			"id":"n_Yf4iU",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"nicportal",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_HXbxC-1",
-			"id":"n_q36vz",
-			"index":2,
-			"skip":false,
-			"subTitle":"NIC Portal",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
