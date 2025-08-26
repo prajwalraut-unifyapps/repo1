@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756179141267,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_wpCin",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_7r2Rr",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad2ac5fc16116cc3e35c48",
 	"lastModifiedBy":34,
 	"lcName":"cloneworkflow_117561791371070",
-	"modifiedTime":1756179141267,
+	"modifiedTime":1756179148220,
 	"name":"cloneWorkflow_117561791371070",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_wpCin-1",
-			"id":"_wpCin",
-			"index":0,
+			"id":"n_rJpUR",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_wpCin-1",
-			"id":"_7r2Rr",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
