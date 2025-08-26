@@ -1,21 +1,15 @@
 {
-	"appsUsed":["mindstone","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181331450,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_Jjv94",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_4bPfe",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3353fc16116cc3e3709a",
 	"lastModifiedBy":34,
 	"lcName":"automation_mindstonedelete11756179137107",
-	"modifiedTime":1756181341912,
+	"modifiedTime":1756181346911,
 	"name":"Automation_MindstoneDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Qip5D-1",
 			"id":"n_Jjv94",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"mindstone",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Qip5D-1",
-			"id":"n_4bPfe",
-			"index":2,
-			"skip":false,
-			"subTitle":"Mindstone",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
