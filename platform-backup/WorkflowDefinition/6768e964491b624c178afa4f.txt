@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1734928740795,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"6768e964491b624c178afa4f",
+	"lastModifiedBy":-1,
+	"lcName":"ujfjrmxmqv schedule automation",
+	"modifiedTime":1755496338394,
+	"name":"ujFJrmXMQv Schedule Automation",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":87,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"SyxAE-1",
+			"id":"SyxAE",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"filter":{
+								"value":"",
+								"operator":"EQUAL"
+							},
+							"property":""
+						}
+					],
+					"operator":"AND"
+				},
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"title":"New recurring event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":7
+}
