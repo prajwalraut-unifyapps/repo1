@@ -1,21 +1,15 @@
 {
-	"appsUsed":["patreon","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181531062,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_G8PTm",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_JxAMl",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad341bfc16116cc3e3729a",
 	"lastModifiedBy":34,
 	"lcName":"automation_patreondelete11756179137107",
-	"modifiedTime":1756181540846,
+	"modifiedTime":1756181545761,
 	"name":"Automation_PatreonDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_efnfx-1",
 			"id":"n_G8PTm",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"patreon",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_efnfx-1",
-			"id":"n_JxAMl",
-			"index":2,
-			"skip":false,
-			"subTitle":"Patreon",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
