@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1744799874814,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"Gav35",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"6GZTh",
+			"type":"next"
+		}
+	],
+	"id":"67ff888231b6f11503c8ea58",
+	"lastModifiedBy":-1,
+	"lcName":"ddd",
+	"modifiedTime":1755496340082,
+	"name":"ddd",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Gav35-1",
+			"id":"Gav35",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Gav35-1",
+			"id":"6GZTh",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
