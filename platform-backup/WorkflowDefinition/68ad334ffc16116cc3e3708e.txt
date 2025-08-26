@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["mileiq","shopify"],
 	"createdTime":1756181327168,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_FO747",
+			"fromNodeId":"n_lmrfC",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_pXZmz",
+			"toNodeId":"n_plDBg",
 			"type":"next"
 		}
 	],
 	"id":"68ad334ffc16116cc3e3708e",
 	"lastModifiedBy":34,
 	"lcName":"automation_mileiqdelete11756179137107",
-	"modifiedTime":1756181327168,
+	"modifiedTime":1756181335798,
 	"name":"Automation_MileIQDelete11756179137107",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_FO747-1",
-			"id":"_FO747",
-			"index":0,
+			"id":"n_lmrfC",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"mileiq",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_FO747-1",
-			"id":"_pXZmz",
-			"index":0,
+			"id":"n_plDBg",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"MileIQ",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
