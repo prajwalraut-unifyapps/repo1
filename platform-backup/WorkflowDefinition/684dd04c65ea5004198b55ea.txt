@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749930060344,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_d32KG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_hY8OP",
+			"type":"next"
+		}
+	],
+	"id":"684dd04c65ea5004198b55ea",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonpost office protocol v3_11749929867483",
+	"modifiedTime":1754310793774,
+	"name":"TestButtonPost Office Protocol V3_11749929867483",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_d32KG-1",
+			"id":"_d32KG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_d32KG-1",
+			"id":"_hY8OP",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
