@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756179473956,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756179487223,
+		"deployedBy":34,
+		"deployedDefinitionId":"68ad2c1ffc16116cc3e36078",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68ad2c11fc16116cc3e36056",
 	"lastModifiedBy":34,
 	"lcName":"versionhistorytable_117561791371070",
-	"modifiedTime":1756179484755,
+	"modifiedTime":1756179492725,
 	"name":"versionHistoryTable_117561791371070",
 	"nodes":[
 		{
@@ -25,7 +33,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_vkC5b-1",
 			"id":"n_jopvA",
@@ -74,7 +82,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_vkC5b-1",
 			"id":"n_pZvvM",
@@ -102,5 +110,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
