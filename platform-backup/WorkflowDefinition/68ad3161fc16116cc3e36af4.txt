@@ -1,21 +1,15 @@
 {
-	"appsUsed":["ganalytics","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756180833928,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_MYybA",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_a2PHj",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad3161fc16116cc3e36af4",
 	"lastModifiedBy":34,
 	"lcName":"automation_google analyticsdelete11756179137107",
-	"modifiedTime":1756180841813,
+	"modifiedTime":1756180846905,
 	"name":"Automation_Google AnalyticsDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_nvJZA-1",
 			"id":"n_MYybA",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"ganalytics",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_nvJZA-1",
-			"id":"n_a2PHj",
-			"index":2,
-			"skip":false,
-			"subTitle":"Google Analytics",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
