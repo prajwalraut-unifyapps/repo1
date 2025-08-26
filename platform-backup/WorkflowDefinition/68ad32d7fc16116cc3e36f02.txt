@@ -1,21 +1,15 @@
 {
-	"appsUsed":["magento","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756181207646,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_HPab7",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_aw5cj",
-			"type":"next"
-		}
+		
 	],
 	"id":"68ad32d7fc16116cc3e36f02",
 	"lastModifiedBy":34,
 	"lcName":"automation_magentodelete11756179137107",
-	"modifiedTime":1756181215673,
+	"modifiedTime":1756181220541,
 	"name":"Automation_MagentoDelete11756179137107",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_xCpdE-1",
 			"id":"n_HPab7",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"magento",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_xCpdE-1",
-			"id":"n_aw5cj",
-			"index":2,
-			"skip":false,
-			"subTitle":"Magento",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
