@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749785627352,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_6AndG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_WetKU",
+			"type":"next"
+		}
+	],
+	"id":"684b9c1b81acf74dc8c43b5d",
+	"lastModifiedBy":34,
+	"lcName":"condition box|number input - is present 11749784710878",
+	"modifiedTime":1754311424621,
+	"name":"Condition Box|Number Input - Is present 11749784710878",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_6AndG-1",
+			"id":"_6AndG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_6AndG-1",
+			"id":"_WetKU",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
